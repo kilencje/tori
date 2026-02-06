@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= battle.name[lang] %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><%= battle.name[lang] %></h1>
+        <nav>
+            <a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Vissza a csatákhoz' : lang === 'ro' ? 'Înapoi la bătălii' : 'Back to Battles' %></a> |
+            <a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a>
+            <br>
+            <a href="?lang=en">English</a> | <a href="?lang=hu">Magyar</a> | <a href="?lang=ro">Română</a>
+        </nav>
+    </header>
+    <main>
+        <p><%= battle.description[lang] %></p>
+        <p><%= lang === 'hu' ? 'Év:' : lang === 'ro' ? 'An:' : 'Year:' %> <%= battle.year %></p>
+    </main>
+</body>
+</html>

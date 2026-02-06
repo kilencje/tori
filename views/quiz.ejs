@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><%= lang === 'hu' ? 'Kvíz a Második Világháborúról' : lang === 'ro' ? 'Quiz despre Al Doilea Război Mondial' : 'WWII Quiz' %></h1>
+        <nav>
+            <a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a>
+            <br>
+            <a href="?lang=en">English</a> | <a href="?lang=hu">Magyar</a> | <a href="?lang=ro">Română</a>
+        </nav>
+    </header>
+    <main>
+        <form id="quizForm">
+            <% quiz.questions.forEach((q, index) => { %>
+                <div class="question">
+                    <h3><%= q.question[lang] %></h3>
+                    <% q.options.forEach((opt, optIndex) => { %>
+                        <label>
+                            <input type="radio" name="q<%= index %>" value="<%= optIndex %>">
+                            <%= opt[lang] %>
+                        </label><br>
+                    <% }); %>
+                </div>
+            <% }); %>
+            <button type="button" onclick="submitQuiz()"><%= lang === 'hu' ? 'Beküldés' : lang === 'ro' ? 'Trimite' : 'Submit' %></button>
+        </form>
+        <div id="result" style="display: none;">
+            <h2><%= lang === 'hu' ? 'Eredmény' : lang === 'ro' ? 'Rezultat' : 'Result' %>: <span id="score"></span></h2>
+        </div>
+    </main>
+    <script type="application/json" id="quiz-data">
+<%= JSON.stringify(quiz.questions.map(q => q.answer)) %>
+    </script>
+    <script>
+        const answers = JSON.parse(document.getElementById('quiz-data').textContent);
+        function submitQuiz() {
+            const form = document.getElementById('quizForm');
+            const resultDiv = document.getElementById('result');
+            const scoreSpan = document.getElementById('score');
+            let score = 0;
+
+            answers.forEach((answer, index) => {
+                const selected = form.elements['q' + index];
+                if (selected.value == answer) {
+                    score++;
+                }
+            });
+
+            scoreSpan.textContent = score + '/' + answers.length;
+            resultDiv.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><%= lang === 'hu' ? 'Nagy Csaták' : lang === 'ro' ? 'Bătălii Majore' : 'Major Battles' %></h1>
+        <nav>
+            <a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a> |
+            <a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a> |
+            <a href="/quiz?lang=<%= lang %>"><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></a>
+            <br>
+            <a href="?lang=en">English</a> | <a href="?lang=hu">Magyar</a> | <a href="?lang=ro">Română</a>
+        </nav>
+    </header>
+    <main>
+        <ul>
+            <% battles.forEach(battle => { %>
+                <li>
+                    <h2><a href="/battle/<%= battle.id %>?lang=<%= lang %>"><%= battle.name[lang] %></a></h2>
+                    <p><%= battle.description[lang] %></p>
+                    <p><%= lang === 'hu' ? 'Év:' : lang === 'ro' ? 'An:' : 'Year:' %> <%= battle.year %></p>
+                </li>
+            <% }); %>
+        </ul>
+    </main>
+</body>
+</html>

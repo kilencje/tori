@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= weapon.name[lang] %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><%= weapon.name[lang] %></h1>
+        <nav>
+            <a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Vissza a fegyverekhez' : lang === 'ro' ? 'Înapoi la arme' : 'Back to Weapons' %></a> |
+            <a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a>
+            <br>
+            <a href="?lang=en">English</a> | <a href="?lang=hu">Magyar</a> | <a href="?lang=ro">Română</a>
+        </nav>
+    </header>
+    <main>
+        <p><%= weapon.description[lang] %></p>
+        <p><%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %> <%= weapon.type[lang] %></p>
+    </main>
+</body>
+</html>

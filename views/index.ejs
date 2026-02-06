@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= lang === 'hu' ? 'Második Világháború' : lang === 'ro' ? 'Al Doilea Război Mondial' : 'World War II' %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><%= lang === 'hu' ? 'Második Világháború Nagy Csatái és Fegyverei' : lang === 'ro' ? 'Bătăliile și Armele Majore din Al Doilea Război Mondial' : 'World War II Major Battles and Weapons' %></h1>
+        <nav>
+            <a href="/?lang=en">English</a> | <a href="/?lang=hu">Magyar</a> | <a href="/?lang=ro">Română</a>
+        </nav>
+    </header>
+    <main>
+        <p><%= lang === 'hu' ? 'Fedezd fel a második világháború legfontosabb csatáit és fegyvereit.' : lang === 'ro' ? 'Descoperă bătăliile și armele majore din Al Doilea Război Mondial.' : 'Explore the major battles and weapons of World War II.' %></p>
+        <div class="links">
+            <a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></a>
+            <a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a>
+            <a href="/quiz?lang=<%= lang %>"><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></a>
+        </div>
+    </main>
+</body>
+</html>

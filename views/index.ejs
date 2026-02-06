@@ -24,6 +24,7 @@
     </header>
     <main>
         <p><%= lang === 'hu' ? 'Fedezd fel a második világháború legfontosabb csatáit és fegyvereit.' : lang === 'ro' ? 'Descoperă bătăliile și armele majore din Al Doilea Război Mondial.' : 'Explore the major battles and weapons of World War II.' %></p>
+        <img src="/pictures/index.jpg" alt="World War II" class="hero-image">
         <div class="links">
             <a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></a>
             <a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a>

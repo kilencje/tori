@@ -8,17 +8,25 @@
 </head>
 <body>
     <header>
-        <h1><%= weapon.name[lang] %></h1>
-        <nav>
-            <a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Vissza a fegyverekhez' : lang === 'ro' ? 'Înapoi la arme' : 'Back to Weapons' %></a> |
-            <a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a>
-            <br>
-            <a href="?lang=en">English</a> | <a href="?lang=hu">Magyar</a> | <a href="?lang=ro">Română</a>
-        </nav>
+        <div class="navbar">
+            <h1><%= weapon.name[lang] %></h1>
+            <ul>
+                <li><a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Vissza a fegyverekhez' : lang === 'ro' ? 'Înapoi la arme' : 'Back to Weapons' %></a></li>
+                <li><a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="?lang=en">EN</a>
+                <a href="?lang=hu">HU</a>
+                <a href="?lang=ro">RO</a>
+            </div>
+        </div>
     </header>
     <main>
         <p><%= weapon.description[lang] %></p>
         <p><%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %> <%= weapon.type[lang] %></p>
     </main>
+    <footer>
+        <p>&copy; 2026 WWII Website</p>
+    </footer>
 </body>
 </html>

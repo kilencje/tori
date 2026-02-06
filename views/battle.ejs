@@ -8,17 +8,25 @@
 </head>
 <body>
     <header>
-        <h1><%= battle.name[lang] %></h1>
-        <nav>
-            <a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Vissza a csatákhoz' : lang === 'ro' ? 'Înapoi la bătălii' : 'Back to Battles' %></a> |
-            <a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a>
-            <br>
-            <a href="?lang=en">English</a> | <a href="?lang=hu">Magyar</a> | <a href="?lang=ro">Română</a>
-        </nav>
+        <div class="navbar">
+            <h1><%= battle.name[lang] %></h1>
+            <ul>
+                <li><a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Vissza a csatákhoz' : lang === 'ro' ? 'Înapoi la bătălii' : 'Back to Battles' %></a></li>
+                <li><a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="?lang=en">EN</a>
+                <a href="?lang=hu">HU</a>
+                <a href="?lang=ro">RO</a>
+            </div>
+        </div>
     </header>
     <main>
         <p><%= battle.description[lang] %></p>
         <p><%= lang === 'hu' ? 'Év:' : lang === 'ro' ? 'An:' : 'Year:' %> <%= battle.year %></p>
     </main>
+    <footer>
+        <p>&copy; 2026 WWII Website</p>
+    </footer>
 </body>
 </html>

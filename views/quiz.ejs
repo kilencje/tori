@@ -8,12 +8,19 @@
 </head>
 <body>
     <header>
-        <h1><%= lang === 'hu' ? 'Kvíz a Második Világháborúról' : lang === 'ro' ? 'Quiz despre Al Doilea Război Mondial' : 'WWII Quiz' %></h1>
-        <nav>
-            <a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a>
-            <br>
-            <a href="?lang=en">English</a> | <a href="?lang=hu">Magyar</a> | <a href="?lang=ro">Română</a>
-        </nav>
+        <div class="navbar">
+            <h1><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></h1>
+            <ul>
+                <li><a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a></li>
+                <li><a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></a></li>
+                <li><a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="?lang=en">EN</a>
+                <a href="?lang=hu">HU</a>
+                <a href="?lang=ro">RO</a>
+            </div>
+        </div>
     </header>
     <main>
         <form id="quizForm">
@@ -34,6 +41,9 @@
             <h2><%= lang === 'hu' ? 'Eredmény' : lang === 'ro' ? 'Rezultat' : 'Result' %>: <span id="score"></span></h2>
         </div>
     </main>
+    <footer>
+        <p>&copy; 2026 WWII Website</p>
+    </footer>
     <script type="application/json" id="quiz-data">
 <%= JSON.stringify(quiz.questions.map(q => q.answer)) %>
     </script>

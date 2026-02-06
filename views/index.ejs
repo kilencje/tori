@@ -8,10 +8,19 @@
 </head>
 <body>
     <header>
-        <h1><%= lang === 'hu' ? 'Második Világháború Nagy Csatái és Fegyverei' : lang === 'ro' ? 'Bătăliile și Armele Majore din Al Doilea Război Mondial' : 'World War II Major Battles and Weapons' %></h1>
-        <nav>
-            <a href="/?lang=en">English</a> | <a href="/?lang=hu">Magyar</a> | <a href="/?lang=ro">Română</a>
-        </nav>
+        <div class="navbar">
+            <h1><%= lang === 'hu' ? 'Második Világháború' : lang === 'ro' ? 'Al Doilea Război Mondial' : 'World War II' %></h1>
+            <ul>
+                <li><a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></a></li>
+                <li><a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a></li>
+                <li><a href="/quiz?lang=<%= lang %>"><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></a></li>
+            </ul>
+            <div class="lang-switch">
+                <a href="/?lang=en">EN</a>
+                <a href="/?lang=hu">HU</a>
+                <a href="/?lang=ro">RO</a>
+            </div>
+        </div>
     </header>
     <main>
         <p><%= lang === 'hu' ? 'Fedezd fel a második világháború legfontosabb csatáit és fegyvereit.' : lang === 'ro' ? 'Descoperă bătăliile și armele majore din Al Doilea Război Mondial.' : 'Explore the major battles and weapons of World War II.' %></p>
@@ -21,5 +30,8 @@
             <a href="/quiz?lang=<%= lang %>"><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></a>
         </div>
     </main>
+    <footer>
+        <p>&copy; 2026 WWII Website</p>
+    </footer>
 </body>
 </html>

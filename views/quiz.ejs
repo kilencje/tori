@@ -4,46 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <h1><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></h1>
-            <ul>
-                <li><a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a></li>
-                <li><a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></a></li>
-                <li><a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a></li>
-            </ul>
-            <div class="lang-switch">
-                <a href="?lang=en">EN</a>
-                <a href="?lang=hu">HU</a>
-                <a href="?lang=ro">RO</a>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="/?lang=<%= lang %>">
+                <i class="fas fa-bomb"></i> <%= lang === 'hu' ? 'WWII Történelem' : lang === 'ro' ? 'WWII Istorie' : 'WWII History' %>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/?lang=<%= lang %>">
+                            <i class="fas fa-home"></i> <%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/battles?lang=<%= lang %>">
+                            <i class="fas fa-person-military-rifle"></i> <%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/weapons?lang=<%= lang %>">
+                            <i class="fas fa-gun"></i> <%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/quiz?lang=<%= lang %>">
+                            <i class="fas fa-brain"></i> <%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
+
     <main>
-        <form id="quizForm">
-            <% quiz.questions.forEach((q, index) => { %>
-                <div class="question">
-                    <h3><%= q.question[lang] %></h3>
-                    <% q.options.forEach((opt, optIndex) => { %>
-                        <label>
-                            <input type="radio" name="q<%= index %>" value="<%= optIndex %>">
-                            <%= opt[lang] %>
-                        </label><br>
-                    <% }); %>
+        <section class="detail-header">
+            <div class="container">
+                <h1><i class="fas fa-brain"></i> <%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></h1>
+            </div>
+        </section>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="quizForm">
+                        <% quiz.questions.forEach((q, index) => { %>
+                            <div class="quiz-container">
+                                <div style="text-align: center; margin-bottom: 1.5rem;">
+                                    <img src="/pictures/<%= q.picture %>" alt="Question <%= index + 1 %>" style="max-width: 100%; height: 250px; object-fit: cover; border-radius: 12px; border: 2px solid var(--accent-color);">
+                                </div>
+                                <div class="question">
+                                    <h3><i class="fas fa-question-circle"></i> <%= q.question[lang] %></h3>
+                                    <% q.options.forEach((opt, optIndex) => { %>
+                                        <label>
+                                            <input type="radio" name="q<%= index %>" value="<%= optIndex %>" required>
+                                            <span><%= opt[lang] %></span>
+                                        </label>
+                                    <% }); %>
+                                </div>
+                            </div>
+                        <% }); %>
+                        <div class="text-center mt-4">
+                            <button type="button" onclick="submitQuiz()" class="btn btn-success btn-lg">
+                                <i class="fas fa-check-circle"></i> <%= lang === 'hu' ? 'Beküldés' : lang === 'ro' ? 'Trimite' : 'Submit' %>
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <div id="result" style="display: none;">
+                        <div class="alert alert-success text-center py-4" role="alert">
+                            <h2><i class="fas fa-trophy"></i> <%= lang === 'hu' ? 'Eredmény' : lang === 'ro' ? 'Rezultat' : 'Result' %>:</h2>
+                            <div style="font-size: 3rem; color: var(--accent-color); font-weight: 900; margin: 1rem 0;" id="score"></div>
+                            <a href="/quiz?lang=<%= lang %>" class="btn btn-primary mt-3">
+                                <i class="fas fa-redo"></i> <%= lang === 'hu' ? 'Újra próbálni' : lang === 'ro' ? 'Încearcă din nou' : 'Try Again' %>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            <% }); %>
-            <button type="button" onclick="submitQuiz()"><%= lang === 'hu' ? 'Beküldés' : lang === 'ro' ? 'Trimite' : 'Submit' %></button>
-        </form>
-        <div id="result" style="display: none;">
-            <h2><%= lang === 'hu' ? 'Eredmény' : lang === 'ro' ? 'Rezultat' : 'Result' %>: <span id="score"></span></h2>
+            </div>
         </div>
     </main>
-    <footer>
-        <p>&copy; 2026 WWII Website</p>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 WWII History</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="application/json" id="quiz-data">
 <%= JSON.stringify(quiz.questions.map(q => q.answer)) %>
     </script>
@@ -64,6 +119,7 @@
 
             scoreSpan.textContent = score + '/' + answers.length;
             resultDiv.style.display = 'block';
+            document.getElementById('quizForm').style.display = 'none';
         }
     </script>
 </body>

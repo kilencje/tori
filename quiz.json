@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "picture": "sample.jpg",
+      "question": {
+        "en": "In which year did the D-Day invasion occur?",
+        "hu": "Melyik évben történt a D-nap invázió?",
+        "ro": "În ce an a avut loc invazia Ziua Z?"
+      },
+      "options": [
+        {
+          "en": "1944",
+          "hu": "1944",
+          "ro": "1944"
+        },
+        {
+          "en": "1942",
+          "hu": "1942",
+          "ro": "1942"
+        },
+        {
+          "en": "1940",
+          "hu": "1940",
+          "ro": "1940"
+        }
+      ],
+      "answer": 0
+    },
+    {
+      "id": "q2",
+      "picture": "sample.jpg",
+      "question": {
+        "en": "Which battle is known as the turning point on the Eastern Front?",
+        "hu": "Melyik csata ismert a keleti front fordulópontjaként?",
+        "ro": "Care bătălie este cunoscută ca punct de cotitură pe Frontul de Est?"
+      },
+      "options": [
+        {
+          "en": "Battle of Britain",
+          "hu": "Britanniái csata",
+          "ro": "Bătălia Angliei"
+        },
+        {
+          "en": "Battle of Stalingrad",
+          "hu": "Száljingrádi csata",
+          "ro": "Bătălia de la Stalingrad"
+        },
+        {
+          "en": "D-Day",
+          "hu": "D-nap",
+          "ro": "Ziua Z"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q3",
+      "picture": "sample.jpg",
+      "question": {
+        "en": "What type of weapon is the V-2?",
+        "hu": "Milyen típusú fegyver a V-2?",
+        "ro": "Ce tip de armă este V-2?"
+      },
+      "options": [
+        {
+          "en": "Tank",
+          "hu": "Harckocsi",
+          "ro": "Tanc"
+        },
+        {
+          "en": "Aircraft",
+          "hu": "Repülőgép",
+          "ro": "Avion"
+        },
+        {
+          "en": "Rocket",
+          "hu": "Rakéta",
+          "ro": "Rachetă"
+        }
+      ],
+      "answer": 2
+    },
+    {
+      "id": "q4",
+      "picture": "sample.jpg",
+      "question": {
+        "en": "Which aircraft was famous in the Battle of Britain?",
+        "hu": "Melyik repülő volt híres a Britanniái csatában?",
+        "ro": "Care avion a fost celebru în Bătălia Angliei?"
+      },
+      "options": [
+        {
+          "en": "M4 Sherman",
+          "hu": "M4 Sherman",
+          "ro": "M4 Sherman"
+        },
+        {
+          "en": "Supermarine Spitfire",
+          "hu": "Supermarine Spitfire",
+          "ro": "Supermarine Spitfire"
+        },
+        {
+          "en": "V-2 Rocket",
+          "hu": "V-2 rakéta",
+          "ro": "Rachetă V-2"
+        }
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q5",
+      "picture": "sample.jpg",
+      "question": {
+        "en": "True or False: The Battle of Stalingrad was in 1942.",
+        "hu": "Igaz vagy hamis: A Száljingrádi csata 1942-ben volt.",
+        "ro": "Adevărat sau fals: Bătălia de la Stalingrad a fost în 1942."
+      },
+      "options": [
+        {
+          "en": "TRUE",
+          "hu": "Igaz",
+          "ro": "Adevărat"
+        },
+        {
+          "en": "FALSE",
+          "hu": "Hamis",
+          "ro": "Fals"
+        }
+      ],
+      "answer": 0
+    }
+  ]
+}

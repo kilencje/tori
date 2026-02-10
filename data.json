@@ -1,0 +1,123 @@
+{
+  "battles": [
+    {
+      "id": "d-day",
+      "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770720956/images_hmrez7.jpg",
+      "name": {
+        "en": "D-Day (Normandy Invasion)",
+        "hu": "D-nap (Normandiai partraszállás)",
+        "ro": "Ziua Z (Invazia Normandiei)"
+      },
+      "description": {
+        "en": "The Normandy Landings, codenamed Operation Neptune (part of Operation Overlord), took place on June 6, 1944, known as D-Day. Allied forces from the US, UK, Canada, and other nations landed on five beaches in Nazi-occupied France: Utah, Omaha, Gold, Juno, and Sword. Led by General Dwight D. Eisenhower, the invasion relied on a massive deception campaign (Operation Fortitude) to trick the Germans about the landing site. Despite heavy casualties—especially at Omaha Beach—and fierce resistance from the German Atlantic Wall, the Allies successfully established a foothold. This victory allowed for the rapid buildup of forces that eventually led to the liberation of Paris and the final defeat of Nazi Germany.",
+        "hu": "A normandiai partraszállás, kódnevén a Neptun hadművelet (az Overlord hadművelet része), 1944. június 6-án vette kezdetét, amelyet D-napként ismerünk. Az amerikai, brit, kanadai és más szövetséges csapatok a náci megszállás alatt álló Franciaország öt tengerparti szakaszán szálltak partra: ezek az Utah, Omaha, Gold, Juno és Sword fedőneveket viselték. A Dwight D. Eisenhower tábornok által vezetett invázió egy hatalmas megtévesztő akcióra (Fortitude hadművelet) épült, hogy elhitessék a németekkel: a partraszállás máshol lesz. A súlyos veszteségek ellenére – különösen az Omaha strandon – és a német Atlanti Fal ellenállása dacára a szövetségeseknek sikerült hídfőállást kiépíteniük. Ez a győzelem lehetővé tette a csapatok gyors utánpótlását, ami végül Párizs felszabadításához és a náci Németország végső bukásához vezetett.",
+        "ro": "Debarcarea din Normandia, cunoscută sub numele de cod Operațiunea Neptun (parte a Operațiunii Overlord), a avut loc pe 6 iunie 1944, zi rămasă în istorie ca Ziua Z. Forțele aliate din SUA, Marea Britanie, Canada și alte națiuni au debarcat pe cinci plaje din Franța ocupată de naziști: Utah, Omaha, Gold, Juno și Sword. Condusă de generalul Dwight D. Eisenhower, invazia s-a bazat pe o campanie masivă de dezinformare (Operațiunea Fortitude) pentru a-i induce în eroare pe germani cu privire la locul debarcării. În ciuda pierderilor grele – în special pe plaja Omaha – și a rezistenței înverșunate a „Zidului Atlantic” german, Aliații au reușit să stabilească un cap de pod. Această victorie a permis acumularea rapidă de forțe care a dus ulterior la eliberarea Parisului și la înfrângerea finală a Germaniei naziste."
+      },
+      "year": 1944
+    },
+    {
+      "id": "stalingrad",
+      "picture": "stalingrad.jpg",
+      "name": {
+        "en": "Battle of Stalingrad",
+        "hu": "Sztálingrádi csata",
+        "ro": "Bătălia de la Stalingrad"
+      },
+      "description": {
+        "en": "The battle began in August 1942 with a devastating Luftwaffe bombing that leveled much of the city. The German 6th Army, led by Friedrich Paulus, initially seized about 90% of Stalingrad through grueling urban warfare known as Rattenkrieg (Rat War). However, the tide turned on November 19, 1942, when the Soviets launched Operation Uranus. This counter-offensive targeted the weaker Romanian and Hungarian forces guarding the German flanks, successfully encircling roughly 250,000–300,000 Axis troops. Despite a German relief attempt (Operation Winter Storm) and a failed Luftwaffe airlift, the trapped 6th Army was starved and frozen into submission. Paulus surrendered on January 31, 1943, shortly after Hitler promoted him to Field Marshal, expecting him to commit suicide rather than be captured",
+        "hu": "A csata 1942 augusztusában kezdődött a Luftwaffe pusztító bombázásával, amely a város nagy részét romba döntötte. A Friedrich Paulus vezette német 6. hadsereg kezdetben a város 90%-át elfoglalta a kimerítő, patkányháborúnak (Rattenkrieg) nevezett utcai harcokban. A fordulat 1942. november 19-én következett be, amikor a szovjetek elindították az Uránusz hadműveletet. Ez az ellentámadás a német szárnyakat biztosító, gyengébb felszereltségű román és magyar egységeket érte, és sikerült bekeríteniük kb. 250-300 ezer tengelyhatalmi katonát. Bár a németek megpróbálták a felmentést (Téli Vihar hadművelet), a Luftwaffe légi hídja pedig kudarcot vallott, a katlanba szorult 6. hadsereg végül felmorzsolódott. Paulus 1943. január 31-én adta meg magát, nem sokkal azután, hogy Hitler vezértábornaggyá léptette elő, abban a reményben, hogy a fogság helyett az öngyilkosságot választja",
+        "ro": "Bătălia a început în august 1942 cu un bombardament devastator al Luftwaffe, care a distrus majoritatea orașului. Armata a 6-a germană, condusă de Friedrich Paulus, a ocupat inițial aproximativ 90% din oraș în urma unor lupte urbane atroce, supranumite „Războiul Șobolanilor”. Situația s-a schimbat radical la 19 noiembrie 1942, când sovieticii au lansat Operațiunea Uranus. Această contraofensivă a vizat flancurile germane apărate de trupele române și maghiare, reușind încercuirea a circa 250.000–300.000 de soldați ai Axei. În ciuda unei tentative de despresurare (Operațiunea Furtună de Iarnă) și a eșecului podului aerian al Luftwaffe, Armata a 6-a a fost înfometată și decimată. Paulus s-a predat la 31 ianuarie 1943, la scurt timp după ce Hitler l-a avansat la gradul de feldmareșal, sperând că acesta va prefera sinuciderea în locul captivității."
+      },
+      "year": 1942
+    },
+    {
+      "id": "britain",
+      "picture": "battle-of-britain.jpg",
+      "name": {
+        "en": "Battle of Britain",
+        "hu": "Britanniai csata",
+        "ro": "Bătălia Angliei"
+      },
+      "description": {
+        "en": "The Battle of Britain (Summer–Autumn 1940) was the first major military campaign fought entirely by air forces. Following the fall of France, Nazi Germany aimed to gain air superiority over Southern England as a prerequisite for Operation Sea Lion (the planned invasion of Britain). The German Luftwaffe, led by Hermann Göring, launched massive attacks against British ports, airfields, and later, civilian targets in London (the Blitz). Despite being outnumbered, the British Royal Air Force (RAF) utilized the innovative radar network and superior maneuverability of the Spitfire and Hurricane fighters to repel the attacks. By October 1940, Hitler indefinitely postponed the invasion, marking Germany's first major defeat and ensuring Britain remained a base for the eventual liberation of Europe.",
+        "hu": "Az Angliai csata (1940 nyara és ősze) volt az első olyan jelentős katonai kampány, amelyet teljes egészében légierők vívtak. Franciaország bukása után a náci Németország célja a légifölény megszerzése volt Dél-Anglia felett, ami az Oroszlánfóka hadművelet (Nagy-Britannia tervezett inváziója) feltétele volt. A Hermann Göring vezette német Luftwaffe hatalmas támadásokat indított a brit kikötők, repülőterek, majd később London civil célpontjai ellen (ez volt a Blitz). A létszámhátrány ellenére a brit Királyi Légierő (RAF) az innovatív radarhálózat, valamint a Spitfire és Hurricane vadászgépek kiváló manőverezőképessége révén visszaverte a támadásokat. 1940 októberére Hitler határozatlan időre elhalasztotta az inváziót, ami Németország első jelentős kudarcát jelentette, és biztosította, hogy Britannia bázisként szolgálhasson Európa későbbi felszabadításához.",
+        "ro": "Bătălia Angliei (vara–toamna anului 1940) a fost prima campanie militară majoră purtată exclusiv de forțele aeriene. După căderea Franței, Germania nazistă a urmărit să obțină superioritatea aeriană asupra sudului Angliei ca o condiție prealabilă pentru Operațiunea Leul de Mare (invazia planificată a Marii Britanii). Luftwaffe germană, condusă de Hermann Göring, a lansat atacuri masive împotriva porturilor britanice, aerodromurilor și, ulterior, asupra țintelor civile din Londra („Blitz-ul”). În ciuda inferiorității numerice, forțele britanice Royal Air Force (RAF) au utilizat rețeaua inovatoare de radare și manevrabilitatea superioară a avioanelor de vânătoare Spitfire și Hurricane pentru a respinge atacurile. Până în octombrie 1940, Hitler a amânat pe termen nelimitat invazia, marcând prima înfrângere majoră a Germaniei și asigurând că Marea Britanie rămâne o bază pentru viitoarea eliberare a Europei."
+      },
+      "year": 1940
+    },
+    {
+      "id": "pearl-harbor",
+      "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770671138/Attack_on_Pearl_Harbor_Japanese_planes_view_p17s95.jpg",
+      "name": {
+        "en": "Pearl Harbor",
+        "hu": "Pearl Harbor",
+        "ro": "Pearl Harbor"
+      },
+      "description": {
+        "en": "On December 7, 1941, Imperial Japan launched a surprise air attack on the U.S. naval base at Pearl Harbor, Hawaii, destroying or damaging 21 ships—including eight battleships—and over 300 aircraft",
+        "hu": "1941. december 7-én a Japán Birodalom meglepetésszerű légitámadást indított az Egyesült Államok haditengerészeti bázisa ellen Pearl Harborban, Hawaiin, amelynek során 21 hajót – köztük nyolc csatahajót – és több mint 300 repülőgépet megsemmisített vagy megrongált.",
+        "ro": "Pe 7 decembrie 1941, Imperiul Japonez a lansat un atac aerian surpriză asupra bazei navale americane de la Pearl Harbor, Hawaii, distrugând sau avariind 21 de nave, inclusiv opt cuirasate, și peste 300 de avioane."
+      },
+      "year": 1941
+    }
+  ],
+  "weapons": [
+    {
+      "id": "sherman",
+      "picture": "M4_Sherman_tank.jpg",
+      "name": {
+        "en": "M4 Sherman Tank",
+        "hu": "M4 Sherman harckocsi",
+        "ro": "Tanc M4 Sherman"
+      },
+      "description": {
+        "en": "An American medium tank used extensively by the Allies.",
+        "hu": "Egy amerikai közepes harckocsi amelyet a szövetségesek széles körben használtak.",
+        "ro": "Un tanc mediu american folosit pe scară largă de către Aliați."
+      },
+      "type": {
+        "en": "Tank",
+        "hu": "Harckocsi",
+        "ro": "Tanc"
+      }
+    },
+    {
+      "id": "spitfire",
+      "picture": "spitfire.jpg",
+      "name": {
+        "en": "Supermarine Spitfire",
+        "hu": "Supermarine Spitfire",
+        "ro": "Supermarine Spitfire"
+      },
+      "description": {
+        "en": "A British fighter aircraft famous for its role in the Battle of Britain.",
+        "hu": "Egy brit vadászrepülő híres szerepéről a Britanniai csatában.",
+        "ro": "Un avion de vânătoare britanic celebru pentru rolul său în Bătălia Angliei."
+      },
+      "type": {
+        "en": "Aircraft",
+        "hu": "Repülőgép",
+        "ro": "Avion"
+      }
+    },
+    {
+      "id": "v2",
+      "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770670294/V2_rocket_gjlp0l.jpg",
+      "name": {
+        "en": "V-2 Rocket",
+        "hu": "V-2 rakéta",
+        "ro": "Rachetă V-2"
+      },
+      "description": {
+        "en": "A German ballistic missile the world's first long-range guided ballistic missile.",
+        "hu": "Egy német ballisztikus rakéta a világ első hosszú hatótávolságú irányított ballisztikus rakétája.",
+        "ro": "O rachetă balistică germană prima rachetă balistică ghidată cu rază lungă de acțiune din lume."
+      },
+      "type": {
+        "en": "Rocket",
+        "hu": "Rakéta",
+        "ro": "Rachetă"
+      }
+    }
+  ]
+}

@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
-const { data, quiz } = require('./data');
+const fs = require('fs');
+
+// Load JSON data
+const data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
+const quiz = JSON.parse(fs.readFileSync('./quiz.json', 'utf8'));
 
 // Set EJS as template engine
 app.set('view engine', 'ejs');

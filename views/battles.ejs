@@ -4,37 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <h1><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></h1>
-            <ul>
-                <li><a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a></li>
-                <li><a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a></li>
-                <li><a href="/quiz?lang=<%= lang %>"><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></a></li>
-            </ul>
-            <div class="lang-switch">
-                <a href="?lang=en">EN</a>
-                <a href="?lang=hu">HU</a>
-                <a href="?lang=ro">RO</a>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="/?lang=<%= lang %>">
+                <i class="fas fa-bomb"></i> <%= lang === 'hu' ? 'WWII Történelem' : lang === 'ro' ? 'WWII Istorie' : 'WWII History' %>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/battles?lang=<%= lang %>">
+                            <i class="fas fa-person-military-rifle"></i> <%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/weapons?lang=<%= lang %>">
+                            <i class="fas fa-gun"></i> <%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/quiz?lang=<%= lang %>">
+                            <i class="fas fa-brain"></i> <%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-globe"></i> <%= lang.toUpperCase() %>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="langDropdown">
+                            <li><a class="dropdown-item" href="/battles?lang=en">English</a></li>
+                            <li><a class="dropdown-item" href="/battles?lang=hu">Magyar</a></li>
+                            <li><a class="dropdown-item" href="/battles?lang=ro">Română</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
+
     <main>
-        <ul>
-            <% battles.forEach(battle => { %>
-                <li>
-                    <h2><a href="/battle/<%= battle.id %>?lang=<%= lang %>"><%= battle.name[lang] %></a></h2>
-                    <p><%= battle.description[lang] %></p>
-                    <p><%= lang === 'hu' ? 'Év:' : lang === 'ro' ? 'An:' : 'Year:' %> <%= battle.year %></p>
-                </li>
-            <% }); %>
-        </ul>
+        <div class="container py-5">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h1 class="page-title">
+                        <i class="fas fa-crossed-swords"></i> <%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <% battles.forEach(battle => { %>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card item-card shadow-lg">
+                            <% if(battle.picture && battle.picture.includes("https")) { %>
+                                <img src="<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>">
+                            <% } else { %>
+                                <img src="/pictures/<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>">
+                            <% } %>
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-flag-usa"></i> <%= battle.name[lang] %></h5>
+                                <p class="card-text"><%= battle.description[lang] %></p>
+                                <div class="detail-meta">
+                                    <strong><i class="fas fa-calendar"></i> <%= lang === 'hu' ? 'Év:' : lang === 'ro' ? 'An:' : 'Year:' %></strong> <%= battle.year %>
+                                </div>
+                                <a href="/battle/<%= battle.id %>?lang=<%= lang %>" class="btn btn-primary btn-sm">
+                                    <%= lang === 'hu' ? 'Megtekintés' : lang === 'ro' ? 'Vezi' : 'View' %> <i class="fas fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2026 WWII Website</p>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 WWII History</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

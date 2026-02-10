@@ -4,29 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= weapon.name[lang] %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <h1><%= weapon.name[lang] %></h1>
-            <ul>
-                <li><a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Vissza a fegyverekhez' : lang === 'ro' ? 'Înapoi la arme' : 'Back to Weapons' %></a></li>
-                <li><a href="/?lang=<%= lang %>"><%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %></a></li>
-            </ul>
-            <div class="lang-switch">
-                <a href="?lang=en">EN</a>
-                <a href="?lang=hu">HU</a>
-                <a href="?lang=ro">RO</a>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="/?lang=<%= lang %>">
+                <i class="fas fa-bomb"></i> <%= lang === 'hu' ? 'WWII Történelem' : lang === 'ro' ? 'WWII Istorie' : 'WWII History' %>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/weapons?lang=<%= lang %>">
+                            <i class="fas fa-arrow-left"></i> <%= lang === 'hu' ? 'Vissza' : lang === 'ro' ? 'Înapoi' : 'Back' %>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/?lang=<%= lang %>">
+                            <i class="fas fa-home"></i> <%= lang === 'hu' ? 'Főoldal' : lang === 'ro' ? 'Acasă' : 'Home' %>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
+
     <main>
-        <p><%= weapon.description[lang] %></p>
-        <p><%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %> <%= weapon.type[lang] %></p>
+        <section class="detail-header">
+            <div class="container">
+                <h1><i class="fas fa-gun"></i> <%= weapon.name[lang] %></h1>
+            </div>
+        </section>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="detail-content">
+                        <% if(weapon.picture && weapon.picture.includes("https")) { %>
+                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                        <% } else { %>
+                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                        <% } %>
+                        <div class="detail-meta">
+                            <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
+                        </div>
+
+                        <p><%= weapon.description[lang] %></p>
+
+                        <a href="/weapons?lang=<%= lang %>" class="btn btn-danger">
+                            <i class="fas fa-arrow-left"></i> <%= lang === 'hu' ? 'Vissza a fegyverekhez' : lang === 'ro' ? 'Înapoi la arme' : 'Back to Weapons' %>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        <p>&copy; 2026 WWII Website</p>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 WWII History</p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

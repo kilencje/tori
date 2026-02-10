@@ -4,35 +4,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= lang === 'hu' ? 'Második Világháború' : lang === 'ro' ? 'Al Doilea Război Mondial' : 'World War II' %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <h1><%= lang === 'hu' ? 'Második Világháború' : lang === 'ro' ? 'Al Doilea Război Mondial' : 'World War II' %></h1>
-            <ul>
-                <li><a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></a></li>
-                <li><a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a></li>
-                <li><a href="/quiz?lang=<%= lang %>"><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></a></li>
-            </ul>
-            <div class="lang-switch">
-                <a href="/?lang=en">EN</a>
-                <a href="/?lang=hu">HU</a>
-                <a href="/?lang=ro">RO</a>
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="/?lang=<%= lang %>">
+                <i class="fas fa-bomb"></i> <%= lang === 'hu' ? 'WWII Történelem' : lang === 'ro' ? 'WWII Istorie' : 'WWII History' %>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/battles?lang=<%= lang %>">
+                            <i class="fas fa-person-military-rifle"></i> <%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/weapons?lang=<%= lang %>">
+                            <i class="fas fa-gun"></i> <%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/quiz?lang=<%= lang %>">
+                            <i class="fas fa-brain"></i> <%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-globe"></i> <%= lang.toUpperCase() %>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="langDropdown">
+                            <li><a class="dropdown-item" href="/?lang=en"><i class="fas fa-flag-usa"></i> English</a></li>
+                            <li><a class="dropdown-item" href="/?lang=hu"><i class="fas fa-flag"></i> Magyar</a></li>
+                            <li><a class="dropdown-item" href="/?lang=ro"><i class="fas fa-flag"></i> Română</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
-    </header>
+    </nav>
+
     <main>
-        <p><%= lang === 'hu' ? 'Fedezd fel a második világháború legfontosabb csatáit és fegyvereit.' : lang === 'ro' ? 'Descoperă bătăliile și armele majore din Al Doilea Război Mondial.' : 'Explore the major battles and weapons of World War II.' %></p>
-        <img src="/pictures/index.jpg" alt="World War II" class="hero-image">
-        <div class="links">
-            <a href="/battles?lang=<%= lang %>"><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></a>
-            <a href="/weapons?lang=<%= lang %>"><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></a>
-            <a href="/quiz?lang=<%= lang %>"><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></a>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1 class="display-3 fw-bold mb-4">
+                        <%= lang === 'hu' ? 'Második Világháború' : lang === 'ro' ? 'Al Doilea Război Mondial' : 'World War II' %>
+                    </h1>
+                    <p class="lead mb-4">
+                        <%= lang === 'hu' ? 'Fedezd fel a történelem egyik legjelentősebb időszakát' : lang === 'ro' ? 'Descoperă una dintre cele mai importante perioade din istorie' : 'Explore one of history\'s most significant periods' %>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <div class="container py-5">
+            <div class="row g-4 mb-5">
+                <!-- Battles Card -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card feature-card h-100 shadow-lg">
+                        <div class="card-icon">
+                            <i class="fas fa-crossed-swords"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">
+                                <%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %>
+                            </h5>
+                            <p class="card-text">
+                                <%= lang === 'hu' ? 'Ismerd meg a WW2 legjelentősebb katonai csatáit és fordulópontjait.' : lang === 'ro' ? 'Descoperă bătăliile și momentele decisive ale celui de-al Doilea Război.' : 'Discover the major battles and turning points of WWII.' %>
+                            </p>
+                            <a href="/battles?lang=<%= lang %>" class="btn btn-primary">
+                                <%= lang === 'hu' ? 'Megnézem' : lang === 'ro' ? 'Vezi' : 'Explore' %> <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Weapons Card -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card feature-card h-100 shadow-lg">
+                        <div class="card-icon">
+                            <i class="fas fa-tank"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">
+                                <%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %>
+                            </h5>
+                            <p class="card-text">
+                                <%= lang === 'hu' ? 'Tanulmányozd a katonai technológia és fegyverrendszerek fejlődését.' : lang === 'ro' ? 'Învață despre armele și tehnologia militară a epocii.' : 'Learn about the weapons and military technology of the era.' %>
+                            </p>
+                            <a href="/weapons?lang=<%= lang %>" class="btn btn-danger">
+                                <%= lang === 'hu' ? 'Megnézem' : lang === 'ro' ? 'Vezi' : 'Explore' %> <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quiz Card -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card feature-card h-100 shadow-lg">
+                        <div class="card-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">
+                                <%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %>
+                            </h5>
+                            <p class="card-text">
+                                <%= lang === 'hu' ? 'Teszteld tudásodat egy interaktív kvízzel és mérd fel tudásszintedet.' : lang === 'ro' ? 'Testează cunoștințele tale cu un quiz interactiv.' : 'Test your knowledge with an interactive quiz.' %>
+                            </p>
+                            <a href="/quiz?lang=<%= lang %>" class="btn btn-success">
+                                <%= lang === 'hu' ? 'Kezdem' : lang === 'ro' ? 'Incepe' : 'Start' %> <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <section class="stats-section">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="stat-box">
+                            <h3 class="stat-number">3</h3>
+                            <p><%= lang === 'hu' ? 'Fő csata' : lang === 'ro' ? 'Bătălii majore' : 'Major Battles' %></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stat-box">
+                            <h3 class="stat-number">3</h3>
+                            <p><%= lang === 'hu' ? 'Kiemelkedő fegyverek' : lang === 'ro' ? 'Arme semnificative' : 'Significant Weapons' %></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="stat-box">
+                            <h3 class="stat-number">5</h3>
+                            <p><%= lang === 'hu' ? 'Kvíz kérdés' : lang === 'ro' ? 'Întrebări despre quiz' : 'Quiz Questions' %></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </main>
-    <footer>
-        <p>&copy; 2026 WWII Website</p>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 WWII History - <%= lang === 'hu' ? 'Történelmi oktatási anyag' : lang === 'ro' ? 'Resurse educaționale' : 'Educational Resources' %></p>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

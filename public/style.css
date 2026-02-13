@@ -686,6 +686,6 @@ footer {
 }
 
 .weapons-section {
-    background-color: #f8f9fa;
+    background: linear-gradient(135deg, rgba(31, 58, 147, 0.9) 0%, rgba(212, 17, 89, 0.8) 100%);
     padding: 4rem 0;
 }

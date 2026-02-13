@@ -79,7 +79,8 @@
         "en": "Ground",
         "hu": "Szárazföldi",
         "ro": "Terestru"
-      }
+      },
+      "category": "ground"
     },
     {
       "id": "spitfire",
@@ -98,7 +99,8 @@
         "en": "Air",
         "hu": "Légi",
         "ro": "Aerian"
-      }
+      },
+      "category": "air"
     },
     {
       "id": "v2",
@@ -117,7 +119,28 @@
         "en": "Air",
         "hu": "Légi",
         "ro": "Aerian"
-      }
+      },
+      "category": "air"
+    },
+    {
+      "id": "yamato",
+      "picture": "Water_weapons.jpg",
+      "name": {
+        "en": "Yamato Battleship",
+        "hu": "Jamato csatahajó",
+        "ro": "Nava de război Yamato"
+      },
+      "description": {
+        "en": "The largest battleship ever built by Japan, known for its massive firepower.",
+        "hu": "Japán által épített legnagyobb csatahajó, hatalmas tűzerejéről ismert.",
+        "ro": "Cea mai mare navă de război construită vreodată de Japonia, cunoscută pentru puterea sa de foc masivă."
+      },
+      "type": {
+        "en": "Water",
+        "hu": "Vízi",
+        "ro": "Acvatic"
+      },
+      "category": "water"
     }
   ]
 }

@@ -57,10 +57,12 @@ const data = {
         ro: 'Un tanc mediu american folosit pe scară largă de către Aliați.'
       },
       type: {
-        en: 'Tank',
-        hu: 'Harckocsi',
-        ro: 'Tanc'
-      }
+        en: 'Ground',
+        hu: 'Szárazföldi',
+        ro: 'Terestru'
+      },
+      category: 'ground',
+      picture: 'Ground_weapons.jpg'
     },
     {
       id: 'spitfire',
@@ -75,10 +77,12 @@ const data = {
         ro: 'Un avion de vânătoare britanic celebru pentru rolul său în Bătălia Angliei.'
       },
       type: {
-        en: 'Aircraft',
-        hu: 'Repülőgép',
-        ro: 'Avion'
-      }
+        en: 'Air',
+        hu: 'Légi',
+        ro: 'Aerian'
+      },
+      category: 'air',
+      picture: 'Air_weapons.jpg'
     },
     {
       id: 'v2',
@@ -93,10 +97,32 @@ const data = {
         ro: 'O rachetă balistică germană, prima rachetă balistică ghidată cu rază lungă de acțiune din lume.'
       },
       type: {
-        en: 'Rocket',
-        hu: 'Rakéta',
-        ro: 'Rachetă'
-      }
+        en: 'Air',
+        hu: 'Légi',
+        ro: 'Aerian'
+      },
+      category: 'air',
+      picture: 'Air_weapons.jpg'
+    },
+    {
+      id: 'yamato',
+      name: {
+        en: 'Yamato Battleship',
+        hu: 'Jamato csatahajó',
+        ro: 'Nava de război Yamato'
+      },
+      description: {
+        en: 'The largest battleship ever built by Japan, known for its massive firepower.',
+        hu: 'Japán által épített legnagyobb csatahajó, hatalmas tűzerejéről ismert.',
+        ro: 'Cea mai mare navă de război construită vreodată de Japonia, cunoscută pentru puterea sa de foc masivă.'
+      },
+      type: {
+        en: 'Water',
+        hu: 'Vízi',
+        ro: 'Acvatic'
+      },
+      category: 'water',
+      picture: 'Water_weapons.jpg'
     }
   ]
 };

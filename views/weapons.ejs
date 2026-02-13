@@ -49,18 +49,19 @@
         </div>
     </nav>
 
-    <main>
-        <div class="container py-5">
-            <div class="row mb-4">
-                <div class="col-12">
-                    <h1 class="page-title">
-                        <i class="fas fa-gun"></i> <%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %>
-                    </h1>
-                </div>
+    <!-- Air Weapons Section -->
+    <section class="parallax-section" style="background-image: url('/pictures/Air_weapons.jpg');">
+        <div class="parallax-overlay">
+            <div class="container text-center">
+                <h2 class="section-title"><%= lang === 'hu' ? 'Légi Fegyverek' : lang === 'ro' ? 'Arme Aeriene' : 'Air Weapons' %></h2>
             </div>
+        </div>
+    </section>
 
+    <section class="weapons-section">
+        <div class="container py-5">
             <div class="row g-4">
-                <% weapons.forEach(weapon => { %>
+                <% weapons.filter(w => w.category === 'air').forEach(weapon => { %>
                     <div class="col-lg-6 col-md-12">
                         <div class="card item-card shadow-lg">
                             <% if(weapon.picture && weapon.picture.includes("https")) { %>
@@ -69,7 +70,7 @@
                             <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
                             <% } %>
                             <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-hammer"></i> <%= weapon.name[lang] %></h5>
+                                <h5 class="card-title"><i class="fas fa-plane"></i> <%= weapon.name[lang] %></h5>
                                 <p class="card-text"><%= weapon.description[lang] %></p>
                                 <div class="detail-meta">
                                     <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
@@ -83,7 +84,81 @@
                 <% }); %>
             </div>
         </div>
-    </main>
+    </section>
+
+    <!-- Ground Weapons Section -->
+    <section class="parallax-section" style="background-image: url('/pictures/Ground_weapons.jpg');">
+        <div class="parallax-overlay">
+            <div class="container text-center">
+                <h2 class="section-title"><%= lang === 'hu' ? 'Szárazföldi Fegyverek' : lang === 'ro' ? 'Arme Terestre' : 'Ground Weapons' %></h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="weapons-section">
+        <div class="container py-5">
+            <div class="row g-4">
+                <% weapons.filter(w => w.category === 'ground').forEach(weapon => { %>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card item-card shadow-lg">
+                            <% if(weapon.picture && weapon.picture.includes("https")) { %>
+                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <% } else { %>
+                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <% } %>
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-tank"></i> <%= weapon.name[lang] %></h5>
+                                <p class="card-text"><%= weapon.description[lang] %></p>
+                                <div class="detail-meta">
+                                    <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
+                                </div>
+                                <a href="/weapon/<%= weapon.id %>?lang=<%= lang %>" class="btn btn-danger btn-sm">
+                                    <%= lang === 'hu' ? 'Megtekintés' : lang === 'ro' ? 'Vezi' : 'View' %> <i class="fas fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+
+    <!-- Water Weapons Section -->
+    <section class="parallax-section" style="background-image: url('/pictures/Water_weapons.jpg');">
+        <div class="parallax-overlay">
+            <div class="container text-center">
+                <h2 class="section-title"><%= lang === 'hu' ? 'Vízi Fegyverek' : lang === 'ro' ? 'Arme Acvatice' : 'Water Weapons' %></h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="weapons-section">
+        <div class="container py-5">
+            <div class="row g-4">
+                <% weapons.filter(w => w.category === 'water').forEach(weapon => { %>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card item-card shadow-lg">
+                            <% if(weapon.picture && weapon.picture.includes("https")) { %>
+                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <% } else { %>
+                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <% } %>
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-ship"></i> <%= weapon.name[lang] %></h5>
+                                <p class="card-text"><%= weapon.description[lang] %></p>
+                                <div class="detail-meta">
+                                    <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
+                                </div>
+                                <a href="/weapon/<%= weapon.id %>?lang=<%= lang %>" class="btn btn-danger btn-sm">
+                                    <%= lang === 'hu' ? 'Megtekintés' : lang === 'ro' ? 'Vezi' : 'View' %> <i class="fas fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
 
     <footer class="bg-dark text-white text-center py-4 mt-5">
         <div class="container">

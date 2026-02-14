@@ -9,45 +9,7 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="/?lang=<%= lang %>">
-                <i class="fas fa-bomb"></i> <%= lang === 'hu' ? 'WWII Történelem' : lang === 'ro' ? 'WWII Istorie' : 'WWII History' %>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/battles?lang=<%= lang %>">
-                            <i class="fas fa-person-military-rifle"></i> <%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/weapons?lang=<%= lang %>">
-                            <i class="fas fa-gun"></i> <%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/quiz?lang=<%= lang %>">
-                            <i class="fas fa-brain"></i> <%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown">
-                            <i class="fas fa-globe"></i> <%= lang.toUpperCase() %>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="langDropdown">
-                            <li><a class="dropdown-item" href="/?lang=en"><i class="fas fa-flag-usa"></i> English</a></li>
-                            <li><a class="dropdown-item" href="/?lang=hu"><i class="fas fa-flag"></i> Magyar</a></li>
-                            <li><a class="dropdown-item" href="/?lang=ro"><i class="fas fa-flag"></i> Română</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <%- include('partials/navbar') %>
 
     <main>
         <!-- Hero Section -->

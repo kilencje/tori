@@ -27,9 +27,9 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card item-card shadow-lg">
                             <% if(weapon.picture && weapon.picture.includes("https")) { %>
-                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>" loading="lazy">
                             <% } else { %>
-                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>" loading="lazy">
                             <% } %>
                             <div class="card-body">
                                 <h5 class="card-title"><i class="fas fa-plane"></i> <%= weapon.name[lang] %></h5>
@@ -64,9 +64,9 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card item-card shadow-lg">
                             <% if(weapon.picture && weapon.picture.includes("https")) { %>
-                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>" loading="lazy">
                             <% } else { %>
-                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>" loading="lazy">
                             <% } %>
                             <div class="card-body">
                                 <h5 class="card-title"><i class="fas fa-tank"></i> <%= weapon.name[lang] %></h5>
@@ -101,9 +101,9 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card item-card shadow-lg">
                             <% if(weapon.picture && weapon.picture.includes("https")) { %>
-                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <img src="<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>" loading="lazy">
                             <% } else { %>
-                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>">
+                            <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>" loading="lazy">
                             <% } %>
                             <div class="card-body">
                                 <h5 class="card-title"><i class="fas fa-ship"></i> <%= weapon.name[lang] %></h5>

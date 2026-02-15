@@ -11,7 +11,7 @@
 <body>
     <%- include('partials/navbar') %>
 
-    <main>
+    <main style="max-width: 100%; overflow-x: hidden;">
         <div class="container py-5">
             <div class="row mb-4">
                 <div class="col-12">
@@ -26,13 +26,13 @@
                     <div class="col-lg-6 col-md-12">
                         <div class="card item-card shadow-lg">
                             <% if(battle.picture && battle.picture.includes("https")) { %>
-                                <img src="<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>">
+                                <img src="<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>" loading="lazy">
                             <% } else { %>
-                                <img src="/pictures/<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>">
+                                <img src="/pictures/<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>" loading="lazy">
                             <% } %>
                             <div class="card-body">
                                 <h5 class="card-title"><i class="fas fa-flag-usa"></i> <%= battle.name[lang] %></h5>
-                                <p class="card-text"><%= battle.description[lang] %></p>
+                                <p class="card-text"><%= battle.description[lang].substr(0, 150) + (battle.description[lang].length > 150 ? '...' : '') %></p>
                                 <div class="detail-meta">
                                     <strong><i class="fas fa-calendar"></i> <%= lang === 'hu' ? 'Év:' : lang === 'ro' ? 'An:' : 'Year:' %></strong> <%= battle.year %>
                                 </div>

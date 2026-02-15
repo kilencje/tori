@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
+const compression = require('compression');
 
 // Load JSON data
 const data = JSON.parse(fs.readFileSync('./data.json', 'utf8'));
@@ -11,14 +12,49 @@ const technology = JSON.parse(fs.readFileSync('./technology.json', 'utf8'));
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
-// Serve static files
-app.use(express.static('public'));
+// Enable gzip compression for all responses
+app.use(compression());
+
+// Serve static files with caching headers
+app.use(express.static('public', {
+  maxAge: '7d',           // Cache static files for 7 days
+  etag: false             // Disable ETag comparison (trust maxAge)
+}));
+
+// Cache-Control middleware for different content types
+app.use((req, res, next) => {
+  // Cache HTML pages for 1 hour
+  if (req.url.endsWith('.html') || req.path === '/') {
+    res.set('Cache-Control', 'public, max-age=3600');
+  }
+  
+  // Cache JSON responses for 30 minutes (API data)
+  if (req.url.endsWith('.json')) {
+    res.set('Cache-Control', 'public, max-age=1800');
+  }
+  
+  // Cache images for 30 days
+  if (req.url.match(/\.(jpg|jpeg|png|gif|svg|webp)$/i)) {
+    res.set('Cache-Control', 'public, max-age=2592000, immutable');
+  }
+  
+  // Cache CSS/JS for 7 days
+  if (req.url.match(/\.(css|js)$/i)) {
+    res.set('Cache-Control', 'public, max-age=604800, immutable');
+  }
+  
+  next();
+});
 
 // Middleware to get language from query and set current path
 app.use((req, res, next) => {
   const lang = req.query.lang || 'en';
   res.locals.lang = lang;
   res.locals.currentPath = req.path;
+  
+  // Set cache headers for HTML responses
+  res.set('Cache-Control', 'public, max-age=3600');
+  
   next();
 });
 

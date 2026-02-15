@@ -23,9 +23,9 @@
                 <div class="col-lg-8 mx-auto">
                     <div class="detail-content">
                         <% if(battle.picture && battle.picture.includes("https")) { %>
-                            <img src="<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>">
+                            <img src="<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>" loading="lazy">
                         <% } else { %>
-                            <img src="/pictures/<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>">
+                            <img src="/pictures/<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>" loading="lazy">
                         <% } %>
                         <div class="detail-meta">
                             <strong><i class="fas fa-calendar"></i> <%= lang === 'hu' ? 'Év:' : lang === 'ro' ? 'An:' : 'Year:' %></strong> <%= battle.year %>

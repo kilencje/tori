@@ -8,26 +8,26 @@
     },
     "subtitle": {
       "en": "The Weapon That Changed History",
-      "hu": "Az Irányt Megváltoztató Fegyver",
+      "hu": "A Fegyver, Amely Megváltoztatta a Történelmet",
       "ro": "Arma Care A Schimbat Istoria"
     },
     "description": {
       "en": "The atomic bomb, developed during the Manhattan Project, was the first nuclear weapon and remains one of the most significant technological achievements and destructive weapons ever created. It fundamentally changed warfare, geopolitics, and human civilization.",
-      "hu": "Az atombomba, melyet a Manhattan-projekt alatt fejlesztettek ki, az első nukleáris fegyver volt és máig az egyik legjelentősebb technológiai vívmánya és pusztító fegyvere az emberiségnek. Fundamentálisan megváltoztatta a háborút, a geopolitikát és az emberi civilizációt.",
-      "ro": "Bomba atomică, dezvoltată în timpul Proiectului Manhattan, a fost prima armă nucleară și rămâne una dintre cele mai semnificative realizări tehnologice și arme distructive din istoria omenirii. A schimbat fundamental războiul, geopolitica și civilizația umană."
+      "hu": "Az atombomba, amelyet a Manhattan-projekt alatt fejlesztettek ki, az első nukleáris fegyver volt és máig az egyik legjelentősebb technológiai vívmány és legpusztítóbb fegyver az emberiség történetében. Fundamentálisan megváltoztatta a háborúzást, a geopolitikát és az emberi civilizációt.",
+      "ro": "Bomba atomică, dezvoltată în timpul Proiectului Manhattan, a fost prima armă nucleară și rămâne una dintre cele mai semnificative realizări tehnologice și arme distructive create vreodată. A schimbat fundamental războiul, geopolitica și civilizația umană."
     },
     "timeline": [
       {
         "year": 1938,
         "event": {
           "en": "Nuclear Fission Discovery",
-          "hu": "Nukleáris hasadás felfedezése",
+          "hu": "A nukleáris hasadás felfedezése",
           "ro": "Descoperirea fisiunii nucleare"
         },
         "details": {
-          "en": "Otto Hahn and Fritz Strassmann discover nuclear fission, proving that splitting atomic nuclei releases enormous energy.",
-          "hu": "Otto Hahn és Fritz Strassmann felfedezik a nukleáris hasadást, bizonyítva, hogy az atommag feldarabolása hatalmas energiát szabadít fel.",
-          "ro": "Otto Hahn și Fritz Strassmann descoperă fisiunea nucleară, dovedind că despicarea nucleelor atomice eliberează o energie imensă."
+          "en": "Otto Hahn and Fritz Strassmann discover nuclear fission in Berlin, proving that splitting uranium nuclei releases enormous energy. Lise Meitner and Otto Frisch provide the theoretical explanation.",
+          "hu": "Otto Hahn és Fritz Strassmann felfedezi a nukleáris hasadást Berlinben, bebizonyítva, hogy az uránmag hasítása óriási energiát szabadít fel. Lise Meitner és Otto Frisch adja meg az elméleti magyarázatot.",
+          "ro": "Otto Hahn și Fritz Strassmann descoperă fisiunea nucleară în Berlin, dovedind că despicarea nucleelor de uraniu eliberează o energie imensă. Lise Meitner și Otto Frisch oferă explicația teoretică."
         }
       },
       {
@@ -38,74 +38,152 @@
           "ro": "Scrisoarea lui Einstein"
         },
         "details": {
-          "en": "Albert Einstein writes to President Roosevelt warning about Nazi Germany's atomic bomb development, urging the US to begin its own program.",
-          "hu": "Albert Einstein levelet írás Roosevelt elnöknek, figyelmeztetéseként a Német Birodalom atombomba fejlesztéséről, ragaszkodik az USA saját programjának kezdeményezéséhez.",
-          "ro": "Albert Einstein scrie o scrisoare președintelui Roosevelt avertizând cu privire la dezvoltarea bombei atomice a Germaniei naziste, curgând SUA să înceapă propriul program."
+          "en": "August 2, 1939: Albert Einstein, urged by Leo Szilard, writes to President Roosevelt warning about Nazi Germany's potential atomic bomb development and urging the US to begin its own research program.",
+          "hu": "1939. augusztus 2.: Albert Einstein, Leo Szilárd unszolására, levelet ír Roosevelt elnöknek, figyelmeztetve a náci Németország potenciális atombomba-fejlesztésére, és sürgetve az USA saját kutatási programjának megkezdését.",
+          "ro": "2 august 1939: Albert Einstein, îndemnat de Leo Szilard, scrie președintelui Roosevelt avertizând cu privire la potențiala dezvoltare a bombei atomice de către Germania nazistă și îndemnând SUA să înceapă propriul program de cercetare."
+        }
+      },
+      {
+        "year": 1941,
+        "event": {
+          "en": "MAUD Report",
+          "hu": "MAUD jelentés",
+          "ro": "Raportul MAUD"
+        },
+        "details": {
+          "en": "British scientists produce the MAUD Report, demonstrating that an atomic bomb is feasible and could be built within two years. This report accelerates American efforts.",
+          "hu": "Brit tudósok elkészítik a MAUD jelentést, amely bebizonyítja, hogy az atombomba megvalósítható és két éven belül megépíthető. Ez a jelentés felgyorsítja az amerikai erőfeszítéseket.",
+          "ro": "Oamenii de știință britanici produc Raportul MAUD, demonstrând că o bombă atomică este realizabilă și ar putea fi construită în doi ani. Acest raport accelerează eforturile americane."
         }
       },
       {
         "year": 1942,
         "event": {
           "en": "Manhattan Project Begins",
-          "hu": "Manhattan-projekt kezdete",
+          "hu": "A Manhattan-projekt kezdete",
           "ro": "Începe Proiectul Manhattan"
         },
         "details": {
-          "en": "The United States launches the secret Manhattan Project with the goal of developing an atomic bomb before Nazi Germany. Over 130,000 people eventually work on the project.",
-          "hu": "Az Egyesült Államok elindítja a titkos Manhattan-projektet, azzal a céllal, hogy atombombát fejlesszen ki a Német Birodalom előtt. Végül több mint 130 000 ember dolgozik a projekten.",
-          "ro": "Statele Unite lansează proiectul secret Manhattan cu scopul de a dezvolta o bombă atomică înainte ca Germania nazistă. În cele din urmă, peste 130.000 de oameni lucrează la proiect."
+          "en": "September 1942: The United States officially launches the Manhattan Project under General Leslie Groves with the goal of developing an atomic bomb before Nazi Germany. J. Robert Oppenheimer is appointed scientific director. Over 130,000 people eventually work on the project across multiple secret facilities.",
+          "hu": "1942. szeptember: Az Egyesült Államok hivatalosan elindítja a Manhattan-projektet Leslie Groves tábornok vezetése alatt, azzal a céllal, hogy atombombát fejlesszenek ki a náci Németország előtt. J. Robert Oppenheimert nevezik ki tudományos igazgatónak. Végül több mint 130 000 ember dolgozik a projekten számos titkos létesítményben.",
+          "ro": "Septembrie 1942: Statele Unite lansează oficial Proiectul Manhattan sub conducerea generalului Leslie Groves cu scopul de a dezvolta o bombă atomică înainte de Germania nazistă. J. Robert Oppenheimer este numit director științific. În cele din urmă, peste 130.000 de oameni lucrează la proiect în mai multe facilități secrete."
+        }
+      },
+      {
+        "year": 1943,
+        "event": {
+          "en": "Los Alamos Laboratory Established",
+          "hu": "A Los Alamos laboratórium létrehozása",
+          "ro": "Se înființează Laboratorul Los Alamos"
+        },
+        "details": {
+          "en": "The secret Los Alamos Laboratory is established in New Mexico as the central facility for designing and building the atomic bomb. Top scientists from around the world gather here.",
+          "hu": "A titkos Los Alamos laboratóriumot New Mexicóban hozzák létre, mint az atombomba tervezésének és építésének központi létesítményét. A világ legkiválóbb tudósai gyűlnek itt össze.",
+          "ro": "Laboratorul secret Los Alamos este înființat în Noul Mexic ca facilitate centrală pentru proiectarea și construirea bombei atomice. Oameni de știință de top din întreaga lume se adună aici."
+        }
+      },
+      {
+        "year": 1944,
+        "event": {
+          "en": "Plutonium Production Begins",
+          "hu": "Plutónium termelés kezdete",
+          "ro": "Începe producția de plutoniu"
+        },
+        "details": {
+          "en": "The Hanford Site in Washington begins producing plutonium-239, while Oak Ridge in Tennessee enriches uranium-235. Both materials are crucial for building different types of atomic bombs.",
+          "hu": "A washingtoni Hanford létesítmény megkezdi a plutónium-239 előállítását, míg a Tennessee-i Oak Ridge uránium-235-öt dúsít. Mindkét anyag kulcsfontosságú a különböző típusú atombombák építéséhez.",
+          "ro": "Facilitatea Hanford din Washington începe producția de plutoniu-239, în timp ce Oak Ridge din Tennessee îmbogățește uraniul-235. Ambele materiale sunt cruciale pentru construirea diferitelor tipuri de bombe atomice."
+        }
+      },
+      {
+        "year": 1945,
+        "event": {
+          "en": "Germany Surrenders",
+          "hu": "Németország kapitulál",
+          "ro": "Germania se predă"
+        },
+        "details": {
+          "en": "May 8, 1945: Germany surrenders, ending the war in Europe. It is discovered that Nazi Germany never came close to building an atomic bomb. The focus shifts entirely to ending the war with Japan.",
+          "hu": "1945. május 8.: Németország kapitulál, véget vetve a háborúnak Európában. Kiderül, hogy a náci Németország soha nem volt közel az atombomba megépítéséhez. A hangsúly teljes mértékben a Japánnal vívott háború befejezésére helyeződik át.",
+          "ro": "8 mai 1945: Germania se predă, punând capăt războiului în Europa. Se descoperă că Germania nazistă nu a fost niciodată aproape de construirea unei bombe atomice. Focalizarea se îndreaptă în întregime spre încheierea războiului cu Japonia."
         }
       },
       {
         "year": 1945,
         "event": {
           "en": "Trinity Test - First Detonation",
-          "hu": "Trinity teszt - Első detonáció",
+          "hu": "Trinity teszt - Az első robbantás",
           "ro": "Testul Trinity - Prima detonație"
         },
         "details": {
-          "en": "July 16, 1945: The first atomic bomb is successfully tested in the New Mexico desert. The explosion creates a mushroom cloud visible from 100 miles away. Scientists are shocked by its power.",
-          "hu": "1945. július 16.: Az első atombomba sikeresen tesztelve van az új mexikói sivatagban. A robbanás egy gombafelhőt hoz létre, amely 160 km távolságból látható. A tudósok megdöbbentek az erőssége miatt.",
-          "ro": "16 iulie 1945: Prima bombă atomică este testată cu succes în deșertul din Noua Mexic. Explozia creează un nor în formă de ciupercă vizibil de la 160 km depărtare. Oamenii de știință sunt șocați de puterea ei."
+          "en": "July 16, 1945, 5:29 AM: The first atomic bomb, a plutonium implosion device nicknamed 'The Gadget', is successfully tested at the Trinity site in the New Mexico desert. The explosion creates a mushroom cloud visible from 100 miles away and a crater 5 feet deep and 30 feet wide. J. Robert Oppenheimer famously recalls the Bhagavad Gita: 'Now I am become Death, the destroyer of worlds.'",
+          "hu": "1945. július 16., 5:29: Az első atombomba, egy plutóniumbetétes implóziós eszköz, melynek beceneve 'The Gadget', sikeresen tesztelésre kerül a Trinity helyszínen az új-mexikói sivatagban. A robbanás egy 160 km-ről is látható gombafelhőt és egy 1,5 méter mély, 9 méter széles krátert hoz létre. J. Robert Oppenheimer híressé vált szavaival idézi fel a Bhagavad Gítát: 'Most a Halál lettem, a világok pusztítója.'",
+          "ro": "16 iulie 1945, 5:29 AM: Prima bombă atomică, un dispozitiv de implosie cu plutoniu supranumit 'The Gadget', este testată cu succes la locația Trinity în deșertul din Noul Mexic. Explozia creează un nor în formă de ciupercă vizibil de la 160 km depărtare și un crater de 1,5 metri adâncime și 9 metri lățime. J. Robert Oppenheimer își amintește celebrul citat din Bhagavad Gita: 'Acum am devenit Moartea, distrugătorul de lumi.'"
         }
       },
       {
         "year": "1945-08-06",
         "event": {
           "en": "Hiroshima - First Combat Use",
-          "hu": "Hiroshima - Első harci alkalmazás",
-          "ro": "Hiroshima - Primul utilizare în luptă"
+          "hu": "Hirosima - Az első harci bevetés",
+          "ro": "Hiroshima - Prima utilizare în luptă"
         },
         "details": {
-          "en": "August 6, 1945: The United States drops the bomb 'Little Boy' on Hiroshima, Japan. 70,000-80,000 people die instantly. By year's end, 140,000 are dead from burns and radiation sickness.",
-          "hu": "1945. augusztus 6.: Az Egyesült Államok ledobja az 'Little Boy' bombát Hirosima japán városra. 70 000-80 000 ember hal meg azonnal. Az év végéig 140 000 halott a sugárzás okozta égésből és betegségből.",
-          "ro": "6 august 1945: Statele Unite aruncă bomba 'Little Boy' pe Hiroshima, Japonia. 70.000-80.000 de oameni mor instantaneu. La sfârșitul anului, 140.000 sunt morți din cauza arsurilor și bolii radiation."
+          "en": "August 6, 1945, 8:15 AM: The B-29 bomber 'Enola Gay', piloted by Colonel Paul Tibbets, drops the uranium bomb 'Little Boy' on Hiroshima, Japan, from an altitude of 31,000 feet. The bomb explodes 1,900 feet above the city. 70,000-80,000 people die instantly, and the entire city center is obliterated. By year's end, casualties reach 140,000 from burns, injuries, and radiation sickness. Approximately 70% of all buildings are destroyed.",
+          "hu": "1945. augusztus 6., 8:15: Az 'Enola Gay' B-29-es bombázó, Paul Tibbets ezredes vezetésével, ledobja a 'Little Boy' uránbombát Hirosima japán városára 31 000 láb (9400 méter) magasságból. A bomba 580 méter magasságban robban fel a város felett. 70 000-80 000 ember hal meg azonnal, és a teljes városközpont megsemmisül. Az év végére az áldozatok száma eléri a 140 000-et égési sérülések, roncsolódások és sugárbetegség miatt. Az épületek körülbelül 70%-a megsemmisül.",
+          "ro": "6 august 1945, 8:15 AM: Bombardierul B-29 'Enola Gay', pilotat de colonelul Paul Tibbets, aruncă bomba de uraniu 'Little Boy' pe Hiroshima, Japonia, de la o altitudine de 9400 metri. Bomba explodează la 580 metri deasupra orașului. 70.000-80.000 de oameni mor instantaneu, iar întregul centru al orașului este distrus. La sfârșitul anului, numărul victimelor ajunge la 140.000 din cauza arsurilor, rănilor și bolii de radiații. Aproximativ 70% din toate clădirile sunt distruse."
         }
       },
       {
         "year": "1945-08-09",
         "event": {
           "en": "Nagasaki - Second Bombing",
-          "hu": "Nagaszaki - Második bombázás",
+          "hu": "Nagaszaki - A második bombázás",
           "ro": "Nagasaki - Al doilea bombardament"
         },
         "details": {
-          "en": "August 9, 1945: A second atomic bomb 'Fat Man' is dropped on Nagasaki. Approximately 40,000 people die immediately, with total deaths reaching 70,000 by year's end.",
-          "hu": "1945. augusztus 9.: Egy második atombomba 'Fat Man' ledobása Nagaszakira. Körülbelül 40 000 ember hal meg azonnal, az év végéig az összhalottszám 70 000-re emelkedik.",
-          "ro": "9 august 1945: A doua bombă atomică 'Fat Man' este aruncată pe Nagasaki. Aproximativ 40.000 de oameni mor instantaneu, cu un total de 70.000 de morți până la sfârșitul anului."
+          "en": "August 9, 1945, 11:02 AM: The B-29 bomber 'Bockscar', piloted by Major Charles Sweeney, drops the plutonium bomb 'Fat Man' on Nagasaki after the primary target, Kokura, is obscured by clouds. The bomb is more powerful than Little Boy but the hilly terrain limits its destruction. Approximately 40,000 people die immediately, with total deaths reaching 70,000 by year's end. The Urakami Cathedral, the largest Catholic church in Asia, is destroyed.",
+          "hu": "1945. augusztus 9., 11:02: A 'Bockscar' B-29-es bombázó, Charles Sweeney őrnagy vezetésével, ledobja a 'Fat Man' plutóniumbombát Nagaszakira, miután az elsődleges célpontot, Kokurát, eltakarták a felhők. A bomba erősebb, mint a Little Boy, de a dombos terep korlátozza a pusztítást. Körülbelül 40 000 ember hal meg azonnal, az év végéig az összes áldozat száma eléri a 70 000-et. Az Urakami-székesegyház, Ázsia legnagyobb katolikus temploma, megsemmisül.",
+          "ro": "9 august 1945, 11:02 AM: Bombardierul B-29 'Bockscar', pilotat de maiorul Charles Sweeney, aruncă bomba de plutoniu 'Fat Man' pe Nagasaki după ce ținta primară, Kokura, este acoperită de nori. Bomba este mai puternică decât Little Boy, dar terenul deluros limitează distrugerea. Aproximativ 40.000 de oameni mor instantaneu, cu un total de 70.000 de morți până la sfârșitul anului. Catedrala Urakami, cea mai mare biserică catolică din Asia, este distrusă."
         }
       },
       {
-        "year": 1945,
+        "year": "1945-08-15",
         "event": {
           "en": "Japan Surrenders - War Ends",
-          "hu": "Japán feladása - A háború vége",
-          "ro": "Predarea Japoniei - Sfârșitul Războiului"
+          "hu": "Japán kapitulációja - A háború vége",
+          "ro": "Predarea Japoniei - Sfârșitul războiului"
         },
         "details": {
-          "en": "August 15, 1945: Japan announces its surrender, ending World War II. The atomic bomb played a crucial role in this decision.",
-          "hu": "1945. augusztus 15.: Japán bejelenti kapitulációját, befejezve a második világháborút. Az atombomba döntő szerepet játszott ebben a döntésben.",
-          "ro": "15 august 1945: Japonia anunță predarea sa, punând capăt celui de-al Doilea Război Mondial. Bomba atomică a jucat un rol crucial în această decizie."
+          "en": "August 15, 1945: Emperor Hirohito announces Japan's surrender in a radio broadcast, the first time most Japanese citizens hear their emperor's voice. The atomic bombings, combined with the Soviet Union's declaration of war on August 8, played a crucial role in this decision. World War II officially ends on September 2, 1945, with the formal surrender ceremony aboard the USS Missouri in Tokyo Bay.",
+          "hu": "1945. augusztus 15.: Hirohito császár bejelenti Japán kapitulációját egy rádióadásban, amely az első alkalom, hogy a legtöbb japán állampolgár hallja császáruk hangját. Az atombombázások, valamint a Szovjetunió augusztus 8-i hadüzenete döntő szerepet játszott ebben a döntésben. A második világháború hivatalosan 1945. szeptember 2-án ér véget, a hivatalos kapitulációs ceremóniával a USS Missouri fedélzetén, a Tokió-öbölben.",
+          "ro": "15 august 1945: Împăratul Hirohito anunță predarea Japoniei într-o transmisiune radio, prima dată când majoritatea cetățenilor japonezi aud vocea împăratului lor. Bombardamentele atomice, împreună cu declarația de război a Uniunii Sovietice din 8 august, au jucat un rol crucial în această decizie. Al Doilea Război Mondial se încheie oficial pe 2 septembrie 1945, cu ceremonia formală de predare la bordul USS Missouri în Golful Tokyo."
+        }
+      },
+      {
+        "year": 1946,
+        "event": {
+          "en": "Bikini Atoll Nuclear Tests",
+          "hu": "Bikini-atoll nukleáris tesztek",
+          "ro": "Testele nucleare de la Atolul Bikini"
+        },
+        "details": {
+          "en": "The United States conducts Operation Crossroads, a series of nuclear weapon tests at Bikini Atoll in the Pacific. These tests study the effects of atomic bombs on naval vessels and mark the beginning of the nuclear testing era.",
+          "hu": "Az Egyesült Államok végrehajtja a Crossroads műveletet, egy nukleáris fegyver-teszt sorozatot a Bikini-atollnál a Csendes-óceánon. Ezek a tesztek az atombombák haditengerészeti hajókra gyakorolt hatásait tanulmányozzák, és a nukleáris tesztelési korszak kezdetét jelentik.",
+          "ro": "Statele Unite desfășoară Operațiunea Crossroads, o serie de teste cu arme nucleare la Atolul Bikini în Pacific. Aceste teste studiază efectele bombelor atomice asupra navelor și marchează începutul erei testelor nucleare."
+        }
+      },
+      {
+        "year": 1949,
+        "event": {
+          "en": "Soviet Union Tests First Atomic Bomb",
+          "hu": "A Szovjetunió teszteli első atombombáját",
+          "ro": "Uniunea Sovietică testează prima bombă atomică"
+        },
+        "details": {
+          "en": "August 29, 1949: The Soviet Union successfully tests 'First Lightning' (RDS-1), ending the American nuclear monopoly four years earlier than expected. This begins the nuclear arms race of the Cold War.",
+          "hu": "1949. augusztus 29.: A Szovjetunió sikeresen teszteli az 'Első Villám'-ot (RDS-1), véget vetve az amerikai nukleáris monopóliumnak négy évvel a vártnál korábban. Ez kezdi el a hidegháború nukleáris fegyverkezési versenyét.",
+          "ro": "29 august 1949: Uniunea Sovietică testează cu succes 'Primul Fulger' (RDS-1), punând capăt monopolului nuclear american cu patru ani mai devreme decât se aștepta. Aceasta marchează începutul cursei înarmării nucleare din Războiul Rece."
         }
       }
     ],
@@ -118,13 +196,66 @@
         },
         "target": "Hiroshima",
         "specs": [
-          { "label": { "en": "Type", "hu": "Típus", "ro": "Tip" }, "value": { "en": "Gun-type fission weapon", "hu": "Pisztoly típusú hasadási fegyver", "ro": "Armă de fisiune de tip pistol" } },
-          { "label": { "en": "Fuel", "hu": "Üzemanyag", "ro": "Combustibil" }, "value": "Uranium-235" },
-          { "label": { "en": "Yield", "hu": "Teljesítmény", "ro": "Putere" }, "value": "15 kilotons (equivalent to 15,000 tons of TNT)" },
-          { "label": { "en": "Length", "hu": "Hosszúság", "ro": "Lungime" }, "value": "3.2 meters" },
-          { "label": { "en": "Diameter", "hu": "Átmérő", "ro": "Diametru" }, "value": "0.71 meters" },
-          { "label": { "en": "Weight", "hu": "Súly", "ro": "Greutate" }, "value": "4.4 tons" },
-          { "label": { "en": "Delivery", "hu": "Szállítás", "ro": "Livrare" }, "value": "B-29 Superfortress aircraft" }
+          {
+            "label": {
+              "en": "Type",
+              "hu": "Típus",
+              "ro": "Tip"
+            },
+            "value": {
+              "en": "Gun-type fission weapon",
+              "hu": "Pisztoly típusú hasadási fegyver",
+              "ro": "Armă de fisiune de tip pistol"
+            }
+          },
+          {
+            "label": {
+              "en": "Fuel",
+              "hu": "Üzemanyag",
+              "ro": "Combustibil"
+            },
+            "value": "Uranium-235"
+          },
+          {
+            "label": {
+              "en": "Yield",
+              "hu": "Teljesítmény",
+              "ro": "Putere"
+            },
+            "value": "15 kilotons (equivalent to 15,000 tons of TNT)"
+          },
+          {
+            "label": {
+              "en": "Length",
+              "hu": "Hosszúság",
+              "ro": "Lungime"
+            },
+            "value": "3.2 meters"
+          },
+          {
+            "label": {
+              "en": "Diameter",
+              "hu": "Átmérő",
+              "ro": "Diametru"
+            },
+            "value": "0.71 meters"
+          },
+          {
+            "label": {
+              "en": "Weight",
+              "hu": "Súly",
+              "ro": "Greutate"
+            },
+            "value": "4.4 tons"
+          },
+          {
+            "label": {
+              "en": "Delivery",
+              "hu": "Szállítás",
+              "ro": "Livrare"
+            },
+            "value": "B-29 Superfortress aircraft"
+          }
         ]
       },
       "fat_man": {
@@ -135,13 +266,66 @@
         },
         "target": "Nagasaki",
         "specs": [
-          { "label": { "en": "Type", "hu": "Típus", "ro": "Tip" }, "value": { "en": "Implosion-type fission weapon", "hu": "Implóziós típusú hasadási fegyver", "ro": "Armă de fiziune de tip implosie" } },
-          { "label": { "en": "Fuel", "hu": "Üzemanyag", "ro": "Combustibil" }, "value": "Plutonium-239" },
-          { "label": { "en": "Yield", "hu": "Teljesítmény", "ro": "Putere" }, "value": "21 kilotons (equivalent to 21,000 tons of TNT)" },
-          { "label": { "en": "Length", "hu": "Hosszúság", "ro": "Lungime" }, "value": "3.25 meters" },
-          { "label": { "en": "Diameter", "hu": "Átmérő", "ro": "Diametru" }, "value": "1.52 meters" },
-          { "label": { "en": "Weight", "hu": "Súly", "ro": "Greutate" }, "value": "4.6 tons" },
-          { "label": { "en": "Delivery", "hu": "Szállítás", "ro": "Livrare" }, "value": "B-29 Superfortress aircraft" }
+          {
+            "label": {
+              "en": "Type",
+              "hu": "Típus",
+              "ro": "Tip"
+            },
+            "value": {
+              "en": "Implosion-type fission weapon",
+              "hu": "Implóziós típusú hasadási fegyver",
+              "ro": "Armă de fisiune de tip implosie"
+            }
+          },
+          {
+            "label": {
+              "en": "Fuel",
+              "hu": "Üzemanyag",
+              "ro": "Combustibil"
+            },
+            "value": "Plutonium-239"
+          },
+          {
+            "label": {
+              "en": "Yield",
+              "hu": "Teljesítmény",
+              "ro": "Putere"
+            },
+            "value": "21 kilotons (equivalent to 21,000 tons of TNT)"
+          },
+          {
+            "label": {
+              "en": "Length",
+              "hu": "Hosszúság",
+              "ro": "Lungime"
+            },
+            "value": "3.25 meters"
+          },
+          {
+            "label": {
+              "en": "Diameter",
+              "hu": "Átmérő",
+              "ro": "Diametru"
+            },
+            "value": "1.52 meters"
+          },
+          {
+            "label": {
+              "en": "Weight",
+              "hu": "Súly",
+              "ro": "Greutate"
+            },
+            "value": "4.6 tons"
+          },
+          {
+            "label": {
+              "en": "Delivery",
+              "hu": "Szállítás",
+              "ro": "Livrare"
+            },
+            "value": "B-29 Superfortress aircraft"
+          }
         ]
       }
     },
@@ -149,13 +333,13 @@
       {
         "title": {
           "en": "Thermal Radiation",
-          "hu": "Termikus sugárzás",
+          "hu": "Hősugárzás",
           "ro": "Radiația termică"
         },
         "description": {
-          "en": "Intense heat flash reaching millions of degrees, causing severe burns up to 2 miles away. Everything in the direct blast zone is incinerated.",
-          "hu": "Intenzív hőflash millió fokot elérve, súlyos égési sérüléseket okozva 3 km távolságig. Az egyenes robbanási zónában minden elég.",
-          "ro": "Flash termic intens atingând milioane de grade, cauzând arsuri severe la o distanță de până la 3 km. Totul în zona de bază directă se încinerează."
+          "en": "Intense heat flash reaching millions of degrees, causing severe burns up to 2 miles away. Everything in the direct blast zone is incinerated instantly.",
+          "hu": "Intenzív hőfelvillanás, amely millió fokot ér el, súlyos égési sérüléseket okozva akár 3 km távolságban is. A közvetlen robbanási zónában minden azonnal elhamvad.",
+          "ro": "Flash termic intens atingând milioane de grade, cauzând arsuri severe la o distanță de până la 3 km. Totul în zona directă a exploziei este incinerat instantaneu."
         },
         "range": "~3 km",
         "color": "#ff6b00"
@@ -163,13 +347,13 @@
       {
         "title": {
           "en": "Blast Wave",
-          "hu": "Ütőhullám",
+          "hu": "Lökéshullám",
           "ro": "Unda de șoc"
         },
         "description": {
           "en": "A powerful shock wave traveling at supersonic speed, destroying buildings and shattering glass over a wide area. Winds exceed 600 mph near ground zero.",
-          "hu": "Egy erős lökéshullám fénysebességet meghaladó sebességgel terjedve, épületeket rombol és üveget széttöri nagy területen. A szél meghaladja a 950 km/h-t a nulla pont közelében.",
-          "ro": "O undă de șoc puternică care se propagă cu viteză supersonic, distrugând clădiri și spargând geamuri pe o zonă largă. Vânturile depășesc 950 km/h lângă punctul zero."
+          "hu": "Egy erős lökéshullám, amely szuperszonikus sebességgel terjed, épületeket rombol és üveget zúz széles területen. A szél sebessége meghaladja a 960 km/h-t a nullpont közelében.",
+          "ro": "O undă de șoc puternică care călătorește cu viteză supersonică, distrugând clădiri și spărgând geamuri pe o zonă largă. Vânturile depășesc 960 km/h lângă punctul zero."
         },
         "range": "~2 km",
         "color": "#0066ff"
@@ -177,13 +361,13 @@
       {
         "title": {
           "en": "Radiation Sickness",
-          "hu": "Sugárzási betegség",
-          "ro": "Boala radiațiilor"
+          "hu": "Sugárbetegség",
+          "ro": "Boala de radiații"
         },
         "description": {
-          "en": "Intense ionizing radiation causes acute radiation syndrome. Survivors suffer from hair loss, hemorraging, organ failure, and cancer. Effects persist for generations.",
-          "hu": "Az intenzív ionizáló sugárzás akut sugárzási szindrómát okoz. A túlélők hajhullástól, vérzésektől, szervzavaroktól és rákbetegségtől szenvednek. A hatások generációk alatt fennmaradnak.",
-          "ro": "Radiația ionizantă intensă provoacă sindrom acut de radiații. Supraviețuitorii suferă de căderea părului, hemoragie, insuficiență organelor și cancer. Efectele persistă pentru generații."
+          "en": "Intense ionizing radiation causes acute radiation syndrome. Survivors suffer from hair loss, hemorrhaging, organ failure, and cancer. Effects persist for generations.",
+          "hu": "Az intenzív ionizáló sugárzás akut sugárbetegséget okoz. A túlélők hajhullástól, vérzésektől, szervkárosodástól és rákbetegségtől szenvednek. A hatások generációkon át fennmaradnak.",
+          "ro": "Radiația ionizantă intensă provoacă sindrom acut de radiații. Supraviețuitorii suferă de căderea părului, hemoragie, insuficiență a organelor și cancer. Efectele persistă pentru generații."
         },
         "range": "~2 km",
         "color": "#00ff00"
@@ -196,8 +380,8 @@
         },
         "description": {
           "en": "A burst of electromagnetic energy that damages electronics and electrical systems over a large area, causing widespread chaos and preventing communication.",
-          "hu": "Az elektromágneses energia töréséje, amely a nagy terület elektronikáját és elektromos rendszereit roncsolja, széles körű káoszt okozva és meggátolva a kommunikációt.",
-          "ro": "Un impuls de energie electromagnetică care deteriorează electronicele și sistemele electrice pe o zonă largă, provocând haos generalizat și împiedicând comunicația."
+          "hu": "Elektromágneses energia-kitörés, amely károsítja az elektronikai eszközöket és elektromos rendszereket nagy területen, széles körű káoszt okozva és megakadályozva a kommunikációt.",
+          "ro": "O explozie de energie electromagnetică care deteriorează electronica și sistemele electrice pe o zonă largă, provocând haos generalizat și împiedicând comunicația."
         },
         "range": "~5 km",
         "color": "#ffff00"
@@ -205,13 +389,13 @@
       {
         "title": {
           "en": "Fallout & Contamination",
-          "hu": "Radioaktív esőzés és szennyezés",
-          "ro": "Cădere radioactivă și contaminare"
+          "hu": "Radioaktív csapadék és szennyezés",
+          "ro": "Precipitații radioactive și contaminare"
         },
         "description": {
           "en": "Radioactive particles spread by wind, contaminating soil, water, and crops. Long-term health effects include cancer, genetic mutations, and environmental degradation.",
-          "hu": "A radioaktív részecskék a szél által terjednek, szennyezve a talajt, vizet és terméseket. A hosszú táv egészségügyi hatások rák, genetikai mutációk és környezeti degradációt tartalmazzák.",
-          "ro": "Particulele radioactive se răspândesc prin vânt, contaminând solul, apa și culturile. Efectele de sănătate pe termen lung includ cancer, mutații genetice și degradarea mediului."
+          "hu": "A radioaktív részecskék szél által terjednek, szennyezve a talajt, vizet és termést. A hosszú távú egészségügyi hatások között szerepel a rák, genetikai mutációk és környezeti károsodás.",
+          "ro": "Particulele radioactive se răspândesc prin vânt, contaminând solul, apa și culturile. Efectele asupra sănătății pe termen lung includ cancer, mutații genetice și degradarea mediului."
         },
         "range": "Global",
         "color": "#00ff99"
@@ -221,13 +405,13 @@
       {
         "title": {
           "en": "The Heat Was Intense",
-          "hu": "A hő intenzív volt",
+          "hu": "A hőmérséklet rendkívül magas volt",
           "ro": "Căldura a fost intensă"
         },
         "description": {
           "en": "The surface temperature of the atomic bomb explosion reached 3,000 degrees Celsius (5,400°F) - hotter than the surface of the sun.",
-          "hu": "Az atombomba robbanásának felszíni hőmérséklete elérte a 3000 Celsius fokot (5400 °F) - melegebb, mint a Nap felszíne.",
-          "ro": "Temperatura de suprafață a exploziei bombei atomice a atins 3000 de grade Celsius (5400 °F) - mai fierbintă decât suprafața soarelui."
+          "hu": "Az atombomba-robbanás felszíni hőmérséklete elérte a 3000 Celsius-fokot (5400 °F) - melegebb, mint a Nap felszíne.",
+          "ro": "Temperatura de suprafață a exploziei bombei atomice a atins 3000 de grade Celsius (5400 °F) - mai fierbinte decât suprafața soarelui."
         }
       },
       {
@@ -237,33 +421,33 @@
           "ro": "Norul în formă de ciupercă"
         },
         "description": {
-          "en": "The mushroom cloud from Hiroshima rose 40,000 feet (12 km) in just 15 minutes, visible from over 100 miles away. It symbolized the destructive power of nuclear weapons.",
-          "hu": "A Hiroshimáról érkező gombafelhő mindössze 15 perc alatt 40 000 láb (12 km) magasságig emelkedett, több mint 160 km távolságból látható. Ez szimbolizálja a nukleáris fegyverek pusztító erejét.",
-          "ro": "Norul în formă de ciupercă de la Hiroshima s-a ridicat 40.000 de picioare (12 km) în doar 15 minute, vizibil de la peste 160 km depărtare. El simboliza puterea distructivă a armelor nucleare."
+          "en": "The mushroom cloud from Hiroshima rose 40,000 feet (12 km) in just 15 minutes, visible from over 100 miles away. It became the iconic symbol of nuclear weapons' destructive power.",
+          "hu": "A Hirosimából származó gombafelhő mindössze 15 perc alatt 40 000 láb (12 km) magasságba emelkedett, több mint 160 km távolságból is látható volt. A nukleáris fegyverek pusztító erejének ikonikus szimbólumává vált.",
+          "ro": "Norul în formă de ciupercă de la Hiroshima s-a ridicat la 40.000 de picioare (12 km) în doar 15 minute, vizibil de la peste 160 km depărtare. A devenit simbolul iconic al puterii distructive a armelor nucleare."
         }
       },
       {
         "title": {
           "en": "Shadow Burns (Thermal Imprint)",
-          "hu": "Árny égések (termikus lenyomat)",
+          "hu": "Árnyék-égések (termikus lenyomat)",
           "ro": "Arsuri de umbre (amprentă termică)"
         },
         "description": {
-          "en": "People standing near the blast were vaporized, leaving only their shadows burned into concrete and stone - a haunting reminder of the weapon's power.",
-          "hu": "Az ember a fénylő közelében párologtak, csak az árnyékukat hagyva rá a betonra és kő felületre égve - a fegyver erejét rémisztően emlékeztető nyom.",
-          "ro": "Oamenii care stăteau lângă foc s-au evaporat, lăsând doar umbrele lor arse în beton și piatră - o amintire înspăimântătoare a puterii armei."
+          "en": "People standing near the blast were vaporized instantly, leaving only their shadows permanently burned into concrete and stone - a haunting reminder of the weapon's devastating power.",
+          "hu": "A robbanás közelében álló emberek azonnal elpárologtak, csak az árnyékukat hagyva beégve a betonba és kőbe - a fegyver pusztító erejének kísérteties emlékeztetője.",
+          "ro": "Oamenii care stăteau lângă explozie au fost vaporizați instantaneu, lăsând doar umbrele lor arse permanent în beton și piatră - o amintire înfiorătoare a puterii devastatoare a armei."
         }
       },
       {
         "title": {
           "en": "Hiroshima's Recovery",
-          "hu": "Hiroshima helyreállítása",
+          "hu": "Hirosima újjáépítése",
           "ro": "Recuperarea Hiroshimei"
         },
         "description": {
-          "en": "Despite the devastation, Hiroshima was rebuilt and is now a symbol of peace and anti-nuclear activism. The Hiroshima Peace Memorial Park attracts over 1 million visitors yearly.",
-          "hu": "A pusztulás ellenére Hiroshima újjáépült és mostani a béke és anti-nukleáris aktivizmus szimbóluma. A Hiroshimái Béke Emlékpark évente több mint 1 millió látogatót vonz.",
-          "ro": "În ciuda devastării, Hiroshima a fost reconstruită și este acum un simbol al păcii și activismului anti-nuclear. Parcul Memorialului Păcii din Hiroshima atrage peste 1 milion de vizitatori anual."
+          "en": "Despite the devastation, Hiroshima was rebuilt and is now a thriving city and symbol of peace and anti-nuclear activism. The Hiroshima Peace Memorial Park attracts over 1 million visitors yearly.",
+          "hu": "A pusztulás ellenére Hirosima újjáépült és ma egy virágzó város, valamint a béke és az atomfegyver-ellenes aktivizmus szimbóluma. A Hirosima Béke Emlékpark évente több mint 1 millió látogatót vonz.",
+          "ro": "În ciuda devastării, Hiroshima a fost reconstruită și este acum un oraș prosper și simbol al păcii și activismului anti-nuclear. Parcul Memorial al Păcii din Hiroshima atrage peste 1 milion de vizitatori anual."
         }
       }
     ]

@@ -97,6 +97,11 @@ app.get('/technology', (req, res) => {
   res.render('technology', { technology });
 });
 
+//404 handler
+app.use((req, res) => {
+  res.status(404).render('error_404');
+});
+
 // Start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

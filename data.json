@@ -59,6 +59,111 @@
         "ro": "Pe 7 decembrie 1941, Imperiul Japonez a lansat un atac aerian surpriză asupra bazei navale americane de la Pearl Harbor, Hawaii, distrugând sau avariind 21 de nave, inclusiv opt cuirasate, și peste 300 de avioane."
       },
       "year": 1941
+    },
+    {
+      "id": "kursk",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/Kursk-1943-Plan-GE.svg",
+      "name": {
+        "en": "Battle of Kursk",
+        "hu": "Kurszki csata",
+        "ro": "Bătălia de la Kursk"
+      },
+      "description": {
+        "en": "The Battle of Kursk, also called the Battle of the Kursk Salient, was a major World War II Eastern Front battle between Nazi Germany and the Soviet Union near Kursk in southwestern Russia during the summer of 1943, resulting in a Soviet victory. The Battle of Kursk is the single largest battle in the history of warfare. It was one of the costliest battles of the Second World War, the single deadliest armoured battle in history, the largest tank battle in history, and the opening day of the battle, 5 July, was the single costliest day in the history of aerial warfare in terms of aircraft shot down. The battle was further marked by fierce house-to-house fighting and hand-to-hand combat.",
+        "hu": "A kurszki csata, más néven a kurszki kiugrási csata, a második világháború keleti frontján 1943 nyarán a náci Németország és a Szovjetunió között, Oroszország délnyugati részén, Kurszk közelében vívott nagy csata volt, amely szovjet győzelemmel zárult. A kurszki csata a hadtörténelem legnagyobb csatája. A második világháború egyik legdrágább csatája, a történelem leghalálosabb páncélos csatája, a történelem legnagyobb tankcsatája volt, és a csata első napja, július 5., a légi hadviselés történelmének legdrágább napja volt a lelőtt repülőgépek számát tekintve. A csatát továbbá heves házról házra vívott harcok és közelharcok jellemezték.",
+        "ro": "Bătălia de la Kursk, numită și Bătălia de la Kursk Salient, a fost o bătălie importantă din cel de-al Doilea Război Mondial, care a avut loc pe Frontul de Est între Germania nazistă și Uniunea Sovietică, în apropiere de Kursk, în sud-vestul Rusiei, în vara anului 1943, și care s-a soldat cu victoria sovietică. Bătălia de la Kursk este cea mai mare bătălie din istoria războiului. A fost una dintre cele mai costisitoare bătălii din cel de-al Doilea Război Mondial, cea mai mortală bătălie blindată din istorie, cea mai mare bătălie cu tancuri din istorie, iar ziua de deschidere a bătăliei, 5 iulie, a fost cea mai costisitoare zi din istoria războiului aerian în ceea ce privește avioanele doborâte. Bătălia a fost marcată în continuare de lupte aprige din casă în casă și de lupte corp la corp"
+      },
+      "year": 1943
+    },
+    {
+      "id": "Leningrad",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/90/Leningrad_Siege_May_1942_-_January_1943.png",
+      "name": {
+        "en": "Siege of Leningrad",
+        "hu": "Leningrád ostroma",
+        "ro": "Asediul Leningradului"
+      },
+      "description": {
+        "en": "The siege of Leningrad was a military blockade undertaken by the Axis powers against the city of Leningrad in the Soviet Union on the Eastern Front of World War II from 1941 to 1944. Leningrad, the country's second largest city, was besieged by Germany and Finland for 872 days, but never captured. The siege was the most destructive in history and possibly the most deadly, causing an estimated 1.5 million deaths, from a prewar population of 3.2 million. It was not classified as a war crime at the time, but since then, some historians have classified it as a genocide due to the intentional destruction of the city and the systematic starvation of its civilian population.",
+        "hu": "A leningrádi ostrom a tengelyhatalmak által a második világháború keleti frontján, 1941 és 1944 között a Szovjetunióban fekvő Leningrád városa ellen végrehajtott katonai blokád volt. Leningrádot, az ország második legnagyobb városát, Németország és Finnország 872 napig ostromolta, de soha nem sikerült elfoglalnia. A ostrom volt a történelem legpusztítóbb és valószínűleg a leghalálosabb is, becslések szerint 1,5 millió halálesetet okozott a háború előtti 3,2 milliós lakosságból. Akkoriban nem minősítették háborús bűncselekménynek, de azóta egyes történészek a város szándékos megsemmisítése és a polgári lakosság szisztematikus éheztetése miatt népirtásnak minősítették.",
+        "ro": "Asediul Leningradului a fost o blocadă militară întreprinsă de puterile Axei împotriva orașului Leningrad din Uniunea Sovietică, pe frontul de est al celui de-al Doilea Război Mondial, între 1941 și 1944. Leningrad, al doilea oraș ca mărime al țării, a fost asediat de Germania și Finlanda timp de 872 de zile, dar nu a fost niciodată capturat. Asediul a fost cel mai distrugător din istorie și, probabil, cel mai mortal, provocând aproximativ 1,5 milioane de morți, dintr-o populație de 3,2 milioane înainte de război. La momentul respectiv, acesta nu a fost clasificat ca crimă de război, dar, de atunci, unii istorici l-au clasificat ca genocid, din cauza distrugerii intenționate a orașului și a înfometării sistematice a populației civile."
+      },
+      "year": 1941
+    },
+    {
+      "id": "Midway",
+      "picture": "https://substackcdn.com/image/fetch/$s_!0dBg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a5f9535-27d1-4b94-a2c7-6c1c7e569e3e_1000x563.jpeg",
+      "name": {
+        "en": "Battle of Midway",
+        "hu": "Midwayi csata",
+        "ro": "Bătălia de la Midway"
+      },
+      "description": {
+        "en": "The Battle of Midway was a major naval battle in the Pacific Theater of World War II that took place on 4–7 June 1942, six months after Japan's attack on Pearl Harbor and one month after the Battle of the Coral Sea. The Japanese Combined Fleet under the command of Isoroku Yamamoto suffered a decisive defeat by two carrier strike groups of the U.S. Pacific Fleet near Midway Atoll, about 2,100km northwest of Oahu. Yamamoto had intended to capture Midway and lure out and destroy the U.S. Pacific Fleet, especially the aircraft carriers which had escaped damage at Pearl Harbor.",
+        "hu": "A midwayi csata a második világháború csendes-óceáni hadszínterén zajló jelentős tengeri csata volt, amelyre 1942. június 4–7. között került sor, hat hónappal Japán Pearl Harbor elleni támadása és egy hónappal a Korall-tengeri csata után. A Yamamoto Isoroku parancsnoksága alatt álló japán egyesített flotta döntő vereséget szenvedett az amerikai csendes-óceáni flotta két repülőgép-hordozó csoportjától a Midway-atoll közelében, Oahu-tól északnyugatra körülbelül 2100 km-re. Yamamoto célja az volt, hogy elfoglalja Midway-t, és kicsalogassa és megsemmisítse az amerikai csendes-óceáni flottát, különösen azokat a repülőgép-hordozókat, amelyek megúszták a Pearl Harbor-i károkat.",
+        "ro": "Bătălia de la Midway a fost o bătălie navală importantă din teatrul de operațiuni din Pacific al celui de-al Doilea Război Mondial, care a avut loc în perioada 4-7 iunie 1942, la șase luni după atacul Japoniei asupra Pearl Harbor și la o lună după bătălia din Marea Coralilor. Flota combinată japoneză sub comanda lui Isoroku Yamamoto a suferit o înfrângere decisivă în fața a două grupuri de atac ale flotei americane din Pacific, în apropierea atolului Midway, la aproximativ 2.100 km nord-vest de Oahu. Yamamoto intenționa să captureze Midway și să atragă și să distrugă flota americană din Pacific, în special portavioanele care scăpaseră de distrugerea de la Pearl Harbor."
+      },
+      "year": 1942
+    },
+    {
+      "id": "defence of moscow",
+      "picture": "https://warfarehistorynetwork.com/article/battle-of-moscow-wwiis-first-critical-turning-point/",
+      "name": {
+        "en": "Battle of Moscow",
+        "hu": "Moszkvai csata",
+        "ro": "Bătălia de la Moscova"
+      },
+      "description": {
+        "en": "The Battle of Moscow was a military campaign that consisted of two periods of strategically significant fighting on a 600 km sector of the Eastern Front during World War II, between October 1941 and January 1942. The Soviet defensive effort thwarted Germany's attack on Moscow, the capital and largest city of the Soviet Union. Moscow was one of the primary military and political objectives for Axis forces in their invasion of the Soviet Union.",
+        "hu": "A moszkvai csata egy katonai hadjárat volt, amely két stratégiailag jelentős harci időszakból állt a keleti front 600 km-es szakaszán a második világháború alatt, 1941 októberétől 1942 januárjáig. A szovjet védekezés megakadályozta Németország támadását Moszkva, a Szovjetunió fővárosa és legnagyobb városa ellen. Moszkva az egyik legfontosabb katonai és politikai célpont volt a tengelyhatalmak számára a Szovjetunió elleni invázió során.",
+        "ro": "Bătălia de la Moscova a fost o campanie militară care a constat în două perioade de lupte strategice importante pe un sector de 600 km al Frontului de Est în timpul celui de-al Doilea Război Mondial, între octombrie 1941 și ianuarie 1942. Efortul defensiv sovietic a zădărnicit atacul Germaniei asupra Moscovei, capitala și cel mai mare oraș al Uniunii Sovietice. Moscova era unul dintre principalele obiective militare și politice ale forțelor Axei în invazia lor asupra Uniunii Sovietice."
+      },
+      "year": 1941
+    },
+    {
+      "id": "el alamein",
+      "picture": "https://the-past.com/feature/el-alamein-turning-point-in-the-desert/",
+      "name": {
+        "en": "Second Battle of El Alamein",
+        "hu": "Második el-alameini csata",
+        "ro": "A doua bătălie de la El Alamein"
+      },
+      "description": {
+        "en": "The Second Battle of El Alamein between 23 October – 11 November 1942 was a battle of the Second World War that took place near the Egyptian railway halt of El Alamein. The First Battle of El Alamein and the Battle of Alam el Halfa had prevented the Axis from advancing further into Egypt. In October 1942 Lieutenant-General Bernard Montgomery, commander of Eighth Army, opened his offensive against the Axis forces. In a 13-day battle the Axis Panzerarmee Afrika was crushed and forced to retreat from Egypt and Libya to the borders of Tunisia. The Allied victory at El Alamein was the beginning of the end of the Western Desert Campaign.",
+        "hu": "Az 1942. október 23. és november 11. között zajló második el-alameini csata a második világháború egyik csatája volt, amely az egyiptomi El Alamein vasútállomás közelében zajlott. Az első el-alameini csata és az Alam el Halfa-i csata megakadályozta a tengelyhatalmak további előrenyomulását Egyiptomban. 1942 októberében Bernard Montgomery altábornagy, a 8. hadsereg parancsnoka támadást indított a tengelyhatalmak erői ellen. A 13 napos csata során a tengelyhatalmak Panzerarmee Afrika hadseregét megsemmisítették, és visszavonulásra kényszerítették Egyiptomból és Líbiából Tunézia határáig. A szövetségesek el-alameini győzelme a nyugati sivatagi hadjárat végének kezdetét jelentette.",
+        "ro": "A doua bătălie de la El Alamein, care a avut loc între 23 octombrie și 11 noiembrie 1942, a fost o bătălie din cel de-al Doilea Război Mondial care s-a desfășurat în apropierea stației feroviare egiptene El Alamein. Prima bătălie de la El Alamein și bătălia de la Alam el Halfa au împiedicat Axa să avanseze mai departe în Egipt. În octombrie 1942, generalul-locotenent Bernard Montgomery, comandantul Armatei a Opta, a lansat ofensiva împotriva forțelor Axei. În urma unei bătălii care a durat 13 zile, Panzerarmee Afrika a fost înfrântă și forțată să se retragă din Egipt și Libia până la granițele Tunisiei. Victoria Aliaților la El Alamein a marcat începutul sfârșitului campaniei din deșertul occidental."
+      },
+      "year": 1942
+    },
+    {
+      "id": "dunkerque",
+      "picture": "https://www.theguardian.com/world/2017/jul/16/dunkirk-darkest-day-29-may-1940-evacuation-came-close-to-disaster",
+      "name": {
+        "en": "Battle of Dunkirk",
+        "hu": "Dunkerque-i csata",
+        "ro": "Bătălia de la Dunkerque"
+      },
+      "description": {
+        "en": "The Battle of Dunkirk was fought around the French port of Dunkirk during the Second World War, between the Allies and Nazi Germany. As the Allies were losing the Battle of France on the Western Front, the Battle of Dunkirk was the defence and evacuation of British and other Allied forces to Britain from 26 May to 4 June 1940. A series of Allied counter-attacks, including the Battle of Arras, failed to sever the German spearhead, which reached the coast on 20 May, separating the BEF near Armentières, the French First Army, and the Belgian Army further to the north from the majority of French troops south of the German penetration. After reaching the Channel, the German forces swung north along the coast, threatening to capture the ports and trap the British and French forces.",
+        "hu": "A dunkerque-i csata a második világháború alatt a franciaországi Dunkerque kikötő körül zajlott le a szövetségesek és Németország között. Mivel a szövetségesek elvesztették a franciaországi csatát a nyugati fronton, a dunkerque-i csata a brit és más szövetséges erők védelmét és evakuálását jelentette Nagy-Britanniába 1940. május 26. és június 4. között. A szövetségesek több ellentámadása, köztük az arrasi csata, nem tudta megakadályozni a német előrenyomulást, amely május 20-án elérte a partokat, elválasztva a BEF-et Armentières közelében, a francia első hadsereget és a belga hadsereget északabbra a német előrenyomulás déli részén lévő francia csapatok többségétől. Miután elérték a Csatornát, a német erők észak felé fordultak a part mentén, fenyegetve a kikötők elfoglalását és a brit és francia erők bekerítését.",
+        "ro": "Bătălia de la Dunkerque s-a dat în jurul portului francez Dunkerque în timpul celui de-al Doilea Război Mondial, între Aliați și Germania nazistă. Pe măsură ce Aliații pierdeau Bătălia Franței pe Frontul de Vest, Bătălia de la Dunkerque a reprezentat apărarea și evacuarea forțelor britanice și ale altor aliați în Marea Britanie, între 26 mai și 4 iunie 1940. O serie de contraofensive aliate, inclusiv bătălia de la Arras, nu au reușit să oprească avansul german, care a ajuns la coastă pe 20 mai, separând BEF lângă Armentières, Prima Armată Franceză și Armata Belgiană mai la nord de majoritatea trupelor franceze la sud de penetrarea germană. După ce au ajuns la Canalul Mânecii, forțele germane s-au îndreptat spre nord de-a lungul coastei, amenințând să captureze porturile și să prindă în capcană forțele britanice și franceze."
+      },
+      "year": 1940
+    },
+    {
+      "id": "blitzkrieg of france",
+      "picture": "https://www.lovecpokladu.cz/img/2020/viky/german-panzer-korps-1940.jpg",
+      "name": {
+        "en": "Battle of France",
+        "hu": "Franciaországi hadjárat",
+        "ro": "Bătălia Franței"
+      },
+      "description": {
+        "en": "The Battle of France between 10 May – 25 June 1940, also known as the Fall of France, during the Second World War was the German invasion of the Low Countries: Belgium, Luxembourg and the Netherlands and France. The plan for the invasion of the Low Countries and France was called Fall Gelb. The Low Countries and France were defeated and occupied by Axis troops down to the Demarcation line. In Fall Gelb, German armoured units advanced through the Ardennes, crossed the Meuse and raced down the Somme valley, cutting off and surrounding the Allied units that had advanced into Belgium to meet the German armies there.  Fall Rot  was planned to finish off the French and British after the evacuation at Dunkirk.",
+        "hu": "Bătălia Franței, care a avut loc între 10 mai și 25 iunie 1940, cunoscută și sub numele de Căderea Franței, în timpul celui de-al Doilea Război Mondial, a reprezentat invazia germană a Țărilor de Jos: Belgia, Luxemburg, Olanda și Franța. Planul de invazie a Țărilor de Jos și a Franței a fost denumit Fall Gelb. Țările de Jos și Franța au fost învinse și ocupate de trupele Axei până la linia de demarcație. În cadrul Fall Gelb, unitățile blindate germane au avansat prin Ardeni, au traversat Meuse și au coborât în valea Somme, izolând și încercuind unitățile aliate care avansaseră în Belgia pentru a se întâlni cu armatele germane acolo. Fall Rot a fost planificat pentru a-i elimina pe francezi și britanici după evacuarea de la Dunkerque.",
+        "ro": "A második világháború alatt, 1940. május 10. és június 25. között zajló franciaországi csata, más néven Franciaország bukása, a német hadsereg invázióját jelentette az alacsonyan fekvő országokba: Belgiumba, Luxemburgba, Hollandiába és Franciaországba. Az alacsonyan fekvő országok és Franciaország inváziójának terve Fall Gelb néven volt ismert. Az alacsonyan fekvő országokat és Franciaországot a tengelyhatalmak csapatait legyőzték és elfoglalták a demarkációs vonalig. A Fall Gelb hadművelet során a német páncélos egységek előrenyomultak az Ardennekben, átkeltek a Maas folyón, és végigrohantak a Somme-völgyön, elvágva és bekerítve a szövetséges egységeket, amelyek Belgiumba nyomultak előre, hogy ott találkozzanak a német hadsereggel. A Fall Rot hadműveletet a dunkerque-i evakuálás után a franciák és a britek megsemmisítésére tervezték."
+      },
+      "year": 1940
     }
   ],
   "weapons": [

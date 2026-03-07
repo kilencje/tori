@@ -107,7 +107,7 @@
     },
     {
       "id": "defence of moscow",
-      "picture": "https://warfarehistorynetwork.com/article/battle-of-moscow-wwiis-first-critical-turning-point/",
+      "picture": "https://warfarehistorynetwork.com/wp-content/uploads/2021/04/W-Tula-LEAD-4C-LF12-2000x1125.jpg",
       "name": {
         "en": "Battle of Moscow",
         "hu": "Moszkvai csata",
@@ -122,7 +122,7 @@
     },
     {
       "id": "el alamein",
-      "picture": "https://the-past.com/feature/el-alamein-turning-point-in-the-desert/",
+      "picture": "https://i0.wp.com/the-past.com/wp-content/uploads/2022/09/post-1_image3-11.jpg?fit=1490%2C822&ssl=1",
       "name": {
         "en": "Second Battle of El Alamein",
         "hu": "Második el-alameini csata",
@@ -137,7 +137,7 @@
     },
     {
       "id": "dunkerque",
-      "picture": "https://www.theguardian.com/world/2017/jul/16/dunkirk-darkest-day-29-may-1940-evacuation-came-close-to-disaster",
+      "picture": "https://i.guim.co.uk/img/media/7163f00b42a77e4e963ed45fcb7520d08893c3d2/0_595_4960_2976/master/4960.jpg?width=1900&dpr=1&s=none&crop=none",
       "name": {
         "en": "Battle of Dunkirk",
         "hu": "Dunkerque-i csata",
@@ -176,9 +176,9 @@
         "ro": "Tanc M4 Sherman"
       },
       "description": {
-        "en": "An American medium tank used extensively by the Allies.",
-        "hu": "Egy amerikai közepes harckocsi amelyet a szövetségesek széles körben használtak.",
-        "ro": "Un tanc mediu american folosit pe scară largă de către Aliați."
+        "en": "he M4 Sherman, officially Medium Tank, M4, was the medium tank most widely used by the United States and Western Allies in World War II. The M4 Sherman was reliable and well adapted to mass production. Tens of thousands were distributed through the Lend-Lease program to the British Commonwealth, Soviet Union, and other Allied Nations. The tank was named by the British after the American Civil War General William Tecumseh Sherman. It was also the basis of several other armored fighting vehicles including self-propelled artillery, tank destroyers, and armored recovery vehicles. The M4 Sherman tank evolved from the earlier M3 Lee. The M3's unconventional layout and the limitations of its hull-mounted gun prompted the need for a more efficient and versatile design, leading to the development of the M4 Sherman.",
+        "hu": "Az M4 Sherman, hivatalos nevén Medium Tank, M4, a második világháborúban az Egyesült Államok és a nyugati szövetségesek által legszélesebb körben használt közepes harckocsi volt. Az M4 Sherman megbízható és jól alkalmazkodott a tömeggyártáshoz. Több tízezer darabot osztottak szét a Lend-Lease program keretében a Brit Nemzetközösség, a Szovjetunió és más szövetséges nemzetek között. A harckocsit a britek az amerikai polgárháború tábornoka, William Tecumseh Sherman után nevezték el. Számos más páncélos harci jármű alapjául is szolgált, többek között önjáró tüzérségi járművek, tankelhárítók és páncélos mentőjárművek. Az M4 Sherman tank a korábbi M3 Lee-ből fejlődött ki. Az M3 szokatlan elrendezése és a toronyra szerelt ágyú korlátai miatt hatékonyabb és sokoldalúbb kialakításra volt szükség, ami az M4 Sherman kifejlesztéséhez vezetett.",
+        "ro": "M4 Sherman, denumit oficial Medium Tank, M4, a fost tancul mediu cel mai utilizat de Statele Unite și aliații occidentali în cel de-al Doilea Război Mondial. M4 Sherman era fiabil și bine adaptat producției în serie. Zeci de mii de exemplare au fost distribuite prin programul Lend-Lease către Commonwealth-ul Britanic, Uniunea Sovietică și alte națiuni aliate. Tancul a fost numit de britanici după generalul american din Războiul Civil American William Tecumseh Sherman. A fost, de asemenea, baza pentru mai multe alte vehicule blindate de luptă, inclusiv artilerie autopropulsată, distrugătoare de tancuri și vehicule blindate de recuperare. Tancul M4 Sherman a evoluat din modelul anterior M3 Lee. Configurația neconvențională a modelului M3 și limitările tunului montat pe șasiu au determinat necesitatea unui design mai eficient și mai versatil, ceea ce a dus la dezvoltarea modelului M4 Sherman."
       },
       "type": {
         "en": "Ground",
@@ -189,20 +189,20 @@
     },
     {
       "id": "spitfire",
-      "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770979725/spitfire_yvy2ac.jpg",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Spitfire_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg/330px-Spitfire_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg",
       "name": {
         "en": "Supermarine Spitfire",
         "hu": "Supermarine Spitfire",
         "ro": "Supermarine Spitfire"
       },
       "description": {
-        "en": "A British fighter aircraft famous for its role in the Battle of Britain.",
-        "hu": "Egy brit vadászrepülő híres szerepéről a Britanniai csatában.",
-        "ro": "Un avion de vânătoare britanic celebru pentru rolul său în Bătălia Angliei."
+        "en": "The Supermarine Spitfire is a British single-seat fighter aircraft that was used by the Royal Air Force and other Allied countries before, during, and after World War II. It was the only British fighter produced continuously throughout the war. The Spitfire was a short-range, high-performance interceptor aircraft designed by R.J. Mitchell, chief designer at Supermarine Aviation Works, which operated as a subsidiary of Vickers-Armstrong from 1928. Mitchell modified the Spitfire's distinctive elliptical wing with innovative sunken rivets to have the thinnest possible cross-section, achieving a potential top speed greater than that of several contemporary fighter aircraft, including the Hawker Hurricane. Mitchell continued to refine the design until his death from cancer in 1937, whereupon his colleague Joseph Smith took over as chief designer.",
+        "hu": "A Supermarine Spitfire egy brit együléses vadászrepülőgép, amelyet a Királyi Légierő és más szövetséges országok használtak a második világháború előtt, alatt és után. Ez volt az egyetlen brit vadászgép, amelyet a háború alatt folyamatosan gyártottak. A Spitfire egy rövid hatótávolságú, nagy teljesítményű elfogó repülőgép volt, amelyet R.J. Mitchell, a Supermarine Aviation Works főtervezője tervezett, amely 1928-tól a Vickers-Armstrong leányvállalataként működött. Mitchell innovatív süllyesztett szegecsekkel módosította a Spitfire jellegzetes elliptikus szárnyát, hogy a lehető legvékonyabb keresztmetszetet érje el, és ezzel több kortárs vadászgép, köztük a Hawker Hurricane maximális sebességét is meghaladta. Mitchell 1937-ben rákban elhunyt, de addig is folytatta a tervezés finomítását, majd kollégája, Joseph Smith vette át a főtervezői posztot.",
+        "ro": "Supermarine Spitfire este un avion de vânătoare britanic monoplaza care a fost utilizat de Royal Air Force și de alte țări aliate înainte, în timpul și după cel de-al Doilea Război Mondial. A fost singurul avion de vânătoare britanic produs în mod continuu pe durata războiului. Spitfire era un avion de interceptare de rază scurtă și de înaltă performanță, proiectat de R.J. Mitchell, proiectant șef la Supermarine Aviation Works, care a funcționat ca filială a Vickers-Armstrong din 1928. Mitchell a modificat aripa eliptică distinctivă a avionului Spitfire cu nituri inovatoare încastrate pentru a obține cea mai subțire secțiune transversală posibilă, atingând o viteză maximă potențială mai mare decât cea a mai multor avioane de vânătoare contemporane, inclusiv Hawker Hurricane. Mitchell a continuat să perfecționeze proiectul până la moartea sa din cauza cancerului în 1937, moment în care colegul său Joseph Smith a preluat funcția de proiectant șef."
       },
       "type": {
         "en": "Air",
-        "hu": "Légi",
+        "hu": "Repülő",
         "ro": "Aerian"
       },
       "category": "air"
@@ -216,13 +216,13 @@
         "ro": "Rachetă V-2"
       },
       "description": {
-        "en": "A German ballistic missile the world's first long-range guided ballistic missile.",
-        "hu": "Egy német ballisztikus rakéta a világ első hosszú hatótávolságú irányított ballisztikus rakétája.",
-        "ro": "O rachetă balistică germană prima rachetă balistică ghidată cu rază lungă de acțiune din lume."
+        "en": "The V-2 rocket, with the development name Aggregat-4 , was the world's first practical, modern ballistic missile. The missile, powered by a liquid-propellant rocket engine, was developed during the Second World War in Nazi Germany as a vengeance weapon and assigned to attack Allied cities as retaliation for the Allied bombings of German cities. After an altitude of 100km was selected to define the edge of space, the V2 rocket also became retroactively the first artificial object to travel into space with the vertical launch of MW 18014 on 20 June 1944",
+        "hu": "A V-2 rakéta, fejlesztési nevén Aggregat-4, a világ első praktikus, modern ballisztikus rakétája volt. A folyékony hajtóanyagú rakétamotorral hajtott rakétát a második világháború alatt fejlesztették ki Németországban, mint „bosszúfegyvert”, és a szövetségesek német városok bombázásának megtorlásaként a szövetségesek városainak támadására szánták. Miután a 100 km-es magasságot választották az űr határának meghatározására, a V2 rakéta visszamenőlegesen az első mesterséges tárgy lett, amely 1944. június 20-án az MW 18014 vertikális indításával eljutott az űrbe.",
+        "ro": "Racheta V-2, cu numele de dezvoltare Aggregat-4, a fost prima rachetă balistică modernă și funcțională din lume. Racheta, propulsată de un motor cu combustibil lichid, a fost dezvoltată în timpul celui de-al Doilea Război Mondial în Germania nazistă ca „armă de răzbunare” și destinată să atace orașele aliate ca represalii pentru bombardamentele aliate asupra orașelor germane. După ce s-a stabilit altitudinea de 100 km ca limită a spațiului, racheta V2 a devenit retroactiv primul obiect artificial care a călătorit în spațiu, odată cu lansarea verticală a MW 18014, la 20 iunie 1944."
       },
       "type": {
         "en": "Air",
-        "hu": "Légi",
+        "hu": "Repülő",
         "ro": "Aerian"
       },
       "category": "air"
@@ -236,9 +236,709 @@
         "ro": "Nava de război Yamato"
       },
       "description": {
-        "en": "The largest battleship ever built by Japan, known for its massive firepower.",
-        "hu": "Japán által épített legnagyobb csatahajó, hatalmas tűzerejéről ismert.",
-        "ro": "Cea mai mare navă de război construită vreodată de Japonia, cunoscută pentru puterea sa de foc masivă."
+        "en": "Yamato was the lead ship of her class of battleships built for the Imperial Japanese Navy  shortly before World War II. She and her sister ship, Musashi, were the heaviest and most powerfully armed battleships ever constructed, displacing nearly 72,000 tonnes at full load and armed with nine 46 cm Type 94 main guns, which were the largest guns ever mounted on a warship. Yamato was designed to counter the numerically superior battleship fleet of the United States, Japan's main rival in the Pacific. She was laid down in 1937 and formally commissioned a week after the attack on Pearl Harbor in December 1941. Throughout 1942, she served as the flagship of the Combined Fleet, and in June 1942 Admiral Isoroku Yamamoto directed the fleet from her bridge during the Battle of Midway, a disastrous defeat for Japan. Musashi took over as the Combined Fleet flagship in early 1943, and Yamato spent the rest of the year moving between the major Japanese naval bases of Truk and Kure in response to American threats. In December 1943, Yamato was torpedoed by an American submarine which necessitated repairs at Kure, where she was refitted with additional anti-aircraft guns and radar in early 1944.",
+        "hu": "A Yamato volt a második világháború előtt a Japán Császári Haditengerészet számára épített csatahajók osztályának vezető hajója. Ő és testvérhajója, a Musashi voltak a valaha épített legnehezebb és legerősebb fegyverzetű csatahajók, teljes terhelés mellett közel 72 000 tonna vízkiszorításúak voltak, és kilenc 46 cm-es 94-es típusú főágyúval voltak felszerelve, amelyek a valaha hadihajóra szerelt legnagyobb ágyúk voltak. A Yamato-t úgy tervezték, hogy ellensúlyozza az Egyesült Államok, Japán fő riválisának a Csendes-óceánon, számbeli fölényben lévő csatahajóflottáját. 1937-ben kezdték el építeni, és 1941 decemberében, egy héttel a Pearl Harbor-i támadás után vették hivatalosan szolgálatba. 1942 folyamán a kombinált flotta zászlóshajójaként szolgált, és 1942 júniusában Isoroku Yamamoto admirális a Midway-i csatában, amely katasztrofális vereséget hozott Japánnak, a hajó hídjáról irányította a flottát. 1943 elején a Musashi vette át a kombinált flotta zászlóshajójának szerepét, a Yamato pedig az év hátralévő részét az amerikai fenyegetésekre reagálva a japán haditengerészet főbb bázisai, Truk és Kure között töltötte. 1943 decemberében a Yamato-t egy amerikai tengeralattjáró torpedózta meg, ami miatt javításra szorult Kure-ban, ahol 1944 elején további légvédelmi ágyúkkal és radarral szerelték fel.",
+        "ro": "A Yamato volt a második világháború előtt a Japán Császári Haditengerészet számára épített csatahajók osztályának vezető hajója. Ő és testvérhajója, a Musashi voltak a valaha épített legnehezebb és legerősebb fegyverzetű csatahajók, teljes terhelés mellett közel 72 000 tonna vízkiszorításúak voltak, és kilenc 46 cm-es 94-es típusú főágyúval voltak felszerelve, amelyek a valaha hadihajóra szerelt legnagyobb ágyúk voltak. A Yamato-t úgy tervezték, hogy ellensúlyozza az Egyesült Államok, Japán fő riválisának a Csendes-óceánon, számbeli fölényben lévő csatahajóflottáját. 1937-ben kezdték el építeni, és 1941 decemberében, egy héttel a Pearl Harbor-i támadás után vették hivatalosan szolgálatba. 1942 folyamán a kombinált flotta zászlóshajójaként szolgált, és 1942 júniusában Isoroku Yamamoto admirális a Midway-i csatában, amely katasztrofális vereséget hozott Japánnak, a hajó hídjáról irányította a flottát. 1943 elején a Musashi vette át a kombinált flotta zászlóshajójának szerepét, a Yamato pedig az év hátralévő részét az amerikai fenyegetésekre reagálva a japán haditengerészet főbb bázisai, Truk és Kure között töltötte. 1943 decemberében a Yamato-t egy amerikai tengeralattjáró torpedózta meg, ami miatt javításra szorult Kure-ban, ahol 1944 elején további légvédelmi ágyúkkal és radarral szerelték fel."
+      },
+      "type": {
+        "en": "Water",
+        "hu": "Vízi",
+        "ro": "Acvatic"
+      },
+      "category": "water"
+    },
+    {
+      "id": "stg-44",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sturmgewehr44_noBG.jpg/330px-Sturmgewehr44_noBG.jpg",
+      "name": {
+        "en": "Stg-44",
+        "hu": "Stg-44",
+        "ro": "Stg-44"
+      },
+      "description": {
+        "en": "The StG 44 was the first successful assault rifle, with features including an intermediate cartridge, controllable automatic fire, a more compact design than a battle rifle with a higher rate of fire, and being designed primarily for hitting targets within a few hundred metres. It was widely used by Germany on the eastern front whit great succes",
+        "hu": "Az StG 44 volt az első sikeres gépkarabély, amelynek jellemzői között szerepelt a köztes lőszer, a szabályozható automata tűz, a harci puskáknál kompaktabb kialakítás és a nagyobb tűzgyorsaság, és amelyet elsősorban néhány száz méteren belüli célok eltalálására terveztek. Németország széles körben és nagy sikerrel alkalmazta a keleti fronton.",
+        "ro": "StG 44 a fost prima pușcă de asalt de succes, cu caracteristici precum cartuș intermediar, foc automat controlabil, un design mai compact decât o pușcă de luptă, cu o rată de foc mai mare, fiind concepută în principal pentru a lovi ținte aflate la câteva sute de metri distanță. A fost utilizată pe scară largă de Germania pe frontul de est, cu mare succes."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "mp-40",
+      "picture": "https://ro.wikipedia.org/wiki/MP_40",
+      "name": {
+        "en": "Mp-40",
+        "hu": "Mp-40",
+        "ro": "Mp-40"
+      },
+      "description": {
+        "en": "Designed in 1938 by Heinrich Vollmer for the german army with inspiration from its predecessor the MP 38, it was heavily used by infantrymen  and by paratroopers, on the Eastern and Western Fronts as well as by the crews of armoured fighting vehicles. Its advanced and modern features made it a favorite among soldiers.",
+        "hu": "Heinrich Vollmer 1938-ban tervezte a német hadsereg számára, elődjét, az MP 38-at mintául véve. A keleti és nyugati fronton a gyalogosok és ejtőernyősök, valamint a páncélos harci járművek legénysége is széles körben használta. Fejlett és modern tulajdonságai miatt a katonák kedvence volt.",
+        "ro": "Proiectat în 1938 de Heinrich Vollmer pentru armata germană, inspirându-se din predecesorul său MP 38, a fost utilizat intens de infanteristi  și parașutiști, pe fronturile de est și de vest, precum și de echipajele vehiculelor blindate de luptă. Caracteristicile sale avansate și moderne l-au făcut preferatul soldaților."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "mg-34",
+      "picture": "https://www.ima-usa.com/products/german-mg-34-display-machine-gun-dot-dated-1945",
+      "name": {
+        "en": "Mg-34",
+        "hu": "Mg-43",
+        "ro": "Mg-43"
+      },
+      "description": {
+        "en": "The MG 34 is a German recoil-operated air-cooled general-purpose machine gun, first tested in 1929, introduced in 1934, and issued to units in 1936. It introduced an entirely new concept in automatic firepower and is generally considered the world's first general-purpose machine gun.",
+        "hu": "Az MG 34 egy német, visszarúgásos, léghűtéses, általános célú géppuska, amelyet először 1929-ben teszteltek, 1934-ben vezettek be, és 1936-ban adtak ki az egységeknek. Teljesen új koncepciót vezetett be az automatikus tűzerő terén, és általában a világ első általános célú géppuskájának tekintik.",
+        "ro": "MG 34 este o mitralieră germană cu răcire aeriană, acționată prin recul, testată pentru prima dată în 1929, introdusă în 1934 și distribuită unităților militare în 1936. Aceasta a introdus un concept complet nou în domeniul puterii de foc automate și este considerată, în general, prima mitralieră universală din lume."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "m1 Grand",
+      "picture": "https://weaponsystems.net/system/723-M1+Garand",
+      "name": {
+        "en": "M1 Grand",
+        "hu": "M1 Grand",
+        "ro": "M1 grand"
+      },
+      "description": {
+        "en": "The M1 Garand or M1 rifle is a semi-automatic rifle that was the service rifle of the U.S. Army during World War II and the Korean War. The rifle is chambered for the .30-06 Springfield cartridge and is named after its Canadian-American designer, John Garand. It was the first standard-issue autoloading rifle for the United States. By most accounts, the M1 rifle performed well. General George S. Patton called it the greatest battle implement ever devised.",
+        "hu": "Az M1 Garand vagy M1 puska egy félautomata puska, amely a második világháború és a koreai háború idején az amerikai hadsereg szolgálati fegyvere volt. A puska .30-06 Springfield töltényt használ, és kanadai-amerikai tervezőjéről, John Garandról kapta a nevét. Ez volt az első szabványos önműködő puska az Egyesült Államokban. A legtöbb beszámoló szerint az M1 puska jól teljesített. George S. Patton tábornok „a valaha kitalált legnagyobb harci eszköznek” nevezte.",
+        "ro": "Pușca M1 Garand sau M1 este o pușcă semiautomată care a fost pușca de serviciu a armatei americane în timpul celui de-al Doilea Război Mondial și al Războiului din Coreea. Pușca este prevăzută pentru cartușul .30-06 Springfield și poartă numele designerului său canadian-american, John Garand. A fost prima pușcă cu încărcare automată standard pentru Statele Unite. În opinia majorității, pușca M1 a avut performanțe bune. Generalul George S. Patton a numit-o „cea mai bună armă de luptă concepută vreodată”."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Panzer III",
+      "picture": "https://tank-afv.com/ww2/germany/Medium_Tanks/Panzer-III/Pzkpfw-III_Ausf-J-late-sicily.png",
+      "name": {
+        "en": "Panzer III",
+        "hu": "Panzer III",
+        "ro": "Panzer III"
+      },
+      "description": {
+        "en": "The Panzerkampfwagen III commonly known as the Panzer III, was a medium tank developed in the 1930s by Germany, and was used extensively in World War II. The official German ordnance designation was Sd.Kfz. 141. It was intended to fight other armoured fighting vehicles and serve alongside and support the similar Panzer IV, which was originally designed for infantry support. Initially, the Panzer III had the same 3.7 cm gun as the infantry used in an anti-tank role, but later models were given the 5 cm KwK 38 gun. This was the largest gun that could be fitted within the physical limitations of the turret ring, but it turned out to be ineffective against Soviet T-34 and KV-1 tanks.",
+        "hu": "A Panzerkampfwagen III, közismert nevén Panzer III, egy közepes harckocsi volt, amelyet Németország fejlesztett ki az 1930-as években, és amelyet széles körben használtak a második világháborúban. A hivatalos német hadtápos megjelölése Sd.Kfz. 141 volt. Célja az volt, hogy más páncélos harci járművekkel harcoljon, valamint hogy a hasonló Panzer IV mellett szolgáljon és támogassa azt, amelyet eredetileg gyalogsági támogatásra terveztek. Kezdetben a Panzer III ugyanazzal a 3,7 cm-es ágyúval rendelkezett, mint a gyalogság páncélelhárító szerepkörben használt ágyúja, de a későbbi modellek 5 cm-es KwK 38 ágyút kaptak. Ez volt a legnagyobb ágyú, amely a toronygyűrű fizikai korlátai között elfért, de hatástalannak bizonyult a szovjet T-34 és KV-1 tankok ellen.",
+        "ro": "Panzerkampfwagen III, cunoscut în mod obișnuit sub numele de Panzer III, a fost un tanc mediu dezvoltat în anii 1930 de Germania și a fost utilizat pe scară largă în al Doilea Război Mondial. Denumirea oficială germană era Sd.Kfz. 141. Era destinat să lupte împotriva altor vehicule blindate de luptă și să servească alături de și să sprijine Panzer IV, care a fost proiectat inițial pentru sprijinul infanteriei. Inițial, Panzer III avea același tun de 3,7 cm ca și infanteria utilizat în rolul de antitanc, dar modelele ulterioare au fost echipate cu tunul KwK 38 de 5 cm. Acesta era cel mai mare tun care putea fi montat în limitele fizice ale inelului turelei, dar s-a dovedit a fi ineficient împotriva tancurilor sovietice T-34 și KV-1."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Panzer IV",
+      "picture": "https://tank-afv.com/ww2/germany/Medium_Tanks/Panzer-IV/panzerIVF2_SSbat_1942.png",
+      "name": {
+        "en": "Panzer IV",
+        "hu": "Panzer IV",
+        "ro": "Panzer IV"
+      },
+      "description": {
+        "en": "The Panzerkampfwagen IV , commonly known as the Panzer IV, is a German medium tank developed in the late 1930s and used extensively during the Second World War. Its ordnance inventory designation was Sd.Kfz. 161. The Panzer IV was the most numerous German tank and the second-most numerous German fully tracked armoured fighting vehicle of the Second World War; 8,553 Panzer IVs of all versions were built during World War II, only exceeded by the StuG III assault gun with 10,086 vehicles. The Panzer IV saw service in all combat theatres involving Germany and was the only German tank to remain in continuous production throughout the war. The Panzer IV was originally designed for infantry support, while the similar Panzer III was to fight armoured fighting vehicles. However, as the Germans faced the formidable T-34, the Panzer IV had more development potential, with a larger turret ring to mount more powerful guns, so it swapped roles with the Panzer III whose production wound down in 1943.",
+        "hu": "A Panzerkampfwagen IV, közismert nevén Panzer IV, egy német közepes harckocsi, amelyet az 1930-as évek végén fejlesztettek ki, és a második világháborúban széles körben használtak.  Fegyverzeti leltári jelölése Sd.Kfz. 161 volt. A Panzer IV volt a második világháborúban a leggyakoribb német harckocsi és a második leggyakoribb német teljes lánctalpas páncélos harci jármű; a második világháború alatt összesen 8553 Panzer IV-et gyártottak, csak a StuG III rohamlöveg előzte meg 10 086 járművel. A Panzer IV minden, Németországot érintő harctéren bevetésre került, és az egyetlen német harckocsi volt, amelynek gyártása a háború alatt folyamatosan folyt. A Panzer IV-et eredetileg gyalogsági támogatásra tervezték, míg a hasonló Panzer III páncélos harci járművek elleni harcra. Azonban, amikor a németek szembesültek a félelmetes T-34-essel, a Panzer IV-nek nagyobb fejlesztési potenciálja volt, nagyobb toronygyűrűjével erősebb fegyverek szerelhetők voltak rá, így szerepet cserélt a Panzer III-mal, amelynek gyártását 1943-ban leállították.",
+        "ro": "Panzerkampfwagen IV, cunoscut în mod obișnuit sub numele de Panzer IV, este un tanc mediu german dezvoltat la sfârșitul anilor 1930 și utilizat pe scară largă în timpul celui de-al Doilea Război Mondial. Denumirea sa în inventarul armamentului era Sd.Kfz. 161. Panzer IV a fost cel mai numeros tanc german și al doilea cel mai numeros vehicul blindat german cu șenile din cel de-al Doilea Război Mondial; 8.553 de Panzer IV de toate versiunile au fost construite în timpul celui de-al Doilea Război Mondial, depășit doar de tunul de asalt StuG III cu 10.086 de vehicule. Panzer IV a fost utilizat în toate teatrele de luptă în care a fost implicată Germania și a fost singurul tanc german care a rămas în producție continuă pe tot parcursul războiului. Panzer IV a fost proiectat inițial pentru sprijinul infanteriei, în timp ce Panzer III, similar, era destinat luptei împotriva vehiculelor blindate de luptă. Cu toate acestea, pe măsură ce germanii s-au confruntat cu formidabilul T-34, Panzer IV a avut un potențial de dezvoltare mai mare, cu un inel de turelă mai mare pentru a monta arme mai puternice, astfel încât a schimbat rolurile cu Panzer III, a cărui producție a încetat în 1943."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Tiger",
+      "picture": "https://tank-afv.com/wp-content/uploads/2016/03/Bundesarchiv_Bild_101I-554-0872-35_Tunesien_Panzer_VI_Tiger_I.jpg",
+      "name": {
+        "en": "Panzer VI Tiger I",
+        "hu": "Panzer VI Tiger I",
+        "ro": "Panzer VI Tiger I"
+      },
+      "description": {
+        "en": "The Tiger I was a German heavy tank of World War II that began operational duty in 1942 in Africa and in the Soviet Union, usually in independent heavy tank battalions. It gave the German Army its first armoured fighting vehicle that mounted the 8.8 cm KwK 36 gun derived from the 8.8 cm Flak 36, the famous eighty-eight feared by Allied troops. 1,347 were built between August 1942 and August 1944. After August 1944, production of the Tiger I was phased out in favour of the Tiger II. While the Tiger I has been called an outstanding design for its time, it has also been criticized for being overengineered, and for using expensive materials and labour-intensive production methods. In the early period, the Tiger was prone to certain types of track failures and breakdowns. It was expensive to maintain, but generally mechanically reliable.",
+        "hu": "Tiger I a fost un tanc greu german din cel de-al Doilea Război Mondial, care a intrat în serviciul operațional în 1942 în Africa și în Uniunea Sovietică, de obicei în batalioane independente de tancuri grele. Acesta a oferit armatei germane primul său vehicul blindat de luptă echipat cu tunul KwK 36 de 8,8 cm, derivat din Flak 36 de 8,8 cm, faimosul „optzeci și opt” temut de trupele aliate. Între august 1942 și august 1944 au fost construite 1.347 de exemplare. După august 1944, producția modelului Tiger I a fost întreruptă în favoarea modelului Tiger II. Deși Tiger I a fost considerat un model remarcabil pentru vremea sa, a fost criticat pentru că era prea sofisticat și pentru că folosea materiale scumpe și metode de producție care necesitau multă muncă. În perioada inițială, Tiger era predispus la anumite tipuri de defecțiuni și avarii ale șenilelor. Era scump de întreținut, dar, în general, fiabil din punct de vedere mecanic.",
+        "ro": "A Tiger I egy német nehéz harckocsi volt a második világháborúban, amely 1942-ben kezdte meg szolgálatát Afrikában és a Szovjetunióban, általában önálló nehéz harckocsi zászlóaljakban. Ez volt a német hadsereg első páncélos harci járműve, amelyre a 8,8 cm-es Flak 36-ból származó 8,8 cm-es KwK 36 ágyút szerelték, a szövetséges csapatok által rettegett híres „nyolcvannyolcat”. 1942 augusztusa és 1944 augusztusa között 1347 darabot gyártottak belőle. 1944 augusztusa után a Tiger I gyártását fokozatosan leállították a Tiger II javára. Bár a Tiger I-et korának kiemelkedő tervezésű járművének tartják, kritizálták azért is, mert túltervezett volt, drága anyagokat használtak hozzá, és gyártása munkaigényes volt. A korai időszakban a Tiger hajlamos volt bizonyos típusú lánctalpas meghibásodásokra és megszakításokra. Karbantartása drága volt, de általában mechanikailag megbízható volt."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "King Tiger",
+      "picture": "https://tank-afv.com/ww2/germany/photos/Bundesarchiv_Frankreich_Panzer_VI_(Tiger_II_Koenigstiger)4.jpg",
+      "name": {
+        "en": "Panzer VI Königstiger",
+        "hu": "Panzer VI Königstiger",
+        "ro": "Panzer VI Königstiger"
+      },
+      "description": {
+        "en": "The Tiger II was a German heavy tank of the Second World War. The final official German designation was Panzerkampfwagen Tiger Ausf. B, often shortened to Tiger B.  The ordnance inventory designation was Sd.Kfz. 182. It was also known informally as the Königstiger. Contemporaneous Allied soldiers often called it the King Tiger or Royal Tiger.  The Tiger II was the successor to the Tiger I, combining the latter's thick armour with the armour sloping used on the Panther medium tank. It was the costliest German tank to produce at the time. The tank weighed almost 70 tonnes and was protected by 100 to 185 mm of armour to the front. It was armed with the long barrelled 8.8 cm KwK 43 anti-tank cannon. The Tiger II was issued to heavy tank battalions of the Army and the Waffen-SS. It was first used in combat by 503rd Heavy Panzer Battalion during the Allied invasion of Normandy on 11 July 1944",
+        "hu": "A Tiger II egy német nehéz harckocsi volt a második világháborúban. A végleges hivatalos német megnevezése Panzerkampfwagen Tiger Ausf. B volt, amelyet gyakran Tiger B-re rövidítettek.  A hadtápos leltári megnevezése Sd.Kfz. 182 volt. Nem hivatalosan Königstiger néven is ismert volt. A kortárs szövetséges katonák gyakran King Tiger vagy Royal Tiger néven emlegették.  A Tiger II a Tiger I utódja volt, amely az utóbbi vastag páncélzatát a Panther közepes harckocsin alkalmazott lejtős páncélzattal kombinálta. Ez volt a legdrágább német harckocsi gyártása abban az időben. A tank súlya közel 70 tonna volt, elülső páncélzata 100–185 mm vastag volt. Fegyverzete egy hosszú csövű, 8,8 cm-es KwK 43 páncéltörő ágyú volt. A Tiger II-t a hadsereg és a Waffen-SS nehéz tankos zászlóaljai kapták meg. Első alkalommal 1944. július 11-én, a normandiai partraszállás során vetette be a 503. nehéz tankos zászlóalj.",
+        "ro": ""
+      },
+      "type": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "category": ""
+    },
+    {
+      "id": ",Tiger II a fost un tanc greu german din cel de-al Doilea Război Mondial. Denumirea oficială finală germană a fost Panzerkampfwagen Tiger Ausf. B",
+      "picture": "adesea prescurtată la Tiger B.  Denumirea din inventarul armamentului era Sd.Kfz. 182. Era cunoscut și sub denumirea informală de Königstiger. Soldații aliați contemporani îl numeau adesea King Tiger sau Royal Tiger.  Tiger II era succesorul lui Tiger I",
+      "name": {
+        "en": "combinând blindajul gros al acestuia din urmă cu blindajul înclinat utilizat la tancul mediu Panther. Era cel mai scump tanc german de produs la acea vreme. Tancurile cântăreau aproape 70 de tone și erau protejate de un blindaj de 100-185 mm în partea din față. Erau înarmate cu tunul antitanc KwK 43 de 8",
+        "hu": "8 cm cu țeavă lungă. Tiger II a fost distribuit batalioanelor de tancuri grele ale Armatei și Waffen-SS. A fost folosit pentru prima dată în luptă de Batalionul 503 Panzer Greu în timpul invaziei aliate din Normandia",
+        "ro": "la 11 iulie 1944."
+      },
+      "description": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "type": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "category": ""
+    },
+    {
+      "id": ",Ground,Szárazföldi,Terestru,tank,axis",
+      "picture": "",
+      "name": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "description": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "type": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "category": ""
+    },
+    {
+      "id": "Panther",
+      "picture": "https://tank-afv.com/ww2/germany/photos/Bundesarchiv_Frankreich_Panzer_VI_(Tiger_II_Koenigstiger)4.jpg",
+      "name": {
+        "en": "Panzerkampfwagen V Panther",
+        "hu": "Panzerkampfwagen V Panther",
+        "ro": "Panzerkampfwagen V Panther"
+      },
+      "description": {
+        "en": "The Panther tank, officially Panzerkampfwagen V Panther with ordnance inventory designation: Sd.Kfz. 171, is a German medium tank of World War II. It was used in most European theatres of World War II from mid-1943 to the end of the war in May 1945. The Panther was intended to counter the Soviet T-34 medium tank and to replace the Panzer III and Panzer IV. Nevertheless, it served alongside the Panzer IV and the heavier Tiger I until the end of the war. While having essentially the same Maybach V12 petrol engine as the Tiger I, the Panther had better gun penetration, was lighter and faster, and could traverse rough terrain better than the Tiger I. The trade-off was weaker side armour, which made it vulnerable to flanking fire, and a weaker high explosive shell. The Panther proved to be effective in open country and long-range engagements. The Panther had excellent firepower, protection and mobility, though early variants suffered from reliability issues. The Panther was far cheaper to produce than the Tiger I. Key elements of the Panther design, such as its armour, transmission, and final drive, were simplifications made to improve production rates and address raw material shortages.",
+        "hu": "A Panther tank, hivatalos nevén Panzerkampfwagen V Panther, hadtáposztályozási jelölése: Sd.Kfz. 171, egy német közepes harckocsi a második világháborúból. 1943 közepétől a háború végéig, 1945 májusáig a második világháború legtöbb európai hadszínterén használták. A Panthert a szovjet T-34 közepes harckocsi ellensúlyozására és a Panzer III és Panzer IV helyettesítésére szánták. Mindazonáltal a háború végéig a Panzer IV és a nehezebb Tiger I mellett szolgált. Bár lényegében ugyanazzal a Maybach V12 benzinmotorral rendelkezett, mint a Tiger I, a Panther jobb lövésáttörő képességgel rendelkezett, könnyebb és gyorsabb volt, és a Tiger I-nél jobban tudott haladni nehéz terepen. Ezért cserébe gyengébb oldalpáncélzattal rendelkezett, ami sebezhetővé tette oldalról érkező tűzzel szemben, és gyengébb robbanóerejű lövedékekkel rendelkezett. A Panther hatékonynak bizonyult nyílt terepen és nagy távolságú harcokban. A Panther kiváló tűzerővel, védelemmel és mozgékonysággal rendelkezett, bár a korai változatok megbízhatósági problémákkal küszködtek. A Panther gyártása sokkal olcsóbb volt, mint a Tiger I-é. A Panther tervezésének kulcsfontosságú elemei, mint például a páncélzata, a sebességváltója és a végső hajtása, egyszerűsítések voltak, amelyek célja a gyártási sebesség javítása és a nyersanyaghiány kezelése volt.",
+        "ro": "Tancurile Panther, denumite oficial Panzerkampfwagen V Panther, cu denumirea de inventar Sd.Kfz. 171, sunt tancuri medii germane din cel de-al Doilea Război Mondial. Au fost utilizate în majoritatea teatrelor de operațiuni europene din cel de-al Doilea Război Mondial, de la mijlocul anului 1943 până la sfârșitul războiului, în mai 1945. Panther a fost conceput pentru a contracara tancul mediu sovietic T-34 și pentru a înlocui Panzer III și Panzer IV. Cu toate acestea, a fost utilizat alături de Panzer IV și de tancul mai greu Tiger I până la sfârșitul războiului. Deși avea în esență același motor pe benzină Maybach V12 ca și Tiger I, Panther avea o penetrare mai bună a tunului, era mai ușor și mai rapid și putea traversa terenuri accidentate mai bine decât Tiger I. Compromisul era blindajul lateral mai slab, care îl făcea vulnerabil la focul lateral, și un proiectil exploziv mai slab. Panther s-a dovedit a fi eficient în câmp deschis și în luptele de la distanță. Panther avea o putere de foc, o protecție și o mobilitate excelente, deși variantele timpurii aveau probleme de fiabilitate. Panther era mult mai ieftin de produs decât Tiger I. Elementele cheie ale designului Panther, precum blindajul, transmisia și transmisia finală, erau simplificări făcute pentru a îmbunătăți ritmul de producție și a rezolva problema penuriei de materii prime."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "t-34",
+      "picture": "https://colectionaruldeistorie.ro/blindate-uniunea-sovietica-tancul-t-34/",
+      "name": {
+        "en": "T-34",
+        "hu": "T-34",
+        "ro": "T-34"
+      },
+      "description": {
+        "en": "The T-34 is a Soviet medium tank from World War II. When introduced, its 76.2 mm tank gun was more powerful than many of its contemporaries, and its 60-degree sloped armour provided good protection against anti-tank weapons. The T-34 had a profound effect on the conflict on the Eastern Front, and had a long-lasting impact on tank design. The tank was praised by German generals when encountered during Operation Barbarossa, although its armour and armament were surpassed later in the war. Its main strength was its cost and production time, meaning that German panzer forces would often fight against Soviet tank forces several times their own size. The T-34 was also a critical part of the mechanized divisions that formed the backbone of the deep battle strategy.  Its production method was continuously refined and rationalized to meet the needs of the Eastern Front, making the T-34 quicker and cheaper to produce. The Soviets ultimately built over 80,000 T-34s of all variants, allowing steadily greater numbers to be fielded despite the loss of tens of thousands in combat against the German Wehrmacht.",
+        "hu": "A T-34 egy szovjet közepes harckocsi a második világháborúból. Bevezetésekor 76,2 mm-es harckocsiágyúja erősebb volt, mint sok kortársának, és 60 fokos dőlésszögű páncélzata jó védelmet nyújtott a páncéltörő fegyverek ellen. A T-34 mélyreható hatással volt a keleti fronton zajló konfliktusra, és tartós hatást gyakorolt a harckocsik tervezésére. A tankot a német tábornokok dicsérték, amikor a Barbarossa hadművelet során találkoztak vele, bár páncélzata és fegyverzete a háború későbbi szakaszában már elavultnak számított. Fő erőssége a gyártási költség és a gyártási idő volt, ami azt jelentette, hogy a német páncélos erők gyakran többszörös túlerőben lévő szovjet tankokkal küzdöttek. A T-34 a mélységi hadviselési stratégia gerincét képező gépesített hadosztályok kritikus eleme is volt.  Gyártási módszerét folyamatosan finomították és racionalizálták, hogy megfeleljen a keleti front igényeinek, így a T-34 gyártása gyorsabbá és olcsóbbá vált. A szovjetek végül több mint 80 000 T-34-et gyártottak minden változatban, így a német Wehrmacht elleni harcokban több tízezer veszteség ellenére is egyre nagyobb számban tudták bevetni őket.",
+        "ro": "T-34 este un tanc mediu sovietic din cel de-al Doilea Război Mondial. La momentul lansării, tunul său de 76,2 mm era mai puternic decât multe dintre tunurile contemporane, iar blindajul său înclinat la 60 de grade oferea o protecție bună împotriva armelor antitanc. T-34 a avut un efect profund asupra conflictului de pe Frontul de Est și a avut un impact de lungă durată asupra proiectării tancurilor. Tancurile au fost lăudate de generalii germani când le-au întâlnit în timpul Operațiunii Barbarossa, deși blindajul și armamentul lor au fost depășite mai târziu în război. Principalul lor avantaj era costul și timpul de producție, ceea ce însemna că forțele germane panzer luptau adesea împotriva forțelor sovietice de tancuri de câteva ori mai mari decât ale lor. T-34 a fost, de asemenea, o parte esențială a diviziilor mecanizate care formau coloana vertebrală a strategiei de luptă în adâncime.  Metoda sa de producție a fost continuu perfecționată și raționalizată pentru a răspunde nevoilor Frontului de Est, făcând T-34 mai rapid și mai ieftin de produs. În cele din urmă, sovieticii au construit peste 80.000 de T-34 de toate variantele, ceea ce a permis utilizarea unui număr din ce în ce mai mare, în ciuda pierderii a zeci de mii în luptele împotriva Wehrmachtului german."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Is-2",
+      "picture": "https://tank-afv.com/ww2/ussr/photos/JS2_unknonw.jpg",
+      "name": {
+        "en": "Is-2",
+        "hu": "Is-2",
+        "ro": "Is-2"
+      },
+      "description": {
+        "en": "The IS-2, or Joseph Stalin-2 in honor of Soviet leader Joseph Stalin, was a Soviet heavy tank created during World War II as a breakthrough tank. It is the second model in the IS series, its predecessor being the IS-1 and its successor the IS-3. The IS-2 entered service in late 1943. It saw combat in February 1944 in the Battle of Korsun-Cherkasy and was widely used by the Red Army during the final stage of the war. After the end of World War II, it continued to serve in various armies, actively participating in the Arab-Israeli conflict. In 1995, this tank was officially decommissioned from the Russian vehicle fleet along with the T-34.",
+        "hu": "Az IS-2, vagy Iósif Sztálin-2, a szovjet vezető, Iósif Sztálin tiszteletére, egy szovjet nehéz harckocsi volt, amelyet a második világháború alatt áttörő harckocsiként fejlesztettek ki. Ez az IS-sorozat második modellje, elődje az IS-1, utódja pedig az IS-3. Az IS-2 1943 végén állt szolgálatba. 1944 februárjában vett részt a korsun-cserkaszi csatában, és a háború végső szakaszában a Vörös Hadsereg széles körben alkalmazta. A második világháború után továbbra is szolgálatban maradt különböző hadseregeknél, és aktívan részt vett az arab-izraeli konfliktusban. 1995-ben ezt a harckocsit hivatalosan kivonták a orosz járműparkból, a T-34-gyel együtt.",
+        "ro": "IS-2, sau Iósif Stalin-2, numit astfel în onoarea liderului sovietic Iósif Stalin, a fost un tanc greu sovietic creat în timpul celui de-al Doilea Război Mondial ca tanc de spargere. Este al doilea model din seria IS, predecesorul său fiind IS-1 și succesorul IS-3. IS-2 a intrat în serviciu la sfârșitul anului 1943. A intrat în luptă în februarie 1944 în bătălia de la Korsun-Cherkasy și a fost utilizat pe scară largă de Armata Roșie în etapa finală a războiului. După sfârșitul celui de-al Doilea Război Mondial, a continuat să servească în diferite armate, participând activ la conflictul arabo-israelian. În 1995, acest tanc a fost retras oficial din parcul de vehicule rusești, alături de T-34."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Kv-2",
+      "picture": "https://ww2-history.fandom.com/wiki/KV-2_Heavy_Tank",
+      "name": {
+        "en": "KV-2",
+        "hu": "KV-2",
+        "ro": "KV-2"
+      },
+      "description": {
+        "en": "The Soviet KV-2 was a heavy tank developed and used during World War II. It was designed to provide heavy firepower and strong armor support for infantry and other tanks. The KV-2 was armed with a massive 152mm howitzer, which gave it formidable firepower against both enemy tanks and fortified positions. However, its large size and heavy weight made it slow and cumbersome, and it suffered from mechanical reliability issues. The KV-2 saw action during the early stages of World War II, particularly during the German invasion of the Soviet Union in 1941. While its powerful gun could destroy enemy tanks and bunkers with ease, its slow speed and mechanical problems made it vulnerable on the battlefield. As the war progressed and more advanced tanks were developed, the KV-2 became obsolete, and production ceased in 1941 after only a small number were built. Despite its shortcomings, the KV-2 remains a symbol of Soviet armored might during the early stages of World War II and is remembered for its imposing appearance and powerful armament.",
+        "hu": "A szovjet KV-2 egy nehéz harckocsi volt, amelyet a második világháború alatt fejlesztettek ki és használtak. Úgy tervezték, hogy nagy tűzerővel és erős páncélzattal támogassa a gyalogságot és más harckocsikat. A KV-2-t egy hatalmas 152 mm-es tarackkal szerelték fel, amely félelmetes tűzerőt biztosított mind az ellenséges harckocsik, mind az erődített állások ellen. Nagy mérete és súlya azonban lassúvá és nehézkessé tette, és mechanikai megbízhatósági problémákkal küzdött. A KV-2 a második világháború korai szakaszában, különösen a német Szovjetunió elleni invázió során, 1941-ben került bevetésre. Noha hatalmas ágyúja könnyedén megsemmisítette az ellenséges tankokat és bunkereket, lassú sebessége és mechanikai problémái miatt sebezhetővé tette a csatatéren. A háború előrehaladtával és a fejlettebb tankok kifejlesztésével a KV-2 elavulttá vált, és gyártását 1941-ben, csak kis számban történő gyártás után megszüntették. Hátrányai ellenére a KV-2 a második világháború korai szakaszában a szovjet páncélos haderő szimbólumának számít, és impozáns megjelenése és hatalmas fegyverzete miatt maradt meg az emlékezetben.",
+        "ro": "KV-2 sovietic era un tanc greu dezvoltat și utilizat în timpul celui de-al Doilea Război Mondial. A fost proiectat pentru a oferi putere de foc mare și blindaj puternic pentru infanterie și alte tancuri. KV-2 era înarmat cu un obuzier masiv de 152 mm, care îi conferea o putere de foc formidabilă atât împotriva tancurilor inamice, cât și a pozițiilor fortificate. Cu toate acestea, dimensiunile mari și greutatea mare îl făceau lent și greoi, iar fiabilitatea sa mecanică era problematică. KV-2 a fost utilizat în primele etape ale celui de-al Doilea Război Mondial, în special în timpul invaziei germane a Uniunii Sovietice în 1941. Deși tunul său puternic putea distruge cu ușurință tancurile și buncărele inamice, viteza redusă și problemele mecanice îl făceau vulnerabil pe câmpul de luptă. Pe măsură ce războiul avansa și erau dezvoltate tancuri mai avansate, KV-2 a devenit obsolet, iar producția a încetat în 1941, după ce au fost construite doar un număr mic de exemplare. În ciuda deficiențelor sale, KV-2 rămâne un simbol al puterii blindate sovietice în primele etape ale celui de-al Doilea Război Mondial și este amintit pentru aspectul său impunător și armamentul puternic."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Su-152",
+      "picture": "https://worldoftanks.eu/en/news/history/history-of-the-SU-ISU-152/",
+      "name": {
+        "en": "SU-152",
+        "hu": "SU-152",
+        "ro": "SU-152"
+      },
+      "description": {
+        "en": "The Zveroboy, or beast-killer ,as it was popularly known in 1945, the SU-152 was certainly not intended as a tank-hunter. But, at the end of the battle of Stalingrad, it was realized that, unlike the Germans, the Russian infantry lacked some mobile heavy artillery support. The standard tracked 203 mm howitzer was totally unprotected and certainly not suited for the kind of operations necessary in an open battlefield, dealing with direct fire against buildings, concrete fortifications, bunkers and pillboxes. And the mass-produced SU-76 was too light for the purpose. This need became more urgent after Kursk, when the Soviet Army was preparing for a series of massive counter-offensives.",
+        "hu": "„Zveroboy” sau „ucigașul de fiare”, cum era cunoscut în 1945, SU-152 nu era cu siguranță conceput ca un vânător de tancuri. Dar, la sfârșitul bătăliei de la Stalingrad, s-a realizat că, spre deosebire de germani, infanteria rusă nu dispunea de sprijinul artileriei grele mobile. Obuzierul standard de 203 mm pe șenile era total neprotejat și cu siguranță nu era potrivit pentru tipul de operațiuni necesare pe un câmp de luptă deschis, care implicau foc direct asupra clădirilor, fortificațiilor din beton, buncărelor și cazematelor. Iar SU-76, produs în serie, era prea ușor pentru acest scop. Această nevoie a devenit mai urgentă după Kursk, când armata sovietică se pregătea pentru o serie de contraofensive masive.",
+        "ro": "A „Zveroboy”, vagy „állatgyilkos”, ahogy 1945-ben népszerűen ismerték, az SU-152 biztosan nem tankvadászként készült. De a sztálingrádi csata végén rájöttek, hogy a németekkel ellentétben az orosz gyalogságnak hiányzott a mobil nehéz tüzérségi támogatás. A szabványos, lánctalpas 203 mm-es tarack teljesen védtelen volt, és biztosan nem volt alkalmas olyan műveletekre, amelyekre nyílt csatatéren szükség volt, ahol épületek, betonerődítmények, bunkerek és lőállások ellen kellett közvetlen tüzelést alkalmazni. A tömeggyártott SU-76 pedig túl könnyű volt ehhez a célhoz. Ez az igény még sürgetőbbé vált Kursk után, amikor a szovjet hadsereg egy sor hatalmas ellentámadásra készült."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "M-18 GMC",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Farmyhistory.org%2Fthe-m18-hellcat-tank-destroyer%2F&psig=AOvVaw2FypN9BaI-nYOn_J91SSQ-&ust=1772018242181000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOjM0tWA8pIDFQAAAAAdAAAAABAE",
+      "name": {
+        "en": "M18 Hellcat",
+        "hu": "M18 Hellcat",
+        "ro": "M18 Hellcat"
+      },
+      "description": {
+        "en": "The M18 was the most effective U.S. tank destroyer of World War II. I M18s were ...not primarily used for tank fighting, but were committed more often to improvised roles, usually direct fire support for infantry. Although the M18 was retired from U.S. service immediately after the end of World War II, a variant, the M39 armored utility vehicle, served in the Korean War, and M18s continued in service with some countries until 1995. The M18 Hellcat was an example of the balancing act among firepower, armor, and mobility in armored fighting vehicle design. Despite its excellent mobility and reasonably powerful main gun, the M18 Hellcat also had drawbacks, including thin armor and a poor high explosive shell for its main gun.",
+        "hu": "Az M18 volt a második világháború leghatékonyabb amerikai tankelhárítója. Az M18-asokat „...nem elsősorban tankok elleni harcban használták, hanem inkább rögtönzött feladatokra, általában a gyalogság közvetlen tűztámogatására”. Bár az M18-asokat a második világháború után azonnal kivonták az amerikai hadsereg szolgálatából, egy változatuk, az M39 páncélozott haszongépjármű a koreai háborúban is szolgálatban volt, és az M18-asok egyes országokban 1995-ig maradtak szolgálatban. Az M18 Hellcat a páncélos harci járművek tervezésében a tűzerő, a páncélzat és a mobilitás közötti egyensúly példája volt. Kiváló mobilitása és meglehetősen erős fő fegyvere ellenére az M18 Hellcatnak voltak hátrányai is, többek között a vékony páncélzata és a fő fegyveréhez tartozó gyenge robbanóerejű lövedékek.",
+        "ro": "M18 a fost cel mai eficient distrugător de tancuri american din cel de-al Doilea Război Mondial. Tancurile M18 „nu erau utilizate în principal pentru lupta cu tancurile, ci erau angajate mai des în roluri improvizate, de obicei pentru sprijinul direct al infanteriei cu foc direct”. Deși M18 a fost retras din serviciul american imediat după sfârșitul celui de-al Doilea Război Mondial, o variantă a acestuia, vehiculul utilitar blindat M39, a fost utilizat în Războiul din Coreea, iar tancurile M18 au continuat să fie utilizate în unele țări până în 1995. M18 Hellcat a fost un exemplu de echilibru între puterea de foc, blindaj și mobilitate în proiectarea vehiculelor blindate de luptă. În ciuda mobilității sale excelente și a tunului principal destul de puternic, M18 Hellcat avea și dezavantaje, printre care blindajul subțire și un proiectil exploziv slab pentru tunul său principal."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Turan III",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fworldoftanks.eu%2Fhu%2Fnews%2Fspecials%2Fturan-prototipus-gem-aug2021%2F&psig=AOvVaw17q6aAOm6kJUODqvw2bFht&ust=1772018564860000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOCZ_-6B8pIDFQAAAAAdAAAAABAL",
+      "name": {
+        "en": "43M Turán III",
+        "hu": "43M Turán III",
+        "ro": "43M Turán III"
+      },
+      "description": {
+        "en": "The 43M Turán III or 44M Turán III was a Hungarian medium tank of World War II. It was based on the 41M Turán II medium tank but was equipped with a significantly larger turret and a much more powerful long-barreled 75 mm gun. In August 1943 the first prototype of the Turán III was built on the chassis of a Turán I. This first prototype had a new turret and additional 25mm of armor added to the front and rear of the tank. A second prototype was planned for December 1943, but was not completed until June 1944. The second prototype had around 75-95mm of armor on the front of the turret and the hull, which further increased the weight and slowed the vehicle down compared to the earlier Turán variants.",
+        "hu": "A 43M Turán III vagy 44M Turán III egy magyar közepes harckocsi volt a második világháborúban. A 41M Turán II közepes harckocsin alapult, de lényegesen nagyobb toronnyal és sokkal erősebb, hosszú csövű 75 mm-es ágyúval volt felszerelve. 1943 augusztusában a Turán III első prototípusát egy Turán I alvázára építették. Ez az első prototípus új toronnyal és további 25 mm-es páncélzattal rendelkezett a tank elején és hátulján. A második prototípust 1943 decemberére tervezték, de csak 1944 júniusában készült el. A második prototípus tornyának elülső részén és a páncélzatán körülbelül 75–95 mm-es páncélzat volt, ami tovább növelte a jármű súlyát és lassította a korábbi Turán változatokhoz képest.",
+        "ro": "43M Turán III sau 44M Turán III a fost un tanc mediu maghiar din cel de-al Doilea Război Mondial. A fost bazat pe tancul mediu 41M Turán II, dar a fost echipat cu o turelă semnificativ mai mare și un tun mult mai puternic, cu țeavă lungă, de 75 mm. În august 1943, primul prototip al Turán III a fost construit pe șasiul unui Turán I. Acest prim prototip avea o turelă nouă și un blindaj suplimentar de 25 mm adăugat în partea din față și din spate a tancului. Un al doilea prototip a fost planificat pentru decembrie 1943, dar nu a fost finalizat decât în iunie 1944. Al doilea prototip avea un blindaj de aproximativ 75-95 mm în partea din față a turelei și a carcasei, ceea ce a crescut și mai mult greutatea și a încetinit vehiculul în comparație cu variantele Turán anterioare."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Chi-nu",
+      "picture": "https://tank-afv.com/wp-content/uploads/2014/11/chi-nu-type-3-tank.jpg",
+      "name": {
+        "en": "Type 3 Chi-Nu",
+        "hu": "3-as típusú Csi-Nu",
+        "ro": "Type 3 Chi-Nu"
+      },
+      "description": {
+        "en": "Type 3 medium tank Chi-Nu was a medium tank of the Imperial Japanese Army in World War II. Like the Type 1 Chi-He, this tank was an improved version of the Type 97 Chi-Ha. It incorporated a Type 3 75 mm tank gun, one of the largest Japanese tank guns during the war. The Chi-Nu did not see combat during the war. All produced units were retained for the defense of the Japanese Homeland in anticipation of an Allied invasion.",
+        "hu": "A 3-as típusú Chi-Nu közepes harckocsi a második világháborúban a Japán Császári Hadsereg közepes harckocsija volt. Az 1-es típusú Chi-He-hez hasonlóan ez a harckocsi is a 97-es típusú Chi-Ha továbbfejlesztett változata volt. A harckocsiba egy 3-as típusú 75 mm-es harckocsiágyút szereltek be, amely a háború alatt az egyik legnagyobb japán harckocsiágyú volt. A Chi-Nu a háború alatt nem vett részt harci cselekményekben. Az összes gyártott egységet a japán szigetország védelmére tartották fenn, a szövetségesek inváziójára számítva.",
+        "ro": "Tanc mediu tip 3 Chi-Nu a fost un tanc mediu al Armatei Imperiale Japoneze în cel de-al Doilea Război Mondial. La fel ca tipul 1 Chi-He, acest tanc era o versiune îmbunătățită a tipului 97 Chi-Ha. Era echipat cu un tun de tanc tip 3 de 75 mm, unul dintre cele mai mari tunuri de tanc japoneze din timpul războiului. Chi-Nu nu a participat la luptă în timpul războiului. Toate unitățile produse au fost păstrate pentru apărarea teritoriului japonez, în anticiparea unei invazii aliate."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Bf 109F",
+      "picture": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109#/media/File:Bundesarchiv_Bild_101I-662-6659-37,_Flugzeug_Messerschmitt_Me_109.jpg",
+      "name": {
+        "en": "Messerschmitt Bf 109",
+        "hu": "Bf 109",
+        "ro": "Messerschmitt Bf 109"
+      },
+      "description": {
+        "en": "The Messerschmitt Bf 109 is a monoplane fighter aircraft that was designed and initially produced by the German aircraft manufacturer Bayerische Flugzeugwerke. Together with the Focke-Wulf Fw 190, the Bf 109 formed the backbone of the Luftwaffe's fighter force during the Second World War. It was commonly called the Me 109 by Allied aircrew and some German aces/pilots, even though this was not the official model designation. The Bf 109 was designed by Willy Messerschmitt and Robert Lusser, who worked at BFW during the early to mid-1930s. It was conceived as an interceptor. However, later models were developed to fulfill multiple tasks, serving as bomber escort, fighter-bomber, day-, night-, all-weather fighter, ground-attack aircraft, and aerial reconnaissance aircraft. It was one of the most advanced fighters when it first appeared, being furnished with an all-metal monocoque construction, a closed canopy, retractable landing gear, and powered by a liquid-cooled, inverted-V12 aero engine. First flown on 29 May 1935, the Bf 109 entered operational service during 1937; it first saw combat during the Spanish Civil War.",
+        "hu": "A Messerschmitt Bf 109 egy egyfedelű vadászrepülőgép, amelyet a német repülőgépgyártó Bayerische Flugzeugwerke tervezett és gyártott. A Focke-Wulf Fw 190-nel együtt a Bf 109 képezte a Luftwaffe vadászrepülő-flottájának gerincét a második világháború alatt. A szövetséges légi személyzet és néhány német ászpilóta általánosan Me 109-nek nevezte, bár ez nem volt a hivatalos modellmegjelölés. A Bf 109-et Willy Messerschmitt és Robert Lusser tervezte, akik az 1930-as évek elejétől közepéig a BFW-nél dolgoztak. Elsősorban elfogó repülőgépként tervezték, de a későbbi modellek többféle feladatot is ellátni tudtak: bombázók kíséretére, vadászbombázóként, nappali, éjszakai és minden időjárási körülmények között bevethető vadászgépként, földi célok támadására és légi felderítésre is alkalmasak voltak. Megjelenésekor az egyik legfejlettebb vadászgép volt, teljes egészében fém monokok szerkezettel, zárt pilótafülkével, behúzható futóművel és folyadékhűtéses, fordított V12-es repülőgépmotorral. A Bf 109 1935. május 29-én repült először, 1937-ben állt szolgálatba, és a spanyol polgárháborúban vett részt először harci bevetésen.",
+        "ro": "Messerschmitt Bf 109 este un avion de vânătoare monoplan care a fost proiectat și produs inițial de producătorul german de avioane Bayerische Flugzeugwerke. Împreună cu Focke-Wulf Fw 190, Bf 109 a constituit coloana vertebrală a forței de vânătoare a Luftwaffe în timpul celui de-al Doilea Război Mondial. Era denumit în mod obișnuit Me 109 de către echipajele aeriene aliate și de către unii piloți germani, chiar dacă aceasta nu era denumirea oficială a modelului. Bf 109 a fost proiectat de Willy Messerschmitt și Robert Lusser, care au lucrat la BFW la începutul și mijlocul anilor 1930. A fost conceput ca un avion de interceptare. Cu toate acestea, modelele ulterioare au fost dezvoltate pentru a îndeplini multiple sarcini, servind ca escortă pentru bombardiere, avion de vânătoare-bombardier, avion de vânătoare de zi, de noapte și pentru toate condițiile meteorologice, avion de atac la sol și avion de recunoaștere aeriană. A fost unul dintre cele mai avansate avioane de vânătoare la momentul apariției sale, fiind dotat cu o structură monococă integral metalică, o cupolă închisă, tren de aterizare retractabil și propulsat de un motor aeronautic cu răcire lichidă, în V12 inversat. Zburând pentru prima dată pe 29 mai 1935, Bf 109 a intrat în serviciul operațional în 1937; a participat pentru prima dată la luptă în timpul Războiului Civil Spaniol."
+      },
+      "type": {
+        "en": "Air",
+        "hu": "Repülő",
+        "ro": "Aerian"
+      },
+      "category": "air"
+    },
+    {
+      "id": "FDW 190 A-1",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhu.wikipedia.org%2Fwiki%2FFw_190&psig=AOvVaw086Vy9eawF7LRc79V_e2Oo&ust=1772019399988000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJD8jv6E8pIDFQAAAAAdAAAAABAE",
+      "name": {
+        "en": "Focke-Wulf Fw 190",
+        "hu": "Fw 190",
+        "ro": "Focke-Wulf Fw 190"
+      },
+      "description": {
+        "en": "The Focke-Wulf Fw 190, nicknamed Würger is a German single-seat, single-engined, fighter aircraft designed by Kurt Tank at Focke-Wulf in the late 1930s and widely used during World War II. Along with its well-known counterpart, the Messerschmitt Bf 109, the Fw 190 became the backbone of the Jagdwaffe of the Luftwaffe. The twin-row BMW 801 radial engine that powered most operational versions enabled the Fw 190 to lift larger loads than the Bf 109, allowing its use as a day fighter, fighter-bomber, ground-attack aircraft, and to a lesser degree, night fighter. The Fw 190A started flying operationally over France in August 1941 and quickly proved superior in all but turn radius to the Spitfire Mk. V, the main front-line fighter of the Royal Air Force, particularly at low and medium altitudes. The 190 maintained its superiority over Allied fighters until the late 1942 and early 1943 introduction of the improved Spitfire Mk. IX. In November/December 1942, the Fw 190 made its air combat debut on the Eastern Front, finding much success in fighter wings and specialised ground attack units from October 1943.",
+        "hu": "A Focke-Wulf Fw 190, becenevén Würger, egy német együléses, egyhajtóműves vadászrepülőgép, amelyet Kurt Tank tervezett a Focke-Wulfnál az 1930-as évek végén, és amelyet széles körben használtak a második világháború alatt. Jól ismert párjával, a Messerschmitt Bf 109-cel együtt az Fw 190 a Luftwaffe Jagdwaffe gerincét képezte. A legtöbb harci változatot meghajtó két soros BMW 801 csillagmotor lehetővé tette, hogy az Fw 190 nagyobb terhelést emeljen, mint a Bf 109, így nappali vadászgép, vadászbombázó, földi támadó repülőgép és kisebb mértékben éjszakai vadászgép is lehetett. Az Fw 190A 1941 augusztusában kezdte meg repülési szolgálatát Franciaország felett, és hamarosan bebizonyította, hogy minden tekintetben, kivéve a fordulási sugárát, felülmúlja a Spitfire Mk. V-öt, a Royal Air Force fő frontvonalbeli vadászgépét, különösen alacsony és közepes magasságokban. Az 190 1942 végéig és 1943 elejéig, a továbbfejlesztett Spitfire Mk. IX bevezetéséig megőrizte fölényét a szövetséges vadászgépekkel szemben. 1942 novemberében/decemberében az Fw 190 debütált a keleti fronton, és 1943 októberétől nagy sikereket ért el vadászrepülő-századokban és speciális földi támadó egységekben.",
+        "ro": "Focke-Wulf Fw 190, supranumit Würger, este un avion de vânătoare german monomotor, cu un singur loc, proiectat de Kurt Tank la Focke-Wulf la sfârșitul anilor 1930 și utilizat pe scară largă în timpul celui de-al Doilea Război Mondial. Împreună cu omologul său binecunoscut, Messerschmitt Bf 109, Fw 190 a devenit coloana vertebrală a Jagdwaffe din Luftwaffe. Motorul radial BMW 801 cu două rânduri, care echipa majoritatea versiunilor operaționale, permitea avionului Fw 190 să ridice sarcini mai mari decât Bf 109, permițându-i să fie utilizat ca avion de vânătoare de zi, avion de vânătoare-bombardier, avion de atac la sol și, într-o măsură mai mică, avion de vânătoare de noapte. Fw 190A a început să zboare operațional peste Franța în august 1941 și s-a dovedit rapid superior în toate aspectele, cu excepția razei de viraj, față de Spitfire Mk. V, principalul avion de vânătoare de primă linie al Royal Air Force, în special la altitudini joase și medii. 190 și-a menținut superioritatea față de avioanele de vânătoare aliate până la sfârșitul anului 1942 și începutul anului 1943, când a fost introdus Spitfire Mk. IX îmbunătățit. În noiembrie/decembrie 1942, Fw 190 a debutat în luptele aeriene pe Frontul de Est, înregistrând multe succese în escadrile de vânătoare și unități specializate în atacuri la sol începând din octombrie 1943."
+      },
+      "type": {
+        "en": "Air",
+        "hu": "Repülő",
+        "ro": "Aerian"
+      },
+      "category": "air"
+    },
+    {
+      "id": "Me 262",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdefencyclopedia.com%2F2017%2F05%2F16%2Fentering-a-new-age-germanys-stormbird-the-me-262%2F&psig=AOvVaw26IUa3WDG_XzVFA-jr6xXs&ust=1772019671045000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCliv-F8pIDFQAAAAAdAAAAABAE",
+      "name": {
+        "en": "Messerschmitt Me 262",
+        "hu": "Me 262",
+        "ro": "Messerschmitt Me 262"
+      },
+      "description": {
+        "en": "The Messerschmitt Me 262, nicknamed Schwalbe in fighter versions, or Sturmvogel in fighter-bomber versions, is a fighter aircraft and fighter-bomber that was designed and produced by the German aircraft manufacturer Messerschmitt. It was the world's first operational jet-powered fighter aircraft and one of two jet fighter aircraft types to see air-to-air combat in World War II, the other being the Heinkel He 162. The design of what would become the Me 262 started in April 1939, before World War II. It made its maiden flight on 18 April 1941 with a piston engine, and its first jet-powered flight on 18 July 1942. Progress was delayed by problems with engines, metallurgy, and interference from Luftwaffe chief Hermann Göring and Adolf Hitler. The German leader demanded that the Me 262, conceived as a defensive interceptor, be redesigned as ground-attack/bomber aircraft. The aircraft became operational with the Luftwaffe in mid-1944. The Me 262 was faster and more heavily armed than any Allied fighter, including the British jet-powered Gloster Meteor. The Allies countered by attacking the aircraft on the ground and during takeoff and landing",
+        "hu": "Messerschmitt Me 262, supranumit Schwalbe în versiunile de vânătoare sau Sturmvogel în versiunile de vânătoare-bombardier, este un avion de vânătoare și vânătoare-bombardier proiectat și produs de constructorul german de avioane Messerschmitt. A fost primul avion de vânătoare cu propulsie jet operațional din lume și unul dintre cele două tipuri de avioane de vânătoare cu propulsie jet care au participat la lupte aeriene în cel de-al Doilea Război Mondial, celălalt fiind Heinkel He 162. Proiectarea celui care avea să devină Me 262 a început în aprilie 1939, înainte de al Doilea Război Mondial. A efectuat primul zbor pe 18 aprilie 1941 cu un motor cu piston, iar primul zbor cu motor cu reacție pe 18 iulie 1942. Progresul a fost întârziat de probleme cu motoarele, metalurgia și interferența șefului Luftwaffe, Hermann Göring, și a lui Adolf Hitler. Liderul german a cerut ca Me 262, conceput ca un interceptor defensiv, să fie reproiectat ca avion de atac la sol/bombardier. Avionul a devenit operațional în cadrul Luftwaffe la mijlocul anului 1944. Me 262 era mai rapid și mai bine înarmat decât orice avion de vânătoare aliat, inclusiv avionul britanic cu propulsie cu reacție Gloster Meteor. Aliații au ripostat atacând avionul la sol și în timpul decolării și aterizării.",
+        "ro": "A Messerschmitt Me 262, becenevén Schwalbe (fecske) a vadászgép-változatokban, vagy Sturmvogel (viharos madár) a vadászbombázó-változatokban, egy vadászrepülőgép és vadászbombázó, amelyet a német repülőgépgyártó Messerschmitt tervezett és gyártott. Ez volt a világ első üzemképes sugárhajtású vadászrepülőgépe és az egyik a két sugárhajtású vadászrepülőgép-típus közül, amelyek a második világháborúban légi harcokban vettek részt, a másik a Heinkel He 162 volt. A Me 262 elődjének tervezése 1939 áprilisában, a második világháború előtt kezdődött. Első repülését 1941. április 18-án hajtóműves motorral, első sugárhajtású repülését pedig 1942. július 18-án hajtotta végre. A fejlesztést motorproblémák, kohászati nehézségek, valamint a Luftwaffe parancsnoka, Hermann Göring és Adolf Hitler beavatkozása késleltette. A német vezető azt követelte, hogy a védekező elfogóként tervezett Me 262-t földi támadó/bombázó repülőgépként tervezzék át. A repülőgép 1944 közepén került bevetésre a Luftwaffe-nál. A Me 262 gyorsabb és erősebben felfegyverzett volt, mint bármelyik szövetséges vadászgép, beleértve a brit sugárhajtású Gloster Meteor-t is. A szövetségesek azzal válaszoltak, hogy a repülőgépet a földön, valamint felszállás és leszállás közben támadták meg."
+      },
+      "type": {
+        "en": "Air",
+        "hu": "Repülő",
+        "ro": "Aerian"
+      },
+      "category": "air"
+    },
+    {
+      "id": "JU 188",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AJunkers_Ju_188_E-1_on_ground_1943.jpg&psig=AOvVaw1v3-sPsguLFWV_bSOoA8B7&ust=1772019726403000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjYtZmG8pIDFQAAAAAdAAAAABAK",
+      "name": {
+        "en": "Junkers Ju 188",
+        "hu": "Ju 188",
+        "ro": "Junkers Ju 188"
+      },
+      "description": {
+        "en": "The Junkers Ju 188 Rächer was a German Luftwaffe high-performance medium bomber built during World War II, the planned follow-up to the Ju 88 with better performance and payload. More than 1,000 aircraft were built, although production of the Ju 188 was curtailed early, due to the emergence of improved versions of the Ju 88, as well as the increasingly effective Allied strategic bombing campaign against German industry, leading to an increased focus on fighter production.",
+        "hu": "A Junkers Ju 188 „Rächer” egy német Luftwaffe nagy teljesítményű közepes bombázó volt, amelyet a második világháború alatt gyártottak, és amely a Ju 88 utódjaként jobb teljesítményt és teherbírást ígért. Több mint 1000 repülőgép készült el, bár a Ju 188 gyártását korán leállították, mivel megjelentek a Ju 88 továbbfejlesztett változatai, valamint a német ipar ellen folytatott, egyre hatékonyabb szövetséges stratégiai bombázási kampány miatt a gyártás középpontjába a vadászgépek kerültek.",
+        "ro": "Junkers Ju 188 „Rächer” a fost un bombardier mediu german de înaltă performanță construit în timpul celui de-al Doilea Război Mondial, succesorul planificat al modelului Ju 88, cu performanțe și capacitate de încărcare îmbunătățite. Au fost construite peste 1.000 de avioane, deși producția modelului Ju 188 a fost întreruptă prematur, din cauza apariției unor versiuni îmbunătățite ale modelului Ju 88, precum și a campaniei de bombardament strategic aliat din ce în ce mai eficiente împotriva industriei germane, ceea ce a dus la o concentrare sporită asupra producției de avioane de vânătoare."
+      },
+      "type": {
+        "en": "Air",
+        "hu": "Repülő",
+        "ro": "Aerian"
+      },
+      "category": "air"
+    },
+    {
+      "id": "Ju 87",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimpleflying.com%2Fstuka-dive-bomber-incredible-features-list%2F&psig=AOvVaw2JpifNHxRqoKBzpePVCjM4&ust=1772019981404000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJi93JOH8pIDFQAAAAAdAAAAABAX",
+      "name": {
+        "en": "Junkers Ju 87",
+        "hu": "Ju 87",
+        "ro": "Junkers Ju 87"
+      },
+      "description": {
+        "en": "The Junkers Ju 87, popularly known as the Stuka, is a German dive bomber and ground-attack aircraft. Designed by Hermann Pohlmann, it first flew in 1935. The Ju 87 made its combat debut in 1937 with the Luftwaffe's Condor Legion during the Spanish Civil War of 1936–1939 and served the Axis in World War II from beginning to end. The aircraft is easily recognisable by its inverted gull wings and fixed spatted undercarriage. Upon the leading edges of its faired main gear legs were mounted ram-air sirens, officially called Lärmgerät, which became a propaganda symbol of German air power and of the Blitzkrieg victories of 1939–1942, as well as providing Stuka pilots with audible feedback as to speed. The Stuka's design included several innovations, including automatic pull-up dive brakes under both wings to ensure that the aircraft recovered from its attack dive even if the pilot blacked out from the high g-forces, or suffered from target fixation.",
+        "hu": "Junkers Ju 87, cunoscut popular sub numele de „Stuka”, este un bombardier german de picaj și avion de atac la sol. Proiectat de Hermann Pohlmann, a zburat pentru prima dată în 1935. Ju 87 a debutat în luptă în 1937 cu Legiunea Condor a Luftwaffe în timpul Războiului Civil Spaniol din 1936-1939 și a servit Axa în cel de-al Doilea Război Mondial de la început până la sfârșit. Avionul este ușor de recunoscut datorită aripilor sale inversate și trenului de aterizare fix. Pe marginile anterioare ale picioarelor trenului principal au fost montate sirene cu aer dinamic, denumite oficial „Lärmgerät”, care au devenit un simbol propagandistic al puterii aeriene germane și al victoriilor Blitzkrieg din 1939-1942, oferind în același timp piloților Stuka feedback auditiv cu privire la viteză. Proiectul Stuka includea mai multe inovații, printre care frâne automate de urcare sub ambele aripi, pentru a asigura că avionul se redresează din picajul de atac chiar dacă pilotul leșina din cauza forțelor g ridicate sau suferea de fixare asupra țintei.",
+        "ro": "A Junkers Ju 87, közismert nevén „Stuka”, egy német zuhanóbombázó és földi támadó repülőgép. Hermann Pohlmann tervezte, első repülését 1935-ben hajtotta végre. A Ju 87 1937-ben debütált a Luftwaffe Condor Légiójában a 1936–1939-es spanyol polgárháborúban, és a második világháborúban a tengelyhatalmak oldalán szolgált a háború kezdetétől a végéig. A repülőgép könnyen felismerhető fordított szárnyairól és rögzített futóművéről. A fő futómű karosszériájának élén ram-air szirénák voltak felszerelve, hivatalos nevükön „Lärmgerät”, amelyek a német légierő és a 1939–1942-es villámháborús győzelmek propaganda szimbólumává váltak, valamint hangos visszajelzést adtak a Stuka pilótáknak a sebességről. A Stuka tervezése számos újítást tartalmazott, többek között automatikus felhúzható fékszárnyakat mindkét szárny alatt, amelyek biztosították, hogy a repülőgép visszatérjen a támadó zuhanásból, még akkor is, ha a pilóta elájult a nagy g-erő hatására, vagy a célpontra koncentrált."
+      },
+      "type": {
+        "en": "Air",
+        "hu": "Repülő",
+        "ro": "Aerian"
+      },
+      "category": "air"
+    },
+    {
+      "id": "Yak-9",
+      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstormbirds.blog%2F2020%2F05%2F24%2Fyak-9-and-yak-9t-collector-plane-review%2F&psig=AOvVaw15uguEYsN-qO9xgausLovg&ust=1772020017751000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIjpqqSH8pIDFQAAAAAdAAAAABAE",
+      "name": {
+        "en": "Yakovlev Yak-9",
+        "hu": "Yak-9",
+        "ro": "Yakovlev Yak-9"
+      },
+      "description": {
+        "en": "The Yakovlev Yak-9  is a single-engine, single-seat multipurpose fighter aircraft used by the Soviet Union and its allies during World War II and the early Cold War. It was a development of the robust and successful Yak-7B fighter, which was based in turn on the tandem-seat advanced trainer known as the Yak-7UTI. The Yak-9 started arriving in Soviet fighter regiments in late 1942 and played a major role in retaking air superiority from the Luftwaffe's new Focke-Wulf Fw 190 and Messerschmitt Bf 109 fighters during the Battle of Kursk in summer 1943. The Yak-9 had a cut down rear fuselage with an unobscured canopy. Its lighter metal structure allowed for an increased fuel load and armament over previous models built from wood. The Yak-9 was manoeuvrable at high speeds when flying at low and medium altitudes and was also easy to control, qualities that allowed it to be one of the most produced Soviet fighters of World War II.  It was produced in different variants including the Yak-9T with the 37 mm cannon and the large-calibre Yak-9K with a 45 mm cannon firing through the propeller hub, which were used for antitank duty and as potent aircraft destroyers, the fighter-bomber Yak-9B with an internal bomb bay behind the cockpit for up to 400 kg worth of bombs. The Yak-9 remained in production from 1942 to 1948, with 16,769 built",
+        "hu": "A Jakovlev Jak-9 egy egymotoros, együléses, többcélú vadászrepülőgép, amelyet a Szovjetunió és szövetségesei használtak a második világháború és a hidegháború korai szakaszában. A robusztus és sikeres Jak-7B vadászgép továbbfejlesztése volt, amely viszont a Jak-7UTI néven ismert, tandemüléses, fejlett kiképzőgépen alapult. A Jak-9 1942 végén kezdett megérkezni a szovjet vadászrepülő-ezredekhez, és fontos szerepet játszott a légi fölény visszaszerzésében a Luftwaffe új Focke-Wulf Fw 190 és Messerschmitt Bf 109 vadászgépeivel szemben a 1943 nyári kurszki csatában. A Jak-9 hátsó törzse le volt vágva, és a pilótafülke teteje nem volt eltakarva. Könnyebb fém szerkezete lehetővé tette a korábbi, fából épített modellekhez képest nagyobb üzemanyag- és fegyverzet-terhelést. A Yak-9 alacsony és közepes magasságban repülve nagy sebességgel is manőverezhető volt, és könnyen irányítható volt, ami lehetővé tette, hogy a második világháború egyik leggyakrabban gyártott szovjet vadászgépe legyen.  Különböző változatokban gyártották, többek között a 37 mm-es ágyúval felszerelt Jak-9T-t és a 45 mm-es ágyúval felszerelt, a propellertengelyen keresztül tüzelő „nagy kaliberű” Jak-9K-t, amelyeket páncélelhárító és hatékony repülőgép-elhárító feladatokra használtak, valamint a vadászbombázó Jak-9B-t, amelynek pilótafülkéje mögötti belső bombatérben akár 400 kg bombát is el lehetett helyezni. A Jak-9 gyártása 1942-től 1948-ig folytatódott, összesen 16 769 darabot gyártottak belőle.",
+        "ro": "Yakovlev Yak-9 este un avion de vânătoare multifuncțional, monomotor, monoplaza, utilizat de Uniunea Sovietică și aliații săi în timpul celui de-al Doilea Război Mondial și la începutul Războiului Rece. A fost o versiune îmbunătățită a robustului și de succes avion de vânătoare Yak-7B, care la rândul său se baza pe avionul de antrenament avansat cu două locuri, cunoscut sub numele de Yak-7UTI. Yak-9 a început să ajungă în regimentele de vânătoare sovietice la sfârșitul anului 1942 și a jucat un rol major în recâștigarea superiorității aeriene față de noile avioane de vânătoare Focke-Wulf Fw 190 și Messerschmitt Bf 109 ale Luftwaffe în timpul bătăliei de la Kursk din vara anului 1943. Yak-9 avea o fuselaj posterior redus, cu o cupolă neacoperită. Structura sa metalică mai ușoară permitea o încărcătură mai mare de combustibil și un armament mai puternic decât modelele anterioare construite din lemn. Yak-9 era manevrabil la viteze mari atunci când zbura la altitudini joase și medii și era, de asemenea, ușor de controlat, calități care i-au permis să fie unul dintre cele mai produse avioane de vânătoare sovietice din al Doilea Război Mondial.  A fost produs în diferite variante, inclusiv Yak-9T cu tun de 37 mm și Yak-9K „de calibru mare” cu tun de 45 mm care trăgea prin butucul elicei, care erau utilizate pentru misiuni antitanc și ca distrugătoare de avioane puternice, vânătoarea-bombardier Yak-9B cu un compartiment intern pentru bombe în spatele cabinei de pilotaj, cu o capacitate de până la 400 kg de bombe. Yak-9 a rămas în producție din 1942 până în 1948, fiind construite 16.769 de exemplare."
+      },
+      "type": {
+        "en": "Air",
+        "hu": "Repülő",
+        "ro": "Aerian"
+      },
+      "category": "air"
+    },
+    {
+      "id": "I-185",
+      "picture": "https://forum.il2sturmovik.com/uploads/monthly_2021_01/I-185.jpg.f18857c5e0ee38ed61326ba115701985.jpg",
+      "name": {
+        "en": "Polikarpov I-185",
+        "hu": "Polikarpov I-185",
+        "ro": "Polikarpov I-185"
+      },
+      "description": {
+        "en": "The Polikarpov I-185 was a single-engine, low-wing monoplane fighter aircraft designed by OKB 84, headed by Nikolai Nikolaevich Polikarpov. It was developed in the Soviet Union in the early 1940s but remained at the prototype stage.",
+        "hu": "",
+        "ro": ""
+      },
+      "type": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "category": ""
+    },
+    {
+      "id": "An evolution of the previous I-180",
+      "picture": "although capable of outperforming other Soviet fighters developed during the period",
+      "name": {
+        "en": "its program was delayed until it was finally canceled due to the unavailability of reliable engines to equip it or because the engines were destined to equip other aircraft that had meanwhile entered production.,A Polikarpov I-185 egy egyhajtóműves",
+        "hu": "alacsony szárnyú",
+        "ro": "egyfedelű vadászrepülőgép volt"
+      },
+      "description": {
+        "en": "amelyet az OKB 84 tervezett Nikolaj Nikolaevič Polikarpov vezetésével",
+        "hu": "és amelyet a Szovjetunióban fejlesztettek ki az 1940-es évek elején",
+        "ro": "de prototípus stádiumban maradt."
+      },
+      "type": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "category": ""
+    },
+    {
+      "id": "Az előző I-180 továbbfejlesztése volt",
+      "picture": "és bár teljesítménye meghaladta a korszakban kifejlesztett többi szovjet vadászgépét",
+      "name": {
+        "en": "a program elhalasztásra került",
+        "hu": "majd végül törölték",
+        "ro": "mert nem álltak rendelkezésre megbízható motorok"
+      },
+      "description": {
+        "en": "amelyekkel felszerelhették volna",
+        "hu": "vagy mert azokat más",
+        "ro": "időközben gyártásba került repülőgépek felszerelésére szánták.,Polikarpov I-185 era un avion de vânătoare monomotor"
+      },
+      "type": {
+        "en": "cu aripă joasă",
+        "hu": "proiectat de OKB 84",
+        "ro": "condus de Nikolai Nikolaevich Polikarpov. A fost dezvoltat în Uniunea Sovietică la începutul anilor 1940"
+      },
+      "category": "cu aripă joasă"
+    },
+    {
+      "id": "O evoluție a modelului anterior I-180",
+      "picture": "deși capabil să depășească performanțele altor avioane de vânătoare sovietice dezvoltate în acea perioadă",
+      "name": {
+        "en": "programul său a fost amânat până când a fost în cele din urmă anulat din cauza indisponibilității unor motoare fiabile cu care să fie echipat sau pentru că motoarele erau destinate echipării altor avioane care intraseră între timp în producție.,Air,Repülő,Aerian,repulo,allies",
+        "hu": "",
+        "ro": ""
+      },
+      "description": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "type": {
+        "en": "",
+        "hu": "",
+        "ro": ""
+      },
+      "category": ""
+    },
+    {
+      "id": "F4U",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/66/Vought_F4U_Corsair_%28USMC%29.jpg",
+      "name": {
+        "en": "F4U Corsair",
+        "hu": "F4U Corsair",
+        "ro": "F4U Corsair"
+      },
+      "description": {
+        "en": "The Vought F4U Corsair is an American fighter aircraft that saw service primarily in World War II and the Korean War. Designed and initially manufactured by Chance Vought, the Corsair was soon in great demand; additional production contracts were given to Goodyear, whose Corsairs were designated FG, and Brewster, designated F3A. The Corsair was designed and principally operated as a carrier-based aircraft, and entered service in large numbers with the U.S. Navy and Marines in World War II. It quickly became one of the most capable carrier-based fighter-bombers of the war. Some Japanese pilots regarded it as the most formidable American fighter and U.S. naval aviators achieved an 11:1 kill ratio.  Early problems with carrier landings and logistics led to it being eclipsed as the dominant carrier-based fighter by the Grumman F6F Hellcat, powered by the same Double Wasp engine first flown on the Corsair's initial prototype in 1940. The Corsair's early deployment was to land-based squadrons of the U.S. Marine Corps and U.S. Navy.",
+        "hu": "A Vought F4U Corsair egy amerikai vadászrepülőgép, amelyet elsősorban a második világháborúban és a koreai háborúban használtak. A Chance Vought által tervezett és gyártott Corsair hamarosan nagy keresletnek örvendett; további gyártási szerződéseket kötöttek a Goodyear céggel, amelynek Corsairjei FG jelölést kaptak, és a Brewster céggel, amelynek gépei F3A jelölést kaptak. A Corsair-t hordozórepülőgépként tervezték és üzemeltették, és a második világháborúban nagy számban állt szolgálatba az amerikai haditengerészetnél és a tengerészgyalogságnál. Gyorsan a háború egyik leghatékonyabb hordozórepülőgép-vadászbombázójává vált. Néhány japán pilóta a legfélelmetesebb amerikai vadászgépként tartotta számon, és az amerikai haditengerészeti pilóták 11:1-es lelőési arányt értek el vele.  A hordozórepülőgépek leszállásával és logisztikájával kapcsolatos korai problémák miatt a Grumman F6F Hellcat, amely ugyanazzal a Double Wasp motorral volt felszerelve, mint a Corsair első prototípusa 1940-ben, felülmúlta a Corsairt, mint a domináns hordozórepülőgép-alapú vadászgépet. A Corsairt kezdetben az amerikai tengerészgyalogság és a haditengerészet szárazföldi repülőszázadai használták.",
+        "ro": "Vought F4U Corsair este un avion de vânătoare american care a fost utilizat în principal în cel de-al Doilea Război Mondial și în Războiul din Coreea. Proiectat și fabricat inițial de Chance Vought, Corsair a devenit rapid foarte solicitat; contracte suplimentare de producție au fost acordate companiei Goodyear, ale cărei avioane Corsair au fost denumite FG, și companiei Brewster, denumite F3A. Corsair a fost proiectat și utilizat în principal ca avion de transport și a intrat în serviciu în număr mare în cadrul Marinei și Infanteriei Marine a SUA în cel de-al Doilea Război Mondial. A devenit rapid unul dintre cele mai performante avioane de vânătoare-bombardament de transport din timpul războiului. Unii piloți japonezi îl considerau cel mai redutabil avion de vânătoare american, iar piloții navali americani au obținut un raport de 11:1 în ceea ce privește numărul de avioane doborâte.  Problemele inițiale cu aterizările pe portavioane și logistica au dus la eclipsarea sa ca avion de vânătoare dominant bazat pe portavioane de către Grumman F6F Hellcat, propulsat de același motor Double Wasp care a zburat pentru prima dată pe prototipul inițial al Corsair în 1940. Desfășurarea inițială a Corsair a fost către escadroanele terestre ale Corpului de Marină al SUA și ale Marinei SUA."
+      },
+      "type": {
+        "en": "Air",
+        "hu": "Repülő",
+        "ro": "Aerian"
+      },
+      "category": "air"
+    },
+    {
+      "id": "PPsh-41",
+      "picture": "https://get.vegaforce.com/PPSh-41/images/profiles_01.jpg",
+      "name": {
+        "en": "PPSh-41",
+        "hu": "PPSh-41",
+        "ro": "PPSh-41"
+      },
+      "description": {
+        "en": "The Soviet PPSh-41 submachine gun was a submachine gun designed by Gueorgui Shpaguin as a cheap and simplified alternative to the PPD-40 submachine gun. The PPSh-41 was an automatic, magazine-fed, recoil-operated submachine gun that fired with an open bolt. It was made primarily of stamped steel and could be loaded with 7.62×25mm Tokarev pistol ammunition, either in boxes or magazines. It was one of the main light weapons of the Soviet armed forces during World War II. The total number of PPSh-41 submachine guns produced during World War II is estimated at over 6 million.",
+        "hu": "A szovjet PPSh-41 automata géppisztoly egy géppisztoly volt, amelyet Gueorgui Shpaguin tervezett a PPD-40 géppisztoly olcsó és egyszerűsített alternatívájaként. A PPSh-41 egy automata, tárral táplált, visszarúgásos géppisztoly volt, amely nyitott zárral lőtt. Főként sajtolt acélból készült, és 7,62 × 25 mm-es Tokarev pisztoly lőszerrel tölthető, dobozos vagy tárral. A második világháború alatt a szovjet fegyveres erők egyik fő könnyűfegyvere volt. A második világháború alatt gyártott PPSh-41 géppisztolyok teljes száma több mint 6 millióra becsülhető.",
+        "ro": "Pistolul mitralieră sovietic PPSh-41 a fost proiectat de Gueorgui Shpaguin ca o alternativă ieftină și simplificată la pistolul mitralieră PPD-40. PPSh-41 era o mitralieră automată, alimentată din încărcător, acționată prin recul, care trăgea cu boltul deschis. Era fabricată în principal din oțel ștanțat și putea fi încărcată cu muniție de pistol Tokarev de 7,62 × 25 mm, fie în cutii, fie în încărcătoare. A fost una dintre principalele arme ușoare ale forțelor armate sovietice în timpul celui de-al Doilea Război Mondial. Numărul total de pistoale mitralieră PPSh-41 produse în timpul celui de-al Doilea Război Mondial este estimat la peste 6 milioane."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Dp-27",
+      "picture": "https://www.thearmorylife.com/wp-content/uploads/2023/12/dp-27-dp-28-light-machine-gun.jpg",
+      "name": {
+        "en": "Degtyaryov machine gun",
+        "hu": "DP golyószóró",
+        "ro": "Mitraliera Degtyaryov"
+      },
+      "description": {
+        "en": "The Degtyaryov machine gun, romanized: Pulemyot Degtyaryova Pekhotny (PDP), lit. 'Degtyarev Infantry Machinegun' or DP-27/DP-28 is a light machine gun firing the 7.62×54mmR cartridge that was primarily used by the Soviet Union, with service trials starting in 1927, followed by general deployment in 1928. Besides being the standard Soviet infantry light machine gun during World War II, with various modifications it was used in aircraft as a flexible defensive weapon, and it was equipped on almost all Soviet tanks in WWII as either a flexible bow machine gun or a co-axial machine gun controlled by the gunner. It was improved in 1943 producing the DPM, but it was replaced in 1946 with the RP-46 which improved on the basic DP design by converting it to use belt feed. The DP machine gun was supplemented in the 1950s by the more modern RPD machine gun and entirely replaced in Soviet service by the general purpose PK machine gun in the 1960s.",
+        "hu": "A Degtyaryov géppuska, latin betűs átírással: Pulemyot Degtyaryova Pekhotny (PDP), szó szerint: „Degtyarev gyalogsági géppuska” vagy DP-27/DP-28 egy 7,62×54 mmR-es lőszerrel működő könnyű géppuska, amelyet elsősorban a Szovjetunióban használtak, a szolgálati próbák 1927-ben kezdődtek, majd 1928-ban általános bevetésre került sor. A második világháború alatt a szovjet gyalogság standard könnyű géppuskája volt, és különböző módosításokkal repülőgépeken is használták rugalmas védelmi fegyverként. A második világháborúban szinte az összes szovjet tankon felszerelték, akár rugalmas orr-géppuskaként, akár a lövész által irányított koaxiális géppuskaként. 1943-ban továbbfejlesztették, és megalkották a DPM-et, de 1946-ban felváltotta az RP-46, amely továbbfejlesztette az alap DP-kialakítást, és övvel való táplálásra alakította át. A DP géppuskát az 1950-es években kiegészítette a modernebb RPD géppuska, majd az 1960-as években a szovjet hadseregben teljesen felváltotta az általános célú PK géppuska.",
+        "ro": "Mitraliera Degtyaryov, romanizată: Pulemyot Degtyaryova Pekhotny (PDP), lit. „Mitraliera de infanterie Degtyarev” sau DP-27/DP-28 este o mitralieră ușoară care trage cu cartușe de 7,62×54 mmR, utilizată în principal de Uniunea Sovietică, cu teste de serviciu începând din 1927, urmate de desfășurarea generală în 1928. Pe lângă faptul că a fost mitraliera ușoară standard a infanteriei sovietice în timpul celui de-al Doilea Război Mondial, cu diverse modificări, a fost utilizată în avioane ca armă defensivă flexibilă și a fost echipată pe aproape toate tancurile sovietice din cel de-al Doilea Război Mondial, fie ca mitralieră flexibilă de prora, fie ca mitralieră coaxială controlată de artilerist. A fost îmbunătățită în 1943, producându-se modelul DPM, dar a fost înlocuită în 1946 cu RP-46, care a îmbunătățit designul de bază al DP, convertindu-l pentru a utiliza alimentarea cu bandă. Mitraliera DP a fost completată în anii 1950 de mitraliera RPD, mai modernă, și înlocuită în totalitate în serviciul sovietic de mitraliera PK de uz general în anii 1960."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Bren Gun",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bren_wog.jpg",
+      "name": {
+        "en": "Bren light machine gun",
+        "hu": "Bren könnyű géppuska",
+        "ro": "Mitralieră ușoară Bren"
+      },
+      "description": {
+        "en": "The Bren gun was a series of light machine guns made by the United Kingdom in the 1930s and used in various roles until 1992. While best known for its role as the British and British Empire forces' primary infantry LMG in World War II, it was also used in the Korean War and saw service throughout the latter half of the 20th century, including the 1982 Falklands War. Although fitted with a bipod, it could also be mounted on a tripod or be vehicle-mounted. The Bren gun was a licensed version of the Czechoslovak ZGB 33 light machine gun which, in turn, was a modified version of the ZB vz. 26, which British Army officials had tested during a firearms service competition in the 1930s. The designer was Václav Holek, a gun inventor and design engineer. The later Bren gun featured a distinctive top-mounted curved box magazine, conical flash hider, and quick change barrel.",
+        "hu": "A Bren gun egy sor könnyű géppuska volt, amelyet az Egyesült Királyság gyártott az 1930-as években, és 1992-ig különböző feladatokra használtak. Legismertebb szerepe a második világháborúban a brit és a Brit Birodalom haderejének elsődleges gyalogsági LMG-jeként volt, de a koreai háborúban is használták, és a 20. század második felében is szolgálatban volt, beleértve az 1982-es falklandi háborút is. Bár kétlábú állvánnyal volt felszerelve, háromlábú állványra vagy járműre is felszerelhető volt. A Bren géppuska a csehszlovák ZGB 33 könnyű géppuska licencelt változata volt, amely viszont a ZB vz. 26 módosított változata volt, amelyet a brit hadsereg tisztjei az 1930-as években egy lőfegyver-versenyen teszteltek. A tervező Václav Holek, fegyverfeltaláló és tervezőmérnök volt. A későbbi Bren géppuska jellegzetes, felül elhelyezett ívelt doboztárat, kúpos lángcsillapítót és gyorsan cserélhető csöveket tartalmazott.",
+        "ro": "Mitraliera Bren a fost o serie de mitraliere ușoare fabricate de Regatul Unit în anii 1930 și utilizate în diverse roluri până în 1992. Deși este cunoscută mai ales pentru rolul său de mitralieră ușoară principală a infanteriei britanice și a forțelor Imperiului Britanic în al Doilea Război Mondial, a fost utilizată și în Războiul din Coreea și a fost folosită pe tot parcursul celei de-a doua jumătăți a secolului al XX-lea, inclusiv în Războiul din Falkland din 1982. Deși era echipată cu un bipied, putea fi montată și pe un trepied sau pe un vehicul. Mitraliera Bren era o versiune licențiată a mitralierei ușoare cehoslovace ZGB 33, care, la rândul său, era o versiune modificată a modelului ZB vz. 26, pe care oficialii armatei britanice o testaseră în cadrul unei competiții de arme de foc în anii 1930. Proiectantul a fost Václav Holek, inventator de arme și inginer proiectant. Mitraliera Bren ulterioară avea un încărcător distinctiv curbat montat în partea superioară, un dispozitiv conic de ascundere a flăcării și un țevile cu schimbare rapidă."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "Mosin-Nagant M1944",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCNQ7P8mX-e1W0baoEDOlJkscWf7HnmGeJAw&s",
+      "name": {
+        "en": "Mosin–Nagant",
+        "hu": "Moszin–Nagant",
+        "ro": "Mosin-Nagant"
+      },
+      "description": {
+        "en": "The Mosin–Nagant is a five-shot, bolt-action, internal magazine–fed military rifle. Known officially as the 3-line rifle M1891, in Russia and the former Soviet Union as Mosin's rifle  and informally just mosinka, it is primarily chambered for the 7.62×54mmR cartridge. Developed from 1882 to 1891, it was used by the armed forces of the Russian Empire, the Soviet Union and various other states. It is one of the most mass-produced military bolt-action rifles in history, with over 37 million units produced since 1891. In spite of its age, it has been used in various conflicts around the world up to the present day.",
+        "hu": "A Mosin–Nagant egy ötlövetű, csappantyús, belső tárral ellátott katonai puska. Hivatalosan 3-line rifle M1891 néven ismert, Oroszországban és a volt Szovjetunióban Mosin puskaként, informálisan pedig egyszerűen mosinkaként, elsősorban 7,62×54 mmR-es töltényeket használ. 1882 és 1891 között fejlesztették ki, és az Orosz Birodalom, a Szovjetunió és számos más állam fegyveres erői használták. Ez az egyik leggyakrabban gyártott katonai csappantyús puska a történelemben, 1891 óta több mint 37 millió darabot gyártottak belőle. Korának ellenére a mai napig számos konfliktusban használták világszerte.",
+        "ro": "Mosin–Nagant este o pușcă militară cu cinci focuri, cu bolt-action și încărcător intern. Cunoscută oficial sub denumirea de pușcă cu 3 linii M1891, în Rusia și fosta Uniune Sovietică sub denumirea de pușca Mosin  și informal doar mosinka, aceasta este destinată în principal cartușului 7,62×54 mmR. Dezvoltată între 1882 și 1891, a fost utilizată de forțele armate ale Imperiului Rus, Uniunii Sovietice și ale altor state. Este una dintre cele mai produse în serie puști militare cu bolt-action din istorie, cu peste 37 de milioane de unități produse din 1891. În ciuda vechimii sale, a fost utilizată în diverse conflicte din întreaga lume până în prezent."
+      },
+      "type": {
+        "en": "Ground",
+        "hu": "Szárazföldi",
+        "ro": "Terestru"
+      },
+      "category": "ground"
+    },
+    {
+      "id": "bismarkt",
+      "picture": "https://www.diebismarck.de/Images/Start/Headerbild2.jpg",
+      "name": {
+        "en": "Bismarck",
+        "hu": "Bismarck",
+        "ro": "Bismarck"
+      },
+      "description": {
+        "en": "Bismarck was the first of two Bismarck-class battleships built for Nazi Germany's Kriegsmarine. Named after Chancellor Otto von Bismarck, the ship was laid down at the Blohm & Voss shipyard in Hamburg in July 1936 and launched in February 1939. Work was completed in August 1940, when she was commissioned into the German fleet. Bismarck and her sister ship Tirpitz were the largest battleships ever built by Germany, and two of the largest built by any European power. In the course of the warship's eight-month career, Bismarck conducted only one offensive operation that lasted eight days in May 1941, codenamed Rheinübung. The ship, along with the heavy cruiser Prinz Eugen, was to break into the Atlantic Ocean and raid Allied shipping from North America to Great Britain. The two ships were detected several times off Scandinavia, and British naval units were deployed to block their route. At the Battle of the Denmark Strait, the battlecruiser HMS Hood initially engaged Prinz Eugen, probably by mistake, while HMS Prince of Wales engaged Bismarck. In the ensuing battle Hood was destroyed by the combined fire of Bismarck and Prinz Eugen, which then damaged Prince of Wales and forced her retreat. Bismarck suffered sufficient damage from three hits by Prince of Wales to force an end to the raiding mission.",
+        "hu": "A Bismarck volt az első a két Bismarck-osztályú csatahajó közül, amelyeket a náci Németország Kriegsmarine-ja számára építettek. Otto von Bismarck kancellárról elnevezett hajót 1936 júliusában kezdték el építeni a hamburgi Blohm & Voss hajógyárban, és 1939 februárjában bocsátották vízre. A munkálatok 1940 augusztusában fejeződtek be, amikor a hajót a német flotta állományába vették. A Bismarck és testvérhajója, a Tirpitz voltak a legnagyobb csatahajók, amelyeket Németország valaha épített, és a két legnagyobb, amelyet bármelyik európai hatalom épített. A hadihajó nyolc hónapos pályafutása során a Bismarck csak egy támadó műveletet hajtott végre, amely 1941 májusában nyolc napig tartott, és Rheinübung fedőnevet kapott. A hajó a Prinz Eugen nehézcirkálóval együtt az Atlanti-óceánra akart betörni, és a szövetségesek Észak-Amerikából Nagy-Britanniába tartó hajóit akarták megtámadni. A két hajót többször észlelték Skandinávia partjainál, és brit haditengerészeti egységeket küldtek, hogy elzárják az útjukat. A Dánia-szorosban vívott csatában a HMS Hood cirkáló valószínűleg tévedésből a Prinz Eugen ellen indult, míg a HMS Prince of Wales a Bismarck ellen. A következő csatában a Hoodot a Bismarck és a Prinz Eugen együttes tüzelése megsemmisítette, ami megrongálta a Prince of Wales-t és visszavonulásra kényszerítette. A Bismarck a Prince of Wales három találatától olyan súlyos károkat szenvedett, hogy kénytelen volt befejezni a rajtaütést.",
+        "ro": "Bismarck a fost primul dintre cele două cuirasate din clasa Bismarck construite pentru Kriegsmarine, marina militară a Germaniei naziste. Numit după cancelarul Otto von Bismarck, nava a fost pusă pe șantierul naval Blohm & Voss din Hamburg în iulie 1936 și lansată în februarie 1939. Lucrările au fost finalizate în august 1940, când a fost înrolată în flota germană. Bismarck și nava sa gemă Tirpitz erau cele mai mari cuirasate construite vreodată de Germania și două dintre cele mai mari construite de orice putere europeană. În cursul carierei sale de opt luni, Bismarck a desfășurat o singură operațiune ofensivă, care a durat opt zile în mai 1941, cu numele de cod Rheinübung. Nava, împreună cu crucișătorul greu Prinz Eugen, urma să pătrundă în Oceanul Atlantic și să atace navele aliate care transportau mărfuri din America de Nord către Marea Britanie. Cele două nave au fost detectate de mai multe ori în largul Scandinaviei, iar unitățile navale britanice au fost trimise să le blocheze ruta. În bătălia din strâmtoarea Danemarcei, crucișătorul HMS Hood a angajat inițial Prinz Eugen, probabil din greșeală, în timp ce HMS Prince of Wales a angajat Bismarck. În bătălia care a urmat, Hood a fost distrus de focul combinat al lui Bismarck și Prinz Eugen, care apoi a avariat Prince of Wales și l-a forțat să se retragă. Bismarck a suferit daune suficiente din cauza a trei lovituri ale lui Prince of Wales pentru a forța încheierea misiunii de raid."
+      },
+      "type": {
+        "en": "Water",
+        "hu": "Vízi",
+        "ro": "Acvatic"
+      },
+      "category": "water"
+    },
+    {
+      "id": "HMS Hood",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/HMS_Hood_%2851%29_-_March_17%2C_1924.jpg/330px-HMS_Hood_%2851%29_-_March_17%2C_1924.jpg",
+      "name": {
+        "en": "HMS Hood",
+        "hu": "HMS Hood",
+        "ro": "HMS Hood"
+      },
+      "description": {
+        "en": "HMS Hood was a battlecruiser of the Royal Navy . Hood was the first of the planned four Admiral-class battlecruisers to be built during the First World War. She was already under construction when the Battle of Jutland occurred in mid-1916, and that battle revealed serious flaws in her design; with drastic revisions, she was completed four years later. For this reason, she was the only ship of her class to be completed, as the Admiralty decided it would be better to start with a clean design on succeeding battlecruisers, leading to the never-built G-3 class. Despite the appearance of newer and more modern ships, Hood remained the largest warship in the world for 20 years after her commissioning, and her prestige was reflected in her nickname, The Mighty Hood.",
+        "hu": "A HMS Hood a Brit Királyi Haditengerészet csatacirkálója volt. A Hood volt az első a tervezett négy Admiral osztályú csatacirkáló közül, amelyeket az első világháború alatt építettek. Építése már folyamatban volt, amikor 1916 közepén bekövetkezett a jütlandi csata, amely súlyos hibákat tárt fel a tervezésében; drasztikus átalakítások után négy évvel később készült el. Emiatt ő volt az egyetlen hajó a osztályában, amelyet befejeztek, mivel a Haditengerészeti Minisztérium úgy döntött, hogy jobb lenne egy teljesen új tervezéssel kezdeni a következő csatacirkálókat, ami a soha meg nem épült G-3 osztályhoz vezetett. Az újabb és modernebb hajók megjelenése ellenére a Hood 20 évig a világ legnagyobb hadihajója maradt, és presztízsét tükrözte a „The Mighty Hood” beceneve is.",
+        "ro": "HMS Hood era un crucișător de luptă al Marinei Regale Britanice. Hood a fost primul dintre cele patru crucișătoare de luptă din clasa Admiral, care au fost construite în timpul Primului Război Mondial. Construcția sa era deja în curs de desfășurare când a avut loc Bătălia de la Jutland, la mijlocul anului 1916, care a scos la iveală defecte grave în proiectarea sa. După modificări drastice, a fost finalizat patru ani mai târziu. Drept urmare, a fost singura navă din clasa sa care a fost finalizată, deoarece Amiralitatea a decis că ar fi mai bine să înceapă cu un proiect complet nou pentru următoarele crucișătoare de luptă, ceea ce a dus la clasa G-3, care nu a fost niciodată construită. În ciuda apariției unor nave mai noi și mai moderne, Hood a rămas cea mai mare navă de război din lume timp de 20 de ani, iar prestigiul său s-a reflectat în porecla sa, „The Mighty Hood” (Puternicul Hood)"
       },
       "type": {
         "en": "Water",

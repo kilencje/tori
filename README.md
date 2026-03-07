@@ -4,6 +4,8 @@
 ![Node Version](https://img.shields.io/badge/node-%3E%3D14.0.0-green)
 ![License](https://img.shields.io/badge/license-MIT-orange)
 
+http://skystore.go.ro:1234
+
 A comprehensive, interactive educational platform dedicated to World War II history. Features detailed information on major battles, military equipment, atomic technology, and an interactive quiz system. Built with modern web stack and optimized for performance.
 
 ## 🌍 Live Demo

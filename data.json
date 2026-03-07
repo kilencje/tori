@@ -185,7 +185,8 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "spitfire",
@@ -205,7 +206,8 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "allies"
     },
     {
       "id": "v2",
@@ -225,7 +227,8 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "axis"
     },
     {
       "id": "yamato",
@@ -245,7 +248,8 @@
         "hu": "Vízi",
         "ro": "Acvatic"
       },
-      "category": "water"
+      "category": "water",
+      "faction": "axis"
     },
     {
       "id": "stg-44",
@@ -265,11 +269,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "mp-40",
-      "picture": "https://ro.wikipedia.org/wiki/MP_40",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/MP_40_AYF_2.JPG/330px-MP_40_AYF_2.JPG",
       "name": {
         "en": "Mp-40",
         "hu": "Mp-40",
@@ -285,15 +290,16 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "mg-34",
-      "picture": "https://www.ima-usa.com/products/german-mg-34-display-machine-gun-dot-dated-1945",
+      "picture": "https://www.ima-usa.com/cdn/shop/products/on2254__1.jpg?v=1603648034",
       "name": {
         "en": "Mg-34",
-        "hu": "Mg-43",
-        "ro": "Mg-43"
+        "hu": "Mg-34",
+        "ro": "Mg-34"
       },
       "description": {
         "en": "The MG 34 is a German recoil-operated air-cooled general-purpose machine gun, first tested in 1929, introduced in 1934, and issued to units in 1936. It introduced an entirely new concept in automatic firepower and is generally considered the world's first general-purpose machine gun.",
@@ -305,15 +311,16 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "m1 Grand",
-      "picture": "https://weaponsystems.net/system/723-M1+Garand",
+      "picture": "https://photo.weaponsystems.net/image/s-carousel/n-fa_ar_m1garand_p02.jpg/--/img/ws/fa_ar_m1garand_p02.jpg",
       "name": {
-        "en": "M1 Grand",
-        "hu": "M1 Grand",
-        "ro": "M1 grand"
+        "en": "M1 Garand",
+        "hu": "M1 Garand",
+        "ro": "M1 Garand"
       },
       "description": {
         "en": "The M1 Garand or M1 rifle is a semi-automatic rifle that was the service rifle of the U.S. Army during World War II and the Korean War. The rifle is chambered for the .30-06 Springfield cartridge and is named after its Canadian-American designer, John Garand. It was the first standard-issue autoloading rifle for the United States. By most accounts, the M1 rifle performed well. General George S. Patton called it the greatest battle implement ever devised.",
@@ -325,11 +332,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "Panzer III",
-      "picture": "https://tank-afv.com/ww2/germany/Medium_Tanks/Panzer-III/Pzkpfw-III_Ausf-J-late-sicily.png",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/SdKz141-1-1.jpg/250px-SdKz141-1-1.jpg",
       "name": {
         "en": "Panzer III",
         "hu": "Panzer III",
@@ -345,11 +353,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "Panzer IV",
-      "picture": "https://tank-afv.com/ww2/germany/Medium_Tanks/Panzer-IV/panzerIVF2_SSbat_1942.png",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Pz-IVG-latrun-2.jpg/250px-Pz-IVG-latrun-2.jpg",
       "name": {
         "en": "Panzer IV",
         "hu": "Panzer IV",
@@ -365,11 +374,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "Tiger",
-      "picture": "https://tank-afv.com/wp-content/uploads/2016/03/Bundesarchiv_Bild_101I-554-0872-35_Tunesien_Panzer_VI_Tiger_I.jpg",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TigerITankTunis.jpg/250px-TigerITankTunis.jpg",
       "name": {
         "en": "Panzer VI Tiger I",
         "hu": "Panzer VI Tiger I",
@@ -385,7 +395,8 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "King Tiger",
@@ -405,7 +416,8 @@
         "hu": "",
         "ro": ""
       },
-      "category": ""
+      "category": "",
+      "faction": "axis"
     },
     {
       "id": ",Tiger II a fost un tanc greu german din cel de-al Doilea Război Mondial. Denumirea oficială finală germană a fost Panzerkampfwagen Tiger Ausf. B",
@@ -425,7 +437,8 @@
         "hu": "",
         "ro": ""
       },
-      "category": ""
+      "category": "",
+      "faction": "axis"
     },
     {
       "id": ",Ground,Szárazföldi,Terestru,tank,axis",
@@ -445,11 +458,12 @@
         "hu": "",
         "ro": ""
       },
-      "category": ""
+      "category": "",
+      "faction": "axis"
     },
     {
       "id": "Panther",
-      "picture": "https://tank-afv.com/ww2/germany/photos/Bundesarchiv_Frankreich_Panzer_VI_(Tiger_II_Koenigstiger)4.jpg",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/PanzerV_Ausf.G_1_sk.jpg/330px-PanzerV_Ausf.G_1_sk.jpg",
       "name": {
         "en": "Panzerkampfwagen V Panther",
         "hu": "Panzerkampfwagen V Panther",
@@ -465,11 +479,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "t-34",
-      "picture": "https://colectionaruldeistorie.ro/blindate-uniunea-sovietica-tancul-t-34/",
+      "picture": "https://colectionaruldeistorie.ro/wp-content/uploads/2021/04/T-34-85-in-ofensiva.jpg",
       "name": {
         "en": "T-34",
         "hu": "T-34",
@@ -485,11 +500,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "Is-2",
-      "picture": "https://tank-afv.com/ww2/ussr/photos/JS2_unknonw.jpg",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%C2%AB%D0%A1%D0%B0%D0%BF%D1%83%D0%BD-%D0%B3%D0%BE%D1%80%D0%B0%C2%BB2.JPG/330px-%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%C2%AB%D0%A1%D0%B0%D0%BF%D1%83%D0%BD-%D0%B3%D0%BE%D1%80%D0%B0%C2%BB2.JPG",
       "name": {
         "en": "Is-2",
         "hu": "Is-2",
@@ -505,11 +521,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "Kv-2",
-      "picture": "https://ww2-history.fandom.com/wiki/KV-2_Heavy_Tank",
+      "picture": "KV-2_abandoned.jpg",
       "name": {
         "en": "KV-2",
         "hu": "KV-2",
@@ -525,11 +542,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "Su-152",
-      "picture": "https://worldoftanks.eu/en/news/history/history-of-the-SU-ISU-152/",
+      "picture": "https://eu-wotp.wgcdn.co/dcont/fb/image/su-152-2.jpg",
       "name": {
         "en": "SU-152",
         "hu": "SU-152",
@@ -538,18 +556,19 @@
       "description": {
         "en": "The Zveroboy, or beast-killer ,as it was popularly known in 1945, the SU-152 was certainly not intended as a tank-hunter. But, at the end of the battle of Stalingrad, it was realized that, unlike the Germans, the Russian infantry lacked some mobile heavy artillery support. The standard tracked 203 mm howitzer was totally unprotected and certainly not suited for the kind of operations necessary in an open battlefield, dealing with direct fire against buildings, concrete fortifications, bunkers and pillboxes. And the mass-produced SU-76 was too light for the purpose. This need became more urgent after Kursk, when the Soviet Army was preparing for a series of massive counter-offensives.",
         "hu": "„Zveroboy” sau „ucigașul de fiare”, cum era cunoscut în 1945, SU-152 nu era cu siguranță conceput ca un vânător de tancuri. Dar, la sfârșitul bătăliei de la Stalingrad, s-a realizat că, spre deosebire de germani, infanteria rusă nu dispunea de sprijinul artileriei grele mobile. Obuzierul standard de 203 mm pe șenile era total neprotejat și cu siguranță nu era potrivit pentru tipul de operațiuni necesare pe un câmp de luptă deschis, care implicau foc direct asupra clădirilor, fortificațiilor din beton, buncărelor și cazematelor. Iar SU-76, produs în serie, era prea ușor pentru acest scop. Această nevoie a devenit mai urgentă după Kursk, când armata sovietică se pregătea pentru o serie de contraofensive masive.",
-        "ro": "A „Zveroboy”, vagy „állatgyilkos”, ahogy 1945-ben népszerűen ismerték, az SU-152 biztosan nem tankvadászként készült. De a sztálingrádi csata végén rájöttek, hogy a németekkel ellentétben az orosz gyalogságnak hiányzott a mobil nehéz tüzérségi támogatás. A szabványos, lánctalpas 203 mm-es tarack teljesen védtelen volt, és biztosan nem volt alkalmas olyan műveletekre, amelyekre nyílt csatatéren szükség volt, ahol épületek, betonerődítmények, bunkerek és lőállások ellen kellett közvetlen tüzelést alkalmazni. A tömeggyártott SU-76 pedig túl könnyű volt ehhez a célhoz. Ez az igény még sürgetőbbé vált Kursk után, amikor a szovjet hadsereg egy sor hatalmas ellentámadásra készült."
+        "ro": "„Zveroboy” sau „ucigașul de fiare”, cum era cunoscut în 1945, SU-152 nu era cu siguranță conceput ca un vânător de tancuri. Dar, la sfârșitul bătăliei de la Stalingrad, s-a realizat că, spre deosebire de germani, infanteria rusă nu dispunea de sprijinul artileriei grele mobile. Obuzierul standard de 203 mm pe șenile era total neprotejat și cu siguranță nu era potrivit pentru tipul de operațiuni necesare pe un câmp de luptă deschis, care implicau foc direct asupra clădirilor, fortificațiilor din beton, buncărelor și cazematelor. Iar SU-76, produs în serie, era prea ușor pentru acest scop. Această nevoie a devenit mai urgentă după Kursk, când armata sovietică se pregătea pentru o serie de contraofensive masive."
       },
       "type": {
         "en": "Ground",
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "M-18 GMC",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Farmyhistory.org%2Fthe-m18-hellcat-tank-destroyer%2F&psig=AOvVaw2FypN9BaI-nYOn_J91SSQ-&ust=1772018242181000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOjM0tWA8pIDFQAAAAAdAAAAABAE",
+      "picture": "https://armyhistory.org/wp-content/uploads/2017/08/3.-801st-TD-3-500x257.png",
       "name": {
         "en": "M18 Hellcat",
         "hu": "M18 Hellcat",
@@ -565,11 +584,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "Turan III",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fworldoftanks.eu%2Fhu%2Fnews%2Fspecials%2Fturan-prototipus-gem-aug2021%2F&psig=AOvVaw17q6aAOm6kJUODqvw2bFht&ust=1772018564860000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOCZ_-6B8pIDFQAAAAAdAAAAABAL",
+      "picture": "https://eu-wotp.wgcdn.co/dcont/fb/image/prototype_wooden_turan_iii_turret_with_a_mock-up_gun_on_a_turan_ii_chassis.jpg",
       "name": {
         "en": "43M Turán III",
         "hu": "43M Turán III",
@@ -585,11 +605,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "Chi-nu",
-      "picture": "https://tank-afv.com/wp-content/uploads/2014/11/chi-nu-type-3-tank.jpg",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Chi-Nu.JPG/330px-Chi-Nu.JPG",
       "name": {
         "en": "Type 3 Chi-Nu",
         "hu": "3-as típusú Csi-Nu",
@@ -605,11 +626,12 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "axis"
     },
     {
       "id": "Bf 109F",
-      "picture": "https://en.wikipedia.org/wiki/Messerschmitt_Bf_109#/media/File:Bundesarchiv_Bild_101I-662-6659-37,_Flugzeug_Messerschmitt_Me_109.jpg",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bundesarchiv_Bild_101I-662-6659-37%2C_Flugzeug_Messerschmitt_Me_109.jpg/330px-Bundesarchiv_Bild_101I-662-6659-37%2C_Flugzeug_Messerschmitt_Me_109.jpg",
       "name": {
         "en": "Messerschmitt Bf 109",
         "hu": "Bf 109",
@@ -625,11 +647,12 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "axis"
     },
     {
       "id": "FDW 190 A-1",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fhu.wikipedia.org%2Fwiki%2FFw_190&psig=AOvVaw086Vy9eawF7LRc79V_e2Oo&ust=1772019399988000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJD8jv6E8pIDFQAAAAAdAAAAABAE",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Focke-Wulf_Fw_190_050602-F-1234P-005.jpg/250px-Focke-Wulf_Fw_190_050602-F-1234P-005.jpg",
       "name": {
         "en": "Focke-Wulf Fw 190",
         "hu": "Fw 190",
@@ -645,11 +668,12 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "axis"
     },
     {
       "id": "Me 262",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdefencyclopedia.com%2F2017%2F05%2F16%2Fentering-a-new-age-germanys-stormbird-the-me-262%2F&psig=AOvVaw26IUa3WDG_XzVFA-jr6xXs&ust=1772019671045000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCliv-F8pIDFQAAAAAdAAAAABAE",
+      "picture": "https://defencyclopedia.com/wp-content/uploads/2017/05/262sturmvogel.jpg",
       "name": {
         "en": "Messerschmitt Me 262",
         "hu": "Me 262",
@@ -665,11 +689,12 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "axis"
     },
     {
       "id": "JU 188",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AJunkers_Ju_188_E-1_on_ground_1943.jpg&psig=AOvVaw1v3-sPsguLFWV_bSOoA8B7&ust=1772019726403000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNjYtZmG8pIDFQAAAAAdAAAAABAK",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/80/Junkers_Ju_188_E-1_on_ground_1943.jpg?_=20111129194139",
       "name": {
         "en": "Junkers Ju 188",
         "hu": "Ju 188",
@@ -685,11 +710,12 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "axis"
     },
     {
       "id": "Ju 87",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsimpleflying.com%2Fstuka-dive-bomber-incredible-features-list%2F&psig=AOvVaw2JpifNHxRqoKBzpePVCjM4&ust=1772019981404000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJi93JOH8pIDFQAAAAAdAAAAABAX",
+      "picture": "https://static0.simpleflyingimages.com/wordpress/wp-content/uploads/2023/11/clipboard-31.png?q=50&fit=crop&w=1600&h=900&dpr=1.5",
       "name": {
         "en": "Junkers Ju 87",
         "hu": "Ju 87",
@@ -705,11 +731,12 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "axis"
     },
     {
       "id": "Yak-9",
-      "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstormbirds.blog%2F2020%2F05%2F24%2Fyak-9-and-yak-9t-collector-plane-review%2F&psig=AOvVaw15uguEYsN-qO9xgausLovg&ust=1772020017751000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIjpqqSH8pIDFQAAAAAdAAAAABAE",
+      "picture": "https://stormbirds.blog/wp-content/uploads/2020/05/yak-9d-3rd-squadron-6th-air-gviap-black-sea-fleet-white-22-01.jpg",
       "name": {
         "en": "Yakovlev Yak-9",
         "hu": "Yak-9",
@@ -725,7 +752,8 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "allies"
     },
     {
       "id": "I-185",
@@ -745,7 +773,8 @@
         "hu": "",
         "ro": ""
       },
-      "category": ""
+      "category": "",
+      "faction": "axis"
     },
     {
       "id": "An evolution of the previous I-180",
@@ -765,7 +794,8 @@
         "hu": "",
         "ro": ""
       },
-      "category": ""
+      "category": "",
+      "faction": "axis"
     },
     {
       "id": "Az előző I-180 továbbfejlesztése volt",
@@ -785,7 +815,8 @@
         "hu": "proiectat de OKB 84",
         "ro": "condus de Nikolai Nikolaevich Polikarpov. A fost dezvoltat în Uniunea Sovietică la începutul anilor 1940"
       },
-      "category": "cu aripă joasă"
+      "category": "cu aripă joasă",
+      "faction": "axis"
     },
     {
       "id": "O evoluție a modelului anterior I-180",
@@ -805,7 +836,8 @@
         "hu": "",
         "ro": ""
       },
-      "category": ""
+      "category": "",
+      "faction": "axis"
     },
     {
       "id": "F4U",
@@ -825,7 +857,8 @@
         "hu": "Repülő",
         "ro": "Aerian"
       },
-      "category": "air"
+      "category": "air",
+      "faction": "allies"
     },
     {
       "id": "PPsh-41",
@@ -845,7 +878,8 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "Dp-27",
@@ -865,7 +899,8 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "Bren Gun",
@@ -885,7 +920,8 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "Mosin-Nagant M1944",
@@ -905,7 +941,8 @@
         "hu": "Szárazföldi",
         "ro": "Terestru"
       },
-      "category": "ground"
+      "category": "ground",
+      "faction": "allies"
     },
     {
       "id": "bismarkt",
@@ -925,7 +962,8 @@
         "hu": "Vízi",
         "ro": "Acvatic"
       },
-      "category": "water"
+      "category": "water",
+      "faction": "axis"
     },
     {
       "id": "HMS Hood",
@@ -945,7 +983,50 @@
         "hu": "Vízi",
         "ro": "Acvatic"
       },
-      "category": "water"
+      "category": "water",
+      "faction": "allies"
+    },
+    {
+      "id": "U-boat",
+      "picture": "https://cdn.britannica.com/11/60711-050-068E6F3F/U-218-Kiel-Germany-1941.jpg",
+      "name": {
+        "en": "U-boat",
+        "hu": "U-boat",
+        "ro": "U-boot"
+      },
+      "description": {
+        "en": "U-boats are naval submarines operated by Germany, especially during World War I and World War II. The term is an anglicized form of the German word U-Boot , a shortening of Unterseeboot .   U-boats are especially known for their use in unrestricted submarine warfare in both world wars, attempting to disrupt merchant traffic towards the UK and force the UK out of the war. In World War II, Karl Dönitz, supreme commander of the Kriegsmarine's U-boat arm, was convinced the UK and its convoys could be defeated by new tactics, and tried to focus on convoy battles. Though U-boat tactics initially saw success in the Battle of the Atlantic, greatly disrupting Allied shipping, improved convoy and anti-submarine tactics such as high-frequency direction finding and the Hedgehog anti-submarine system began to take a toll on the German U-boat force. This ultimately came to a head in May 1943, known as Black May, in which U-boat losses began to outpace their effect on shipping.",
+        "hu": "Az U-csónakok Németország által üzemeltetett tengeralattjárók, különösen az első és a második világháború idején. A kifejezés a német U-Boot szó angolra átalakított formája, amely az Unterseeboot rövidítése.   Az U-csónakok különösen arról ismertek, hogy mindkét világháborúban korlátlan tengeralattjáró-hadviselésben alkalmazták őket, megkísérelve megzavarni a kereskedelmi forgalmat az Egyesült Királyság felé, és kényszeríteni az Egyesült Királyságot a háborúból való kilépésre. A második világháborúban Karl Dönitz, a Kriegsmarine U-boot haderő főparancsnoka meg volt győződve arról, hogy az Egyesült Királyság és konvojai új taktikával legyőzhetők, ezért megpróbálta a konvojcsatákra összpontosítani. Bár az U-csónakok taktikája kezdetben sikeresnek bizonyult az Atlanti-óceáni csatában, jelentősen megzavarva a szövetségesek hajózását, a továbbfejlesztett konvoj- és tengeralattjáró-elhárítási taktikák, mint például a nagyfrekvenciás iránykeresés és a Hedgehog tengeralattjáró-elhárító rendszer, kezdtek megterhelni a német U-csónak-erőt. Ez végül 1943 májusában, az úgynevezett Fekete Májusban tetőzött, amikor az U-csónakok veszteségei meghaladták a hajózásra gyakorolt hatásukat.",
+        "ro": "Submarinele U-boat sunt submarine navale operate de Germania, în special în timpul Primului și celui de-al Doilea Război Mondial. Termenul este o formă anglicizată a cuvântului german U-Boot , o prescurtare de la Unterseeboot .   Submarinele U-boat sunt cunoscute în special pentru utilizarea lor în războiul submarin fără restricții din ambele războaie mondiale, încercând să perturbe traficul comercial către Marea Britanie și să forțeze Marea Britanie să iasă din război. În cel de-al Doilea Război Mondial, Karl Dönitz, comandantul suprem al armatei de submarine U-boat a Kriegsmarine, era convins că Marea Britanie și convoaiele sale puteau fi înfrânte prin noi tactici și a încercat să se concentreze pe bătăliile cu convoaie. Deși tacticile submarinelor U-boat au avut inițial succes în Bătălia Atlanticului, perturbând în mare măsură transportul maritim aliat, îmbunătățirea tacticilor de convoi și antisubmarin, precum localizarea de înaltă frecvență și sistemul antisubmarin Hedgehog, au început să afecteze forța submarinelor germane U-boat. Acest lucru a ajuns la apogeu în mai 1943, cunoscut sub numele de „Black May”, când pierderile submarinelor U-boat au început să depășească efectul lor asupra transportului maritim."
+      },
+      "type": {
+        "en": "Water",
+        "hu": "Vízi",
+        "ro": "Acvatic"
+      },
+      "category": "water",
+      "faction": "axis"
+    },
+    {
+      "id": "USS Enterprise",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/87/USS_Enterprise_%28CV-6%29_in_Puget_Sound%2C_September_1945.jpg",
+      "name": {
+        "en": "USS Enterprise",
+        "hu": "USS Enterprise",
+        "ro": "USS Enterprise"
+      },
+      "description": {
+        "en": "USS Enterprise  was a Yorktown-class carrier built for the United States Navy during the 1930s. She was the seventh U.S. Navy vessel of that name. Colloquially called The Big E, she was the sixth aircraft carrier of the United States Navy. Launched in 1936, she was the only Yorktown-class carrier to survive World War II. She was also one of only three American fleet carriers commissioned before the war to survive it; the others were Saratoga and Ranger . Enterprise participated in more major actions of the war against Japan than any other United States ship. These actions included the attack on Pearl Harbor — 18 Douglas SBD Dauntless dive bombers of her air group arrived over the harbor during the attack, seven were shot down with eight airmen killed and two wounded, making her the only American aircraft carrier with men at Pearl Harbor during the attack and the first to sustain casualties during the Pacific War — the Battle of Midway, the Battle of the Eastern Solomons, the Battle of the Santa Cruz Islands, various other air-sea engagements during the Guadalcanal campaign, the Battle of the Philippine Sea, and the Battle of Leyte Gulf.",
+        "hu": "Az USS Enterprise egy Yorktown-osztályú repülőgép-hordozó volt, amelyet az 1930-as években építettek az Amerikai Egyesült Államok Haditengerészete számára. Ez volt a hetedik ilyen nevű hajó az amerikai haditengerészet flottájában. A köznyelvben „The Big E” néven ismert hajó az Amerikai Haditengerészet hatodik repülőgép-hordozója volt. 1936-ban vízre bocsátották, és az egyetlen Yorktown osztályú repülőgép-hordozó volt, amely túlélte a második világháborút. Emellett az egyetlen három amerikai flotta-repülőgép-hordozó egyike volt, amelyet a háború előtt állítottak szolgálatba, és amely túlélte azt; a másik kettő a Saratoga és a Ranger volt. Az Enterprise több jelentős hadműveletben vett részt a Japán elleni háborúban, mint bármelyik másik amerikai hajó. Ezek között volt a Pearl Harbor elleni támadás – a hajó légi csoportjának 18 Douglas SBD Dauntless zuhanóbombázója érkezett a kikötő fölé a támadás során, hétet lelőttek, nyolc pilóta meghalt és kettő megsebesült, így ez volt az egyetlen amerikai repülőgép-hordozó, amelynek legénysége Pearl Harborban volt a támadás során, és az első, amely veszteségeket szenvedett a csendes-óceáni háborúban –, a Midway-i csata, a Kelet-Szalamon-szigetek csatája, a Santa Cruz-szigetek csatája, a guadalcanali hadjárat során végrehajtott különböző egyéb légi-tengeri ütközetek, a Fülöp-tengeri csata és a Leyte-öbölbeli csata.",
+        "ro": "USS Enterprise  a fost un portavion din clasa Yorktown construit pentru Marina Statelor Unite în anii 1930. A fost a șaptea navă a Marinei SUA cu acest nume. Denumită în mod colocvial „The Big E”, a fost al șaselea portavion al Marinei Militare a Statelor Unite. Lansat în 1936, a fost singurul portavion din clasa Yorktown care a supraviețuit celui de-al Doilea Război Mondial. A fost, de asemenea, unul dintre cele trei portavioane americane comandate înainte de război care au supraviețuit acestuia; celelalte au fost Saratoga și Ranger. Enterprise a participat la mai multe acțiuni importante ale războiului împotriva Japoniei decât orice altă navă americană. Aceste acțiuni au inclus atacul asupra Pearl Harbor — 18 bombardiere în picaj Douglas SBD Dauntless din grupul său aerian au ajuns deasupra portului în timpul atacului, șapte au fost doborâte, opt aviatori au fost uciși și doi răniți, făcând-o singurul portavion american cu oameni la Pearl Harbor în timpul atacului și primul care a suferit pierderi în timpul războiului din Pacific — bătălia de la Midway, bătălia din Insulele Solomon de Est, bătălia din Insulele Santa Cruz, diverse alte angajamente aeriene și maritime în timpul campaniei din Guadalcanal, bătălia din Marea Filipinelor și bătălia din Golful Leyte."
+      },
+      "type": {
+        "en": "Water",
+        "hu": "Vízi",
+        "ro": "Acvatic"
+      },
+      "category": "water",
+      "faction": "allies"
     }
   ]
 }

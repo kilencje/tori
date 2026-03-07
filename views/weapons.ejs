@@ -36,6 +36,12 @@
                                 <p class="card-text"><%= weapon.description[lang] %></p>
                                 <div class="detail-meta">
                                     <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
+                                    <br>
+                                    <strong><i class="fas fa-flag"></i> <%= lang === 'hu' ? 'Frakció:' : lang === 'ro' ? 'Facțiune:' : 'Faction:' %></strong>
+                                    <span class="badge <%= weapon.faction === 'axis' ? 'bg-danger' : 'bg-primary' %>">
+                                        <i class="fas <%= weapon.faction === 'axis' ? 'fa-swastika' : 'fa-star' %>"></i>
+                                        <%= weapon.faction === 'axis' ? (lang === 'hu' ? 'Tengely' : lang === 'ro' ? 'Axa' : 'Axis') : (lang === 'hu' ? 'Szövetségesek' : lang === 'ro' ? 'Aliați' : 'Allies') %>
+                                    </span>
                                 </div>
                                 <a href="/weapon/<%= weapon.id %>?lang=<%= lang %>" class="btn btn-danger btn-sm">
                                     <%= lang === 'hu' ? 'Megtekintés' : lang === 'ro' ? 'Vezi' : 'View' %> <i class="fas fa-arrow-right ms-1"></i>
@@ -73,6 +79,12 @@
                                 <p class="card-text"><%= weapon.description[lang] %></p>
                                 <div class="detail-meta">
                                     <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
+                                    <br>
+                                    <strong><i class="fas fa-flag"></i> <%= lang === 'hu' ? 'Frakció:' : lang === 'ro' ? 'Facțiune:' : 'Faction:' %></strong>
+                                    <span class="badge <%= weapon.faction === 'axis' ? 'bg-danger' : 'bg-primary' %>">
+                                        <i class="fas <%= weapon.faction === 'axis' ? 'fa-swastika' : 'fa-star' %>"></i>
+                                        <%= weapon.faction === 'axis' ? (lang === 'hu' ? 'Tengely' : lang === 'ro' ? 'Axa' : 'Axis') : (lang === 'hu' ? 'Szövetségesek' : lang === 'ro' ? 'Aliați' : 'Allies') %>
+                                    </span>
                                 </div>
                                 <a href="/weapon/<%= weapon.id %>?lang=<%= lang %>" class="btn btn-danger btn-sm">
                                     <%= lang === 'hu' ? 'Megtekintés' : lang === 'ro' ? 'Vezi' : 'View' %> <i class="fas fa-arrow-right ms-1"></i>
@@ -110,6 +122,12 @@
                                 <p class="card-text"><%= weapon.description[lang] %></p>
                                 <div class="detail-meta">
                                     <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
+                                    <br>
+                                    <strong><i class="fas fa-flag"></i> <%= lang === 'hu' ? 'Frakció:' : lang === 'ro' ? 'Facțiune:' : 'Faction:' %></strong>
+                                    <span class="badge <%= weapon.faction === 'axis' ? 'bg-danger' : 'bg-primary' %>">
+                                        <i class="fas <%= weapon.faction === 'axis' ? 'fa-swastika' : 'fa-star' %>"></i>
+                                        <%= weapon.faction === 'axis' ? (lang === 'hu' ? 'Tengely' : lang === 'ro' ? 'Axa' : 'Axis') : (lang === 'hu' ? 'Szövetségesek' : lang === 'ro' ? 'Aliați' : 'Allies') %>
+                                    </span>
                                 </div>
                                 <a href="/weapon/<%= weapon.id %>?lang=<%= lang %>" class="btn btn-danger btn-sm">
                                     <%= lang === 'hu' ? 'Megtekintés' : lang === 'ro' ? 'Vezi' : 'View' %> <i class="fas fa-arrow-right ms-1"></i>

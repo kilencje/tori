@@ -152,7 +152,8 @@ function csvToJsonWeapons(csvContent) {
         hu: row.type_hu,
         ro: row.type_ro
       },
-      category: row.type_en.toLowerCase()
+      category: row.type_en.toLowerCase(),
+      faction: row.faction || 'axis'
     }));
 
     const dataPath = path.join(rootDir, 'data.json');

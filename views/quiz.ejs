@@ -7,6 +7,58 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/style.css">
+    <style>
+        .difficulty-selector {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .difficulty-btn {
+            padding: 1rem 2rem;
+            font-size: 1.1rem;
+            margin: 0.5rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .difficulty-btn.active {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+        .quiz-summary {
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 4px solid var(--accent-color);
+            padding: 1rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+        .quiz-summary h5 {
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+        .question-counter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1.5rem 0;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+        }
+        main{
+            background: linear-gradient(rgba(31, 58, 147, 0.7), rgba(26, 26, 46, 0.8));
+            min-height: 75vh;
+            border-radius: 0% 0% 8px 8px;
+        }
+        .detail-header {
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+            border-radius: 0% 0% 8px 8px;
+        }
+        .difficulty-selector h4 {
+            margin-bottom: 1rem;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <%- include('partials/navbar') %>
@@ -15,45 +67,73 @@
         <section class="detail-header">
             <div class="container">
                 <h1><i class="fas fa-brain"></i> <%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></h1>
+                <p class="lead"><%= lang === 'hu' ? 'Tesztelje tudását a második világháborúról!' : lang === 'ro' ? 'Testați-vă cunoștințele despre al Doilea Război Mondial!' : 'Test your knowledge about World War II!' %></p>
             </div>
         </section>
 
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <form id="quizForm">
-                        <% quiz.questions.forEach((q, index) => { %>
-                            <div class="quiz-container">
-                                <div style="text-align: center; margin-bottom: 1.5rem;">
-                                    <img src="/pictures/<%= q.picture %>" alt="Question <%= index + 1 %>" style="max-width: 100%; height: 250px; object-fit: cover; border-radius: 12px; border: 2px solid var(--accent-color);" loading="lazy">
-                                </div>
-                                <div class="question">
-                                    <h3><i class="fas fa-question-circle"></i> <%= q.question[lang] %></h3>
-                                    <% q.options.forEach((opt, optIndex) => { %>
-                                        <label>
-                                            <input type="radio" name="q<%= index %>" value="<%= optIndex %>" required>
-                                            <span><%= opt[lang] %></span>
-                                        </label>
-                                    <% }); %>
-                                </div>
-                            </div>
-                        <% }); %>
-                        <div class="text-center mt-4">
-                            <button type="button" onclick="submitQuiz()" class="btn btn-success btn-lg">
-                                <i class="fas fa-check-circle"></i> <%= lang === 'hu' ? 'Beküldés' : lang === 'ro' ? 'Trimite' : 'Submit' %>
+
+                    <!-- Állapot 1: Szint választó képernyő -->
+                    <div id="screenSelect">
+                        <div class="difficulty-selector">
+                            <h4><%= lang === 'hu' ? 'Válassz szintet:' : lang === 'ro' ? 'Alege nivelul:' : 'Choose difficulty:' %></h4>
+                            <button type="button" class="btn btn-outline-success difficulty-btn" onclick="selectDifficulty('easy', this)">
+                                <i class="fas fa-leaf"></i> <%= lang === 'hu' ? 'Könnyű' : lang === 'ro' ? 'Ușor' : 'Easy' %>
+                            </button>
+                            <button type="button" class="btn btn-outline-danger difficulty-btn" onclick="selectDifficulty('hard', this)">
+                                <i class="fas fa-fire"></i> <%= lang === 'hu' ? 'Nehéz' : lang === 'ro' ? 'Greu' : 'Hard' %>
                             </button>
                         </div>
-                    </form>
-                    
-                    <div id="result" style="display: none;">
+
+                        <div id="quizSummary" class="quiz-summary" style="display: none;">
+                            <h5 id="summaryTitle"></h5>
+                            <p id="summaryText"></p>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-primary btn-lg" onclick="startQuiz()">
+                                    <i class="fas fa-play"></i>
+                                    <%= lang === 'hu' ? 'Indítás' : lang === 'ro' ? 'Start' : 'Start' %>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Állapot 2: Kérdések -->
+                    <div id="screenQuiz" style="display: none;">
+                        <div id="unansweredAlert" class="alert alert-warning" style="display: none;">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <%= lang === 'hu' ? 'Kérjük, válaszolj minden kérdésre!' : lang === 'ro' ? 'Te rugăm să răspunzi la toate întrebările!' : 'Please answer all questions!' %>
+                        </div>
+
+                        <form id="quizForm">
+                            <div id="questionsContainer"></div>
+                            <div class="text-center mt-4 mb-4 d-flex justify-content-center gap-3">
+                                <button type="button" onclick="backToSelect()" class="btn btn-secondary btn-lg">
+                                    <i class="fas fa-arrow-left"></i>
+                                    <%= lang === 'hu' ? 'Vissza' : lang === 'ro' ? 'Înapoi' : 'Back' %>
+                                </button>
+                                <button type="button" onclick="submitQuiz()" class="btn btn-success btn-lg">
+                                    <i class="fas fa-check-circle"></i>
+                                    <%= lang === 'hu' ? 'Beküldés' : lang === 'ro' ? 'Trimite' : 'Submit' %>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Állapot 3: Eredmény -->
+                    <div id="screenResult" style="display: none;">
                         <div class="alert alert-success text-center py-4" role="alert">
                             <h2><i class="fas fa-trophy"></i> <%= lang === 'hu' ? 'Eredmény' : lang === 'ro' ? 'Rezultat' : 'Result' %>:</h2>
                             <div style="font-size: 3rem; color: var(--accent-color); font-weight: 900; margin: 1rem 0;" id="score"></div>
-                            <a href="/quiz?lang=<%= lang %>" class="btn btn-primary mt-3">
-                                <i class="fas fa-redo"></i> <%= lang === 'hu' ? 'Újra próbálni' : lang === 'ro' ? 'Încearcă din nou' : 'Try Again' %>
-                            </a>
+                            <p id="resultMessage" style="font-size: 1.2rem; margin: 1rem 0;"></p>
+                            <button type="button" onclick="backToSelect()" class="btn btn-primary mt-3">
+                                <i class="fas fa-redo"></i>
+                                <%= lang === 'hu' ? 'Újra próbálni' : lang === 'ro' ? 'Încearcă din nou' : 'Try Again' %>
+                            </button>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -66,27 +146,180 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="application/json" id="quiz-data">
-<%= JSON.stringify(quiz.questions.map(q => q.answer)) %>
-    </script>
+    <script type="application/json" id="quiz-data"><%- JSON.stringify(quiz) %></script>
     <script>
-        const answers = JSON.parse(document.getElementById('quiz-data').textContent);
+        const lang = '<%= lang %>';
+        const quizData = JSON.parse(document.getElementById('quiz-data').textContent);
+        let currentDifficulty = 'easy';
+        let currentAnswers = [];
+
+        const translations = {
+            easy: {
+                en: 'Easy - 8 Questions',
+                hu: 'Könnyű - 8 kérdés',
+                ro: 'Ușor - 8 întrebări'
+            },
+            hard: {
+                en: 'Hard - 10 Questions',
+                hu: 'Nehéz - 10 kérdés',
+                ro: 'Greu - 10 întrebări'
+            },
+            description_easy: {
+                en: 'Beginner level - fundamental knowledge about battles, weapons, and historical facts.',
+                hu: 'Kezdő szint - alapvető ismeretek a csatákról, fegyverekről és történelmi tényekről.',
+                ro: 'Nivel începător - cunoștințe fundamentale despre bătălii, arme și fapte istorice.'
+            },
+            description_hard: {
+                en: 'Advanced level - detailed questions about specific commanders, dates, and events.',
+                hu: 'Haladó szint - részletes kérdések az adott tábornokokról, dátumokról és eseményekről.',
+                ro: 'Nivel avansat - întrebări detaliate despre generali specifici, date și evenimente.'
+            },
+            difficulty_label: {
+                easy: { en: 'Easy', hu: 'Könnyű', ro: 'Ușor' },
+                hard: { en: 'Hard', hu: 'Nehéz', ro: 'Greu' }
+            },
+            question_label: {
+                en: 'Question:',
+                hu: 'Kérdés:',
+                ro: 'Întrebare:'
+            },
+            correct: {
+                en: 'Excellent! You are a WWII expert!',
+                hu: 'Kiváló! Ön egy II. világháborús szakértő!',
+                ro: 'Excelent! Ești un expert în al Doilea Război Mondial!'
+            },
+            good: {
+                en: 'Very good! You have solid knowledge about WWII.',
+                hu: 'Nagyon jó! Szilárd ismeretei vannak a II. világháborúról.',
+                ro: 'Foarte bine! Ai cunoștințe solide despre al Doilea Război Mondial.'
+            },
+            fair: {
+                en: 'Good effort! Keep learning about WWII history.',
+                hu: 'Jó próbálkozás! Tanulj tovább a II. világháború történetéről.',
+                ro: 'Bun efort! Continuă să-ți aprofundezi cunoștințele despre al Doilea Război Mondial.'
+            },
+            poor: {
+                en: 'Keep trying! Review the battles and weapons sections for more information.',
+                hu: 'Próbálkozz tovább! Nézd meg újra a csaták és fegyverek szakaszokat.',
+                ro: 'Continuă! Revizuiește secțiunile cu bătălii și arme pentru mai multe informații.'
+            }
+        };
+
+        // Szint kiválasztása - megmutatja a summary-t és a Start gombot
+        function selectDifficulty(difficulty, btn) {
+            currentDifficulty = difficulty;
+
+            document.querySelectorAll('.difficulty-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            document.getElementById('summaryTitle').textContent = translations[difficulty][lang];
+            document.getElementById('summaryText').textContent = translations['description_' + difficulty][lang];
+            document.getElementById('quizSummary').style.display = 'block';
+        }
+
+        // Start gomb - kérdések betöltése és képernyőváltás
+        function startQuiz() {
+            loadQuestions();
+            document.getElementById('screenSelect').style.display = 'none';
+            document.getElementById('screenQuiz').style.display = 'block';
+            document.getElementById('screenResult').style.display = 'none';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function loadQuestions() {
+            const questions = quizData.questions[currentDifficulty];
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '';
+            currentAnswers = questions.map(q => q.answer);
+
+            const diffIcon = currentDifficulty === 'easy'
+                ? '<i class="fas fa-leaf"></i>'
+                : '<i class="fas fa-fire"></i>';
+            const diffLabel = translations.difficulty_label[currentDifficulty][lang];
+            const questionLabel = translations.question_label[lang];
+
+            questions.forEach((q, index) => {
+                const optionsHTML = q.options.map((opt, optIndex) => `
+                    <label style="margin: 0.75rem 0; display: block; padding: 0.75rem; border-radius: 8px;
+                        cursor: pointer; transition: all 0.3s ease;
+                        background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);">
+                        <input type="radio" name="q${index}" value="${optIndex}" style="margin-right: 0.75rem;">
+                        <span>${opt[lang]}</span>
+                    </label>
+                `).join('');
+                
+                const pictureURL = q.picture.includes("https") ? q.picture : `/pictures/${q.picture}`;
+
+                container.innerHTML += `
+                    <div class="quiz-container">
+                        <div class="question-counter">
+                            <span><i class="fas fa-question-circle"></i> ${questionLabel} ${index + 1}/${questions.length}</span>
+                            <span style="color: var(--accent-color); font-weight: bold;">${diffIcon} ${diffLabel}</span>
+                        </div>
+                        <div style="text-align: center; margin-bottom: 1.5rem;">
+                            <img src="${pictureURL}" alt="Question ${index + 1}"
+                                style="max-width: 100%; height: 250px; object-fit: cover; border-radius: 12px; border: 2px solid var(--accent-color);"
+                                loading="lazy">
+                        </div>
+                        <div class="question">
+                            <h3><i class="fas fa-question-circle"></i> ${q.question[lang]}</h3>
+                            ${optionsHTML}
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('unansweredAlert').style.display = 'none';
+        }
+
         function submitQuiz() {
             const form = document.getElementById('quizForm');
-            const resultDiv = document.getElementById('result');
-            const scoreSpan = document.getElementById('score');
-            let score = 0;
+            const alertDiv = document.getElementById('unansweredAlert');
 
-            answers.forEach((answer, index) => {
-                const selected = form.elements['q' + index];
-                if (selected.value == answer) {
+            // Validáció: minden kérdésre kötelező válaszolni
+            for (let i = 0; i < currentAnswers.length; i++) {
+                const radios = form.elements['q' + i];
+                const answered = radios && Array.from(radios).some(r => r.checked);
+                if (!answered) {
+                    alertDiv.style.display = 'block';
+                    alertDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    return;
+                }
+            }
+            alertDiv.style.display = 'none';
+
+            let score = 0;
+            currentAnswers.forEach((answer, index) => {
+                const radios = form.elements['q' + index];
+                const selected = Array.from(radios).find(r => r.checked);
+                if (selected && parseInt(selected.value) === answer) {
                     score++;
                 }
             });
 
-            scoreSpan.textContent = score + '/' + answers.length;
-            resultDiv.style.display = 'block';
-            document.getElementById('quizForm').style.display = 'none';
+            const percentage = (score / currentAnswers.length) * 100;
+            document.getElementById('score').textContent = score + '/' + currentAnswers.length;
+
+            let message = '';
+            if (percentage === 100)     message = translations.correct[lang];
+            else if (percentage >= 70)  message = translations.good[lang];
+            else if (percentage >= 50)  message = translations.fair[lang];
+            else                        message = translations.poor[lang];
+
+            document.getElementById('resultMessage').textContent = message;
+            document.getElementById('screenQuiz').style.display = 'none';
+            document.getElementById('screenResult').style.display = 'block';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Vissza a szint választóhoz
+        function backToSelect() {
+            document.getElementById('screenSelect').style.display = 'block';
+            document.getElementById('screenQuiz').style.display = 'none';
+            document.getElementById('screenResult').style.display = 'none';
+            document.getElementById('quizSummary').style.display = 'none';
+            document.querySelectorAll('.difficulty-btn').forEach(b => b.classList.remove('active'));
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
     </script>
 </body>

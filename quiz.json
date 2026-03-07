@@ -1,134 +1,278 @@
 {
-  "questions": [
-    {
-      "id": "q1",
-      "picture": "sample.jpg",
-      "question": {
-        "en": "In which year did the D-Day invasion occur?",
-        "hu": "Melyik évben történt a D-nap invázió?",
-        "ro": "În ce an a avut loc invazia Ziua Z?"
+  "questions": {
+    "easy": [
+      {
+        "id": "e1",
+        "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770720956/images_hmrez7.jpg",
+        "question": {
+          "en": "In which year did the D-Day invasion occur?",
+          "hu": "Melyik évben történt a D-nap invázió?",
+          "ro": "În ce an a avut loc invazia Ziua Z?"
+        },
+        "options": [
+          {"en": "1944", "hu": "1944", "ro": "1944"},
+          {"en": "1942", "hu": "1942", "ro": "1942"},
+          {"en": "1940", "hu": "1940", "ro": "1940"}
+        ],
+        "answer": 0
       },
-      "options": [
-        {
-          "en": "1944",
-          "hu": "1944",
-          "ro": "1944"
+      {
+        "id": "e2",
+        "picture": "stalingrad.jpg",
+        "question": {
+          "en": "Which battle is known as the turning point on the Eastern Front?",
+          "hu": "Melyik csata ismert a keleti front fordulópontjaként?",
+          "ro": "Care bătălie este cunoscută ca punct de cotitură pe Frontul de Est?"
         },
-        {
-          "en": "1942",
-          "hu": "1942",
-          "ro": "1942"
-        },
-        {
-          "en": "1940",
-          "hu": "1940",
-          "ro": "1940"
-        }
-      ],
-      "answer": 0
-    },
-    {
-      "id": "q2",
-      "picture": "sample.jpg",
-      "question": {
-        "en": "Which battle is known as the turning point on the Eastern Front?",
-        "hu": "Melyik csata ismert a keleti front fordulópontjaként?",
-        "ro": "Care bătălie este cunoscută ca punct de cotitură pe Frontul de Est?"
+        "options": [
+          {"en": "Battle of Britain", "hu": "Britanniái csata", "ro": "Bătălia Angliei"},
+          {"en": "Battle of Stalingrad", "hu": "Sztalingrádi csata", "ro": "Bătălia de la Stalingrad"},
+          {"en": "D-Day", "hu": "D-nap", "ro": "Ziua Z"}
+        ],
+        "answer": 1
       },
-      "options": [
-        {
-          "en": "Battle of Britain",
-          "hu": "Britanniái csata",
-          "ro": "Bătălia Angliei"
+      {
+        "id": "e3",
+        "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770670294/V2_rocket_gjlp0l.jpg",
+        "question": {
+          "en": "What type of weapon is the V-2?",
+          "hu": "Milyen típusú fegyver a V-2?",
+          "ro": "Ce tip de armă este V-2?"
         },
-        {
-          "en": "Battle of Stalingrad",
-          "hu": "Száljingrádi csata",
-          "ro": "Bătălia de la Stalingrad"
-        },
-        {
-          "en": "D-Day",
-          "hu": "D-nap",
-          "ro": "Ziua Z"
-        }
-      ],
-      "answer": 1
-    },
-    {
-      "id": "q3",
-      "picture": "sample.jpg",
-      "question": {
-        "en": "What type of weapon is the V-2?",
-        "hu": "Milyen típusú fegyver a V-2?",
-        "ro": "Ce tip de armă este V-2?"
+        "options": [
+          {"en": "Tank", "hu": "Harckocsi", "ro": "Tanc"},
+          {"en": "Aircraft", "hu": "Repülőgép", "ro": "Avion"},
+          {"en": "Rocket", "hu": "Rakéta", "ro": "Rachetă"}
+        ],
+        "answer": 2
       },
-      "options": [
-        {
-          "en": "Tank",
-          "hu": "Harckocsi",
-          "ro": "Tanc"
+      {
+        "id": "e4",
+        "picture": "battle-of-britain.jpg",
+        "question": {
+          "en": "Which aircraft was famous in the Battle of Britain?",
+          "hu": "Melyik repülő volt híres a Britanniái csatában?",
+          "ro": "Care avion a fost celebru în Bătălia Angliei?"
         },
-        {
-          "en": "Aircraft",
-          "hu": "Repülőgép",
-          "ro": "Avion"
-        },
-        {
-          "en": "Rocket",
-          "hu": "Rakéta",
-          "ro": "Rachetă"
-        }
-      ],
-      "answer": 2
-    },
-    {
-      "id": "q4",
-      "picture": "sample.jpg",
-      "question": {
-        "en": "Which aircraft was famous in the Battle of Britain?",
-        "hu": "Melyik repülő volt híres a Britanniái csatában?",
-        "ro": "Care avion a fost celebru în Bătălia Angliei?"
+        "options": [
+          {"en": "M4 Sherman", "hu": "M4 Sherman", "ro": "M4 Sherman"},
+          {"en": "Supermarine Spitfire", "hu": "Supermarine Spitfire", "ro": "Supermarine Spitfire"},
+          {"en": "V-2 Rocket", "hu": "V-2 rakéta", "ro": "Rachetă V-2"}
+        ],
+        "answer": 1
       },
-      "options": [
-        {
-          "en": "M4 Sherman",
-          "hu": "M4 Sherman",
-          "ro": "M4 Sherman"
+      {
+        "id": "e5",
+        "picture": "yamato.jpg",
+        "question": {
+          "en": "The Yamato was a famous warship of which nation?",
+          "hu": "A Yamato melyik ország híres hadihajója volt?",
+          "ro": "Yamato era nava de război celebră a cărei națiuni?"
         },
-        {
-          "en": "Supermarine Spitfire",
-          "hu": "Supermarine Spitfire",
-          "ro": "Supermarine Spitfire"
-        },
-        {
-          "en": "V-2 Rocket",
-          "hu": "V-2 rakéta",
-          "ro": "Rachetă V-2"
-        }
-      ],
-      "answer": 1
-    },
-    {
-      "id": "q5",
-      "picture": "sample.jpg",
-      "question": {
-        "en": "True or False: The Battle of Stalingrad was in 1942.",
-        "hu": "Igaz vagy hamis: A Száljingrádi csata 1942-ben volt.",
-        "ro": "Adevărat sau fals: Bătălia de la Stalingrad a fost în 1942."
+        "options": [
+          {"en": "Germany", "hu": "Németország", "ro": "Germania"},
+          {"en": "Japan", "hu": "Japán", "ro": "Japonia"},
+          {"en": "Italy", "hu": "Olaszország", "ro": "Italia"}
+        ],
+        "answer": 1
       },
-      "options": [
-        {
-          "en": "TRUE",
-          "hu": "Igaz",
-          "ro": "Adevărat"
+      {
+        "id": "e6",
+        "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770671138/Attack_on_Pearl_Harbor_Japanese_planes_view_p17s95.jpg",
+        "question": {
+          "en": "In which year did the attack on Pearl Harbor happen?",
+          "hu": "Melyik évben történt a Pearl Harbor támadás?",
+          "ro": "În ce an a avut loc atacul asupra Pearl Harbor?"
         },
-        {
-          "en": "FALSE",
-          "hu": "Hamis",
-          "ro": "Fals"
-        }
-      ],
-      "answer": 0
-    }
-  ]
+        "options": [
+          {"en": "1939", "hu": "1939", "ro": "1939"},
+          {"en": "1941", "hu": "1941", "ro": "1941"},
+          {"en": "1943", "hu": "1943", "ro": "1943"}
+        ],
+        "answer": 1
+      },
+      {
+        "id": "e7",
+        "picture": "M4_Sherman_tank.jpg",
+        "question": {
+          "en": "The M4 Sherman was primarily used by which side?",
+          "hu": "Az M4 Sherman elsősorban kitől szerzett oltalmat?",
+          "ro": "M4 Sherman a fost folosit în principal de care parte?"
+        },
+        "options": [
+          {"en": "Axis Powers", "hu": "Tengely Hatalmak", "ro": "Puteri Axei"},
+          {"en": "Allied Forces", "hu": "Szövetséges Erők", "ro": "Forțele Aliate"},
+          {"en": "Soviet Union only", "hu": "Csak Szovjetunió", "ro": "Doar Uniunea Sovietică"}
+        ],
+        "answer": 1
+      },
+      {
+        "id": "e8",
+        "picture": "https://www.lovecpokladu.cz/img/2020/viky/german-panzer-korps-1940.jpg",
+        "question": {
+          "en": "What was the Blitzkrieg?",
+          "hu": "Mi volt a Blitzkrieg?",
+          "ro": "Ce era Blitzkrieg?"
+        },
+        "options": [
+          {"en": "A defensive strategy", "hu": "Egy védelmi stratégia", "ro": "O strategie defensivă"},
+          {"en": "A fast, coordinated military attack", "hu": "Egy gyors, koordinált katonai támadás", "ro": "Un atac militar rapid și coordonat"},
+          {"en": "A peace treaty", "hu": "Egy békeszerzödés", "ro": "Un tratat de pace"}
+        ],
+        "answer": 1
+      }
+    ],
+    "hard": [
+      {
+        "id": "h1",
+        "picture": "stalingrad.jpg",
+        "question": {
+          "en": "Which general commanded the Soviet forces at the Battle of Stalingrad?",
+          "hu": "Melyik tábornok vezette a szovjet erőket a Sztalingrádi csatában?",
+          "ro": "Care general a comandat forțele sovietice la Bătălia de la Stalingrad?"
+        },
+        "options": [
+          {"en": "Georgy Zhukov", "hu": "Georgij Zsukov", "ro": "Gheorghe Jukov"},
+          {"en": "Aleksandr Vasilevsky", "hu": "Alekszandr Vasilevszki", "ro": "Alexandru Vasilevski"},
+          {"en": "Aleksandr Rodionovich Belov", "hu": "Alekszandr Rodionovics Belov", "ro": "Alexandru Rodionovici Belov"}
+        ],
+        "answer": 0
+      },
+      {
+        "id": "h2",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/90/Leningrad_Siege_May_1942_-_January_1943.png",
+        "question": {
+          "en": "How many days did the Siege of Leningrad last?",
+          "hu": "Hány napig tartott a Leningrád ostroma?",
+          "ro": "Câte zile a durat Asediul Leningradului?"
+        },
+        "options": [
+          {"en": "672 days", "hu": "672 nap", "ro": "672 zile"},
+          {"en": "872 days", "hu": "872 nap", "ro": "872 zile"},
+          {"en": "972 days", "hu": "972 nap", "ro": "972 zile"}
+        ],
+        "answer": 1
+      },
+      {
+        "id": "h3",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/Kursk-1943-Plan-GE.svg",
+        "question": {
+          "en": "The Battle of Kursk involved primarily which type of combat?",
+          "hu": "A Kurski csata elsősorban mely típusú harcot foglalt magában?",
+          "ro": "Bătălia de la Kursk a implicat în principal ce tip de luptă?"
+        },
+        "options": [
+          {"en": "Air combat", "hu": "Légiharc", "ro": "Lupta aeriană"},
+          {"en": "Naval warfare", "hu": "Tengeri hadviselés", "ro": "Razboi naval"},
+          {"en": "Tank warfare", "hu": "Harckocsik háborúja", "ro": "Razboi cu tancuri"}
+        ],
+        "answer": 2
+      },
+      {
+        "id": "h4",
+        "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770720956/images_hmrez7.jpg",
+        "question": {
+          "en": "What was Operation Overlord?",
+          "hu": "Mi volt az Overlord Hadművelet?",
+          "ro": "Ce era Operațiunea Overlord?"
+        },
+        "options": [
+          {"en": "The invasion of Italy", "hu": "Olaszország invázója", "ro": "Invazia Italiei"},
+          {"en": "The D-Day invasion of Normandy", "hu": "A normandiai Invázió a D-napon", "ro": "Invazia Normandiei pe ziua D"},
+          {"en": "The invasion of Poland", "hu": "Lengyelország invázója", "ro": "Invazia Poloniei"}
+        ],
+        "answer": 1
+      },
+      {
+        "id": "h5",
+        "picture": "https://media.istockphoto.com/id/1386740242/vector/vector-bubbles-with-question-mark-question-icons-isolated-on-white.jpg?s=612x612&w=0&k=20&c=evjrckVKb_RVRcN5qV1Tz1pkSu3FvHKCGtynu8btxhA=",
+        "question": {
+          "en": "In what year was the Atomic bomb dropped on Hiroshima?",
+          "hu": "Melyik évben dobták le az atombombát Hirosimára?",
+          "ro": "În ce an a fost aruncată bomba atomică pe Hiroshima?"
+        },
+        "options": [
+          {"en": "1943", "hu": "1943", "ro": "1943"},
+          {"en": "1944", "hu": "1944", "ro": "1944"},
+          {"en": "1945", "hu": "1945", "ro": "1945"}
+        ],
+        "answer": 2
+      },
+      {
+        "id": "h6",
+        "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770670294/V2_rocket_gjlp0l.jpg",
+        "question": {
+          "en": "What was the primary purpose of the V-2 rocket?",
+          "hu": "Mi volt az V-2 rakéta elsődleges célja?",
+          "ro": "Care era scopul principal al rachetei V-2?"
+        },
+        "options": [
+          {"en": "Scientific research in space", "hu": "Tudományos kutatás az űrben", "ro": "Cercetare științifică în spațiu"},
+          {"en": "A weapon of revenge against Allied cities", "hu": "Megtorlás fegyver az Szövetséges városok ellen", "ro": "Armă de răzbunare împotriva orașelor Aliate"},
+          {"en": "To defend against Allied aircraft", "hu": "Az Szövetséges repülőgépek elleni védekezés", "ro": "Apărarea împotriva aeronavelor Aliate"}
+        ],
+        "answer": 1
+      },
+      {
+        "id": "h7",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TigerITankTunis.jpg/250px-TigerITankTunis.jpg",
+        "question": {
+          "en": "Which nation developed the Tiger Tank?",
+          "hu": "Melyik ország fejlesztette ki a Tiger tankot?",
+          "ro": "Care națiune a dezvoltat Tancul Tiger?"
+        },
+        "options": [
+          {"en": "Soviet Union", "hu": "Szovjetunió", "ro": "Uniunea Sovietică"},
+          {"en": "Nazi Germany", "hu": "Náci Németország", "ro": "Germania Nazistă"},
+          {"en": "Italy", "hu": "Olaszország", "ro": "Italia"}
+        ],
+        "answer": 1
+      },
+      {
+        "id": "h8",
+        "picture": "https://substackcdn.com/image/fetch/$s_!0dBg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a5f9535-27d1-4b94-a2c7-6c1c7e569e3e_1000x563.jpeg",
+        "question": {
+          "en": "The Battle of Midway was primarily a conflict between which two navies?",
+          "hu": "A Midway-i csata elsősorban mely két haditengerészet közötti konfliktus volt?",
+          "ro": "Bătălia de la Midway era în principal un conflict între care două marine?"
+        },
+        "options": [
+          {"en": "British and German", "hu": "Brit és német", "ro": "Britanică și germană"},
+          {"en": "American and Japanese", "hu": "Amerikai és japán", "ro": "Americană și japoneză"},
+          {"en": "Soviet and German", "hu": "Szovjet és német", "ro": "Sovietică și germană"}
+        ],
+        "answer": 1
+      },
+      {
+        "id": "h9",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/90/Leningrad_Siege_May_1942_-_January_1943.png",
+        "question": {
+          "en": "How many casualties occurred during the Siege of Leningrad?",
+          "hu": "Hány áldozat volt a Leningrád ostromában?",
+          "ro": "Câte victime au fost în Asediul Leningradului?"
+        },
+        "options": [
+          {"en": "Approximately 1.5 million", "hu": "Körülbelül 1,5 millió", "ro": "Aproximativ 1,5 milioni"},
+          {"en": "Approximately 500,000", "hu": "Körülbelül 500.000", "ro": "Aproximativ 500.000"},
+          {"en": "Approximately 3 million", "hu": "Körülbelül 3 millió", "ro": "Aproximativ 3 milioni"}
+        ],
+        "answer": 0
+      },
+      {
+        "id": "h10",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Spitfire_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg/330px-Spitfire_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg",
+        "question": {
+          "en": "The Supermarine Spitfire was designed by which person?",
+          "hu": "A Supermarine Spitfire-t ki tervezte?",
+          "ro": "Supermarine Spitfire a fost proiectat de care persoană?"
+        },
+        "options": [
+          {"en": "Sydney Camm", "hu": "Sydney Camm", "ro": "Sydney Camm"},
+          {"en": "R.J. Mitchell", "hu": "R.J. Mitchell", "ro": "R.J. Mitchell"},
+          {"en": "Frank Whittle", "hu": "Frank Whittle", "ro": "Frank Whittle"}
+        ],
+        "answer": 1
+      }
+    ]
+  }
 }

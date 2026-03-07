@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= lang === 'hu' ? 'Rólunk' : lang === 'ro' ? 'Despre' : 'About' %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .about-section {
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--accent-color);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .about-section h2 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .tech-card {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--accent-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            transition: all 0.3s ease;
+        }
+        .tech-card:hover {
+            background: rgba(255, 0, 0, 0.1);
+            transform: translateX(5px);
+        }
+        .tech-card h5 {
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .content-card {
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .content-card:hover {
+            transform: translateY(-5px);
+            border-top: 2px solid var(--accent-color);
+        }
+        .content-card i {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+        .content-card h4 {
+            margin-bottom: 0.75rem;
+        }
+        .content-card a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .source-list {
+            columns: 2;
+            gap: 2rem;
+        }
+        .source-item {
+            background: rgba(255, 0, 0, 0.05);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            break-inside: avoid;
+            border-left: 3px solid var(--accent-color);
+        }
+        .source-item a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        .source-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <%- include('partials/navbar') %>
+
+    <main>
+        <section class="detail-header">
+            <div class="container">
+                <h1><i class="fas fa-book-open"></i> <%= lang === 'hu' ? 'Rólunk' : lang === 'ro' ? 'Despre' : 'About' %></h1>
+                <p class="lead"><%= lang === 'hu' ? 'A WWII Történelem Projekt - Ismerj meg egy fontos történeti periódust' : lang === 'ro' ? 'Proiectul WWII Istoric - Poznați o perioadă istorică importantă' : 'The WWII History Project - Learn about an important historical period' %></p>
+            </div>
+        </section>
+
+        <div class="container py-5 detail-header">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+
+                    <!-- Project Overview -->
+                    <div class="about-section">
+                        <h2><i class="fas fa-globe"></i> <%= lang === 'hu' ? 'A Projekt' : lang === 'ro' ? 'Proiectul' : 'The Project' %></h2>
+                        <p>
+                            <%= lang === 'hu' 
+                                ? 'A WWII Történelem egy interaktív oktatási platform, amelyet a második világháborúval kapcsolatos tudás közvetítésére hoztunk létre. Az oldal átfogó információkat nyújt a legfontosabb csatákról, haditechnikai eszközökről és a háborút alakító technológiáról. Egy közösségi projekt, amely lehetővé teszi, hogy felhasználók a Google Sheets segítségével szerkesszék és bővítsék az adatbázist.'
+                                : lang === 'ro'
+                                ? 'WWII Istoric este o platformă educativă interactivă creată pentru a transmite cunoștințe despre al Doilea Război Mondial. Site-ul oferă informații cuprinzătoare despre cele mai importante bătălii, echipamentele militare și tehnologia care a modelat războiul. Este un proiect comunitar care permite utilizatorilor să editeze și să extindă baza de date cu ajutorul Google Sheets.'
+                                : 'WWII History is an interactive educational platform created to share knowledge about World War II. The site provides comprehensive information about the most important battles, military equipment, and the technology that shaped the war. It is a community project that allows users to edit and expand the database using Google Sheets.'
+                            %>
+                        </p>
+                    </div>
+
+                    <!-- Content Sections -->
+                    <div class="about-section">
+                        <h2><i class="fas fa-sitemap"></i> <%= lang === 'hu' ? 'Mit Tartalmaz az Oldal?' : lang === 'ro' ? 'Ce Conține Site-ul?' : 'What\'s Included?' %></h2>
+                        
+                        <div class="content-grid">
+                            <!-- Battles -->
+                            <div class="content-card">
+                                <i class="fas fa-person-military-rifle"></i>
+                                <h4><%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></h4>
+                                <p><%= lang === 'hu' ? data.battles.length + ' főbb csata' : lang === 'ro' ? data.battles.length + ' bătălii principale' : data.battles.length + ' major battles' %></p>
+                                <p><%= lang === 'hu' ? 'Az Atlanti csatától Stalingrádig - a WWII legdöntőbb összecsapásai' : lang === 'ro' ? 'De la Bătălia Atlanticului la Stalingrad - cele mai decisive confruntări din WWII' : 'From Battle of Atlantic to Stalingrad - WWII\'s most decisive clashes' %></p>
+                                <a href="/battles?lang=<%= lang %>"><i class="fas fa-arrow-right"></i> <%= lang === 'hu' ? 'Fedezd fel' : lang === 'ro' ? 'Explore' : 'Explore' %></a>
+                            </div>
+
+                            <!-- Weapons -->
+                            <div class="content-card">
+                                <i class="fas fa-gun"></i>
+                                <h4><%= lang === 'hu' ? 'Fegyverek' : lang === 'ro' ? 'Arme' : 'Weapons' %></h4>
+                                <p><%= lang === 'hu' ? data.weapons.length + ' haditechnikai eszköz' : lang === 'ro' ? data.weapons.length + ' echipamente militare' : data.weapons.length + ' military equipment' %></p>
+                                <p><%= lang === 'hu' ? 'Légi, szárazföldi és vízi fegyverek - a háborút meghatározó technológia' : lang === 'ro' ? 'Arme aeriene, terestre și acvatice - tehnologia care a definit războiul' : 'Air, ground and water weapons - the technology that defined the war' %></p>
+                                <a href="/weapons?lang=<%= lang %>"><i class="fas fa-arrow-right"></i> <%= lang === 'hu' ? 'Fedezd fel' : lang === 'ro' ? 'Explore' : 'Explore' %></a>
+                            </div>
+
+                            <!-- Technology -->
+                            <div class="content-card">
+                                <i class="fas fa-radiation"></i>
+                                <h4><%= lang === 'hu' ? 'Technológia' : lang === 'ro' ? 'Tehnologie' : 'Technology' %></h4>
+                                <p><%= lang === 'hu' ? 'Az atombomba története' : lang === 'ro' ? 'Istoria bombei atomice' : 'The atomic bomb story' %></p>
+                                <p><%= lang === 'hu' ? 'Felfedezz mindent a Manhattan projektről és a nukleáris eszközök szerepéről' : lang === 'ro' ? 'Descoperă totul despre Proiectul Manhattan și rolul armelor nucleare' : 'Discover everything about the Manhattan Project and nuclear weapons' %></p>
+                                <a href="/technology?lang=<%= lang %>"><i class="fas fa-arrow-right"></i> <%= lang === 'hu' ? 'Fedezd fel' : lang === 'ro' ? 'Explore' : 'Explore' %></a>
+                            </div>
+
+                            <!-- Quiz -->
+                            <div class="content-card">
+                                <i class="fas fa-brain"></i>
+                                <h4><%= lang === 'hu' ? 'Kvíz' : lang === 'ro' ? 'Quiz' : 'Quiz' %></h4>
+                                <p><%= lang === 'hu' ? 'Könnyű & Nehéz szintek' : lang === 'ro' ? 'Niveluri ușor & greu' : 'Easy & Hard levels' %></p>
+                                <p><%= lang === 'hu' ? 'Teszteld ismereteid a WWII-ről! Válassz szintet és vizsgázz' : lang === 'ro' ? 'Testează-ți cunoștințele despre WWII! Alege un nivel și încearcă' : 'Test your WWII knowledge! Choose a level and try' %></p>
+                                <a href="/quiz?lang=<%= lang %>"><i class="fas fa-arrow-right"></i> <%= lang === 'hu' ? 'Kezd' : lang === 'ro' ? 'Incepe' : 'Start' %></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Stack -->
+                    <div class="about-section">
+                        <h2><i class="fas fa-cogs"></i> <%= lang === 'hu' ? 'Technológiai Háttér' : lang === 'ro' ? 'Fundamente Tehnice' : 'Technical Stack' %></h2>
+                        <p><%= lang === 'hu' ? 'Az oldal a legmodernebb webtechnológiákkal készült, hogy gyors, hatékony és felhasználóbarát élményt nyújtson.' : lang === 'ro' ? 'Site-ul este construit cu cea mai modernă tehnologie web pentru a oferi o experiență rapidă, eficientă și ușor de utilizat.' : 'The site is built with cutting-edge web technologies for a fast, efficient and user-friendly experience.' %></p>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="tech-card">
+                                    <h5><i class="fab fa-node-js"></i> Backend: Node.js & Express</h5>
+                                    <p><%= lang === 'hu' ? 'Gyors és méretezhető szerver, Express.js keretrendszerrel' : lang === 'ro' ? 'Server rapid și scalabil cu framework Express.js' : 'Fast and scalable server with Express.js framework' %></p>
+                                </div>
+                                <div class="tech-card">
+                                    <h5><i class="fas fa-template"></i> <%= lang === 'hu' ? 'Sablonmotor' : lang === 'ro' ? 'Motor de Șabloane' : 'Template Engine' %>: EJS</h5>
+                                    <p><%= lang === 'hu' ? 'Dinamikus HTML generálás, könnyen karbantartható kódnak' : lang === 'ro' ? 'Generarea dinamică de HTML cu cod ușor de întreținut' : 'Dynamic HTML generation with maintainable code' %></p>
+                                </div>
+                                <div class="tech-card">
+                                    <h5><i class="fab fa-bootstrap"></i> Frontend: Bootstrap 5</h5>
+                                    <p><%= lang === 'hu' ? 'Reszponzív design, mobilbarát megjelenítés' : lang === 'ro' ? 'Design responsive, afișare prietenoasă pentru mobil' : 'Responsive design, mobile-friendly display' %></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tech-card">
+                                    <h5><i class="fas fa-compress"></i> <%= lang === 'hu' ? 'Tömörítés' : lang === 'ro' ? 'Compresie' : 'Compression' %>: GZIP</h5>
+                                    <p><%= lang === 'hu' ? '60-80% csökkentés a transzferált adatmennyiségben' : lang === 'ro' ? 'Reducere de 60-80% în volumul de date transferate' : '60-80% reduction in data transfer volume' %></p>
+                                </div>
+                                <div class="tech-card">
+                                    <h5><i class="fas fa-memory"></i> <%= lang === 'hu' ? 'Gyorsítótárazás' : lang === 'ro' ? 'Cache' : 'Caching' %></h5>
+                                    <p><%= lang === 'hu' ? 'HTTP Cache-Control fejlécek per tartalomtípus' : lang === 'ro' ? 'Anteturi HTTP Cache-Control pe tip de conținut' : 'HTTP Cache-Control headers per content type' %></p>
+                                </div>
+                                <div class="tech-card">
+                                    <h5><i class="fas fa-image"></i> <%= lang === 'hu' ? 'Médiagyorsítás' : lang === 'ro' ? 'Optimizare Media' : 'Media Optimization' %></h5>
+                                    <p><%= lang === 'hu' ? 'Lazy loading képekhez, optimalizált teljesítményre' : lang === 'ro' ? 'Lazy loading pentru imagini, optimizat pentru performanță' : 'Lazy loading for images, optimized for performance' %></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 2rem; padding: 1.5rem; background: rgba(255, 0, 0, 0.1); border-radius: 8px; border-left: 4px solid var(--accent-color);">
+                            <h5><i class="fas fa-globe"></i> <%= lang === 'hu' ? 'Nemzetközi Támogatás' : lang === 'ro' ? 'Suport Internațional' : 'International Support' %></h5>
+                            <p><%= lang === 'hu' ? 'Az oldal teljes egészében háromnyelvű: English (EN), Magyar (HU), Română (RO)' : lang === 'ro' ? 'Site-ul este pe deplin trilingv: English (EN), Magyar (HU), Română (RO)' : 'The site is fully trilingual: English (EN), Hungarian (HU), Romanian (RO)' %></p>
+                        </div>
+                    </div>
+
+                    <!-- Features -->
+                    <div class="about-section">
+                        <h2><i class="fas fa-star"></i> <%= lang === 'hu' ? 'Fontosabb Funkciók' : lang === 'ro' ? 'Caracteristici Principale' : 'Key Features' %></h2>
+                        <ul style="line-height: 2; font-size: 1.05rem;">
+                            <li><strong>✓ <%= lang === 'hu' ? 'Szövetség szinten megjelenítés' : lang === 'ro' ? 'Afișare la niveau de alianță' : 'Faction-level display' %></strong> - <%= lang === 'hu' ? 'Fegyverek szűrése Axis/Allies után' : lang === 'ro' ? 'Filtrarea armelor după Axa/Aliații' : 'Filter weapons by Axis/Allies' %></li>
+                            <li><strong>✓ <%= lang === 'hu' ? 'Fegyvertípus szerinti kategorizálás' : lang === 'ro' ? 'Categorizare pe tip de armă' : 'Weapon-type categorization' %></strong> - <%= lang === 'hu' ? 'Légi, szárazföldi és vízi kosztümök' : lang === 'ro' ? 'Echipamente aeriene, terestre și acvatice' : 'Air, ground and water equipment' %></li>
+                            <li><strong>✓ <%= lang === 'hu' ? 'Interaktív Kvíz' : lang === 'ro' ? 'Quiz Interactiv' : 'Interactive Quiz' %></strong> - <%= lang === 'hu' ? 'Könnyű és nehéz nehézségi szintek' : lang === 'ro' ? 'Niveluri de dificultate ușor și greu' : 'Easy and hard difficulty levels' %></li>
+                            <li><strong>✓ <%= lang === 'hu' ? 'Teljes melléklet keresés' : lang === 'ro' ? 'Căutare completă' : 'Full-text search' %></strong> - <%= lang === 'hu' ? 'Összes csata és fegyver letöltésre elérhetően' : lang === 'ro' ? 'Toate bătăliile și armele disponibile pentru descărcare' : 'All battles and weapons available' %></li>
+                            <li><strong>✓ <%= lang === 'hu' ? 'Dinamikus tartalmak' : lang === 'ro' ? 'Conținuturi dinamice' : 'Dynamic content' %></strong> - <%= lang === 'hu' ? 'Google Sheets integrációval szerkeszthető adatbázis' : lang === 'ro' ? 'Bază de date editabilă cu integrare Google Sheets' : 'Editable database with Google Sheets integration' %></li>
+                            <li><strong>✓ <%= lang === 'hu' ? 'Gyors betöltés' : lang === 'ro' ? 'Încărcare rapidă' : 'Fast loading' %></strong> - <%= lang === 'hu' ? 'GZIP kompresszió és HTTP cache-ügyleti fejlécek' : lang === 'ro' ? 'Compresie GZIP și anteturi HTTP cache' : 'GZIP compression and HTTP caching' %></li>
+                        </ul>
+                    </div>
+
+                    <!-- Sources -->
+                    <div class="about-section">
+                        <h2><i class="fas fa-book"></i> <%= lang === 'hu' ? 'Függőségek és Források' : lang === 'ro' ? 'Dependențe și Surse' : 'Sources & Attribution' %></h2>
+                        <p><%= lang === 'hu' ? 'Az oldal tartalma számos megbízható forrásból merít inspirációt. Az alábbi linkek az eredetileg felhasznált referencias:' : lang === 'ro' ? 'Conținutul site-ului se inspiră din numeroase surse de încredere. Următoarele linkuri sunt originalele care au fost utilizate:' : 'The site content draws from numerous reliable sources. The following links are the original references used:' %></p>
+                        
+                        <div class="source-list">
+                            <div class="source-item">
+                                <h6><i class="fab fa-wikipedia-w"></i> Wikipedia - WWII</h6>
+                                <p><a href="https://en.wikipedia.org/wiki/World_War_II" target="_blank"><i class="fas fa-external-link-alt"></i> World War II</a></p>
+                                <p><small><%= lang === 'hu' ? 'Átfogó történelmi információk' : lang === 'ro' ? 'Informații istorice cuprinzătoare' : 'Comprehensive historical information' %></small></p>
+                            </div>
+
+                            <div class="source-item">
+                                <h6><i class="fab fa-wikipedia-w"></i> <%= lang === 'hu' ? 'Csaták' : lang === 'ro' ? 'Bătălii' : 'Battles' %></h6>
+                                <p>
+                                    <a href="https://en.wikipedia.org/wiki/Normandy_landings" target="_blank"><i class="fas fa-external-link-alt"></i> D-Day</a><br>
+                                    <a href="https://en.wikipedia.org/wiki/Battle_of_Stalingrad" target="_blank"><i class="fas fa-external-link-alt"></i> Stalingrad</a><br>
+                                    <a href="https://en.wikipedia.org/wiki/Battle_of_Britain" target="_blank"><i class="fas fa-external-link-alt"></i> Battle of Britain</a>
+                                </p>
+                            </div>
+
+                            <div class="source-item">
+                                <h6><i class="fab fa-wikipedia-w"></i> <%= lang === 'hu' ? 'Fegyverek & Haditechnika' : lang === 'ro' ? 'Arme & Echipamente' : 'Weapons & Equipment' %></h6>
+                                <p>
+                                    <a href="https://en.wikipedia.org/wiki/M4_Sherman" target="_blank"><i class="fas fa-external-link-alt"></i> M4 Sherman</a><br>
+                                    <a href="https://en.wikipedia.org/wiki/Spitfire" target="_blank"><i class="fas fa-external-link-alt"></i> Spitfire</a><br>
+                                    <a href="https://en.wikipedia.org/wiki/V-2_rocket" target="_blank"><i class="fas fa-external-link-alt"></i> V-2 Rocket</a>
+                                </p>
+                            </div>
+
+                            <div class="source-item">
+                                <h6><i class="fas fa-link"></i> <%= lang === 'hu' ? 'Közalkalmazotti képek' : lang === 'ro' ? 'Imagini Publice' : 'Public Images' %></h6>
+                                <p>
+                                    <a href="https://commons.wikimedia.org/" target="_blank"><i class="fas fa-external-link-alt"></i> Wikimedia Commons</a><br>
+                                    <a href="https://www.archives.gov/" target="_blank"><i class="fas fa-external-link-alt"></i> National Archives</a>
+                                </p>
+                                <p><small><%= lang === 'hu' ? 'Nyilvános domén és felhasználási jogokkal rendelkező képek' : lang === 'ro' ? 'Imagini din domeniu public și cu drepturi de utilizare' : 'Public domain and licensed images' %></small></p>
+                            </div>
+
+                            <div class="source-item">
+                                <h6><i class="fas fa-npm"></i> NPM <%= lang === 'hu' ? 'Csomagok' : lang === 'ro' ? 'Pachete' : 'Packages' %></h6>
+                                <p>
+                                    <strong>Express.js</strong> - Node.js framework<br>
+                                    <strong>EJS</strong> - Template engine<br>
+                                    <strong>Compression</strong> - GZIP middleware
+                                </p>
+                            </div>
+
+                            <div class="source-item">
+                                <h6><i class="fas fa-palette"></i> <%= lang === 'hu' ? 'Előtér Könyvtárak' : lang === 'ro' ? 'Biblioteci Frontend' : 'Frontend Libraries' %></h6>
+                                <p>
+                                    <strong>Bootstrap 5.3.0</strong> - CSS Framework<br>
+                                    <strong>Font Awesome 6.4.0</strong> - Icon Library
+                                </p>
+                            </div>
+
+                            <div class="source-item">
+                                <h6><i class="fas fa-book-open"></i> <%= lang === 'hu' ? 'Ajánlott Irodalom' : lang === 'ro' ? 'Lectură Recomandată' : 'Recommended Reading' %></h6>
+                                <p>
+                                    <strong>"The Rise and Fall of the Third Reich"</strong><br>
+                                    <strong>"All the Light We Cannot See"</strong><br>
+                                    <strong>"The Second World War" (Churchill)</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Community -->
+                    <div class="about-section" style="border-left-color: #00ff00;">
+                        <h2 style="color: #00ff00;"><i class="fas fa-users"></i> <%= lang === 'hu' ? 'Közösségi Projekt' : lang === 'ro' ? 'Proiect Comunitar' : 'Community Project' %></h2>
+                        <p>
+                            <%= lang === 'hu' 
+                                ? 'Ez a projekt egy közösségi oktatási kezdeményezés. Az adatok szerkesztésén végzett munka egy barátunk által történik, aki Google Sheets segítségével szerkeszti a tartalmat. Ha szeretnél hozzájárulni vagy javaslatod van, keresd meg csapatunk tagját!'
+                                : lang === 'ro'
+                                ? 'Acest proiect este o inițiativă educativă comunitară. Munca privind editarea datelor este efectuată de un prieten care editează conținutul cu ajutorul Google Sheets. Dacă dorești să contribui sau ai o sugestie, contactează un membru al echipei!'
+                                : 'This project is a community educational initiative. The work on editing the data is done by a friend who edits the content using Google Sheets. If you want to contribute or have a suggestion, reach out to a team member!'
+                            %>
+                        </p>
+                    </div>
+
+                    <!-- Download data in json-->
+                    <div class="about-section" style="border-left-color: #00ff00;">
+                        <h2 style="color: #00ff00;"><i class="fas fa-download"></i> <%= lang === 'hu' ? 'Adatok letöltése JSON formátumban' : lang === 'ro' ? 'Descarcă datele în format JSON' : 'Download Data in JSON Format' %></h2>
+                        <p>
+                            <%= lang === 'hu' 
+                                ? 'Letölthetőek az adatok JSON formátumban is, amelyeket bármilyen programozási nyelven fel tudsz használni.'
+                                : lang === 'ro'
+                                ? 'Datele pot fi descărcate și în format JSON, pe care le poți folosi cu orice limbaj de programare.'
+                                : 'The data can also be downloaded in JSON format, which you can use with any programming language.'
+                            %>
+                        </p>
+                        <a href="/data.json" class="btn btn-primary" download="data.json">
+                            <i class="fas fa-download"></i> <%= lang === 'hu' ? 'Adatok letöltése' : lang === 'ro' ? 'Descarcă datele' : 'Download Data' %>
+                        </a>
+                    </div>
+
+                    <!-- Footer Credit -->
+                    <div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--accent-color);">
+                        <p style="color: #999;">
+                            <i class="fas fa-copyright"></i> 2026 WWII History Project | 
+                            <%= lang === 'hu' ? 'Kifejlesztve szeretettel' : lang === 'ro' ? 'Dezvoltat cu dragoste' : 'Developed with passion' %> 
+                            <i class="fas fa-heart" style="color: red;"></i>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 WWII History</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

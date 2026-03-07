@@ -97,6 +97,10 @@ app.get('/technology', (req, res) => {
   res.render('technology', { technology });
 });
 
+app.get('/about', (req, res) => {
+  res.render('about', { data });
+});
+
 //404 handler
 app.use((req, res) => {
   res.status(404).render('error_404');

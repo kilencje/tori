@@ -125,7 +125,7 @@
                                     <br>
                                     <strong><i class="fas fa-flag"></i> <%= lang === 'hu' ? 'Frakció:' : lang === 'ro' ? 'Facțiune:' : 'Faction:' %></strong>
                                     <span class="badge <%= weapon.faction === 'axis' ? 'bg-danger' : 'bg-primary' %>">
-                                        <i class="fas <%= weapon.faction === 'axis' ? 'fa-swastika' : 'fa-star' %>"></i>
+                                        <i class="fas <%= weapon.faction === 'axis' ? 'fa-swastika' : 'fa-star' %>"><% if (weapon.faction==='axis'){ %> 卐 <% } %></i>
                                         <%= weapon.faction === 'axis' ? (lang === 'hu' ? 'Tengely' : lang === 'ro' ? 'Axa' : 'Axis') : (lang === 'hu' ? 'Szövetségesek' : lang === 'ro' ? 'Aliați' : 'Allies') %>
                                     </span>
                                 </div>

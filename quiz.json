@@ -127,13 +127,13 @@
         "id": "h1",
         "picture": "stalingrad.jpg",
         "question": {
-          "en": "Which general commanded the Soviet forces at the Battle of Stalingrad?",
-          "hu": "Melyik tábornok vezette a szovjet erőket a Sztalingrádi csatában?",
-          "ro": "Care general a comandat forțele sovietice la Bătălia de la Stalingrad?"
+          "en": "Which general commanded the German forces at the Battle of Stalingrad?",
+          "hu": "Melyik tábornok vezette a nemét erőket a Sztalingrádi csatában?",
+          "ro": "Care general a comandat forțele germane la Bătălia de la Stalingrad?"
         },
         "options": [
-          {"en": "Georgy Zhukov", "hu": "Georgij Zsukov", "ro": "Gheorghe Jukov"},
-          {"en": "Aleksandr Vasilevsky", "hu": "Alekszandr Vasilevszki", "ro": "Alexandru Vasilevski"},
+          {"en": "Friedrich Paulus", "hu": "Friedrich Paulus", "ro": "Friedrich Paulus"},
+          {"en": "Erwin Rommel", "hu": "Erwin Rommel", "ro": "Erwin Rommel"},
           {"en": "Aleksandr Rodionovich Belov", "hu": "Alekszandr Rodionovics Belov", "ro": "Alexandru Rodionovici Belov"}
         ],
         "answer": 0

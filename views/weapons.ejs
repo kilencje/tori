@@ -33,7 +33,7 @@
                             <% } %>
                             <div class="card-body">
                                 <h5 class="card-title"><i class="fas fa-plane"></i> <%= weapon.name[lang] %></h5>
-                                <p class="card-text"><%= weapon.description[lang] %></p>
+                                <p class="card-text"><%= weapon.description[lang].substr(0, 150) + (weapon.description[lang].length > 150 ? '...' : '') %></p>
                                 <div class="detail-meta">
                                     <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
                                     <br>
@@ -76,7 +76,7 @@
                             <% } %>
                             <div class="card-body">
                                 <h5 class="card-title"><i class="fas fa-tank"></i> <%= weapon.name[lang] %></h5>
-                                <p class="card-text"><%= weapon.description[lang] %></p>
+                                 <p class="card-text"><%= weapon.description[lang].substr(0, 150) + (weapon.description[lang].length > 150 ? '...' : '') %></p>
                                 <div class="detail-meta">
                                     <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
                                     <br>
@@ -119,7 +119,7 @@
                             <% } %>
                             <div class="card-body">
                                 <h5 class="card-title"><i class="fas fa-ship"></i> <%= weapon.name[lang] %></h5>
-                                <p class="card-text"><%= weapon.description[lang] %></p>
+                                <p class="card-text"><%= weapon.description[lang].substr(0, 150) + (weapon.description[lang].length > 150 ? '...' : '') %></p>
                                 <div class="detail-meta">
                                     <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
                                     <br>

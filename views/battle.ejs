@@ -27,6 +27,8 @@
                         <% } else { %>
                             <img src="/pictures/<%= battle.picture %>" class="card-img-top" alt="<%= battle.name[lang] %>" loading="lazy">
                         <% } %>
+                        
+                        <p class="image-source"><small><%= battle.picture %></small></p>
                         <div class="detail-meta">
                             <strong><i class="fas fa-calendar"></i> <%= lang === 'hu' ? 'Év:' : lang === 'ro' ? 'An:' : 'Year:' %></strong> <%= battle.year %>
                         </div>

@@ -27,6 +27,8 @@
                         <% } else { %>
                             <img src="/pictures/<%= weapon.picture %>" class="card-img-top" alt="<%= weapon.name[lang] %>" loading="lazy">
                         <% } %>
+                        
+                        <p class="image-source"><small><%= weapon.picture %></small></p>
                         <div class="detail-meta">
                             <strong><i class="fas fa-list"></i> <%= lang === 'hu' ? 'Típus:' : lang === 'ro' ? 'Tip:' : 'Type:' %></strong> <%= weapon.type[lang] %>
                         </div>

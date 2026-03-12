@@ -688,3 +688,7 @@ footer {
     background: linear-gradient(135deg, rgb(16, 16, 25) 0%,   rgb(30, 33, 81) 100%);
     padding: 4rem 0;
 }
+.image-source{
+    color: rgba(157, 157, 157, 0.8) !important; 
+    font-size: smaller;
+}

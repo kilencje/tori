@@ -73,7 +73,7 @@
 
         <div class="container py-5">
             <div class="row">
-                <div class="col-lg-8 mx-auto">
+                <div class="col-lg-8 mx-auto" style="width: 100% !important;">
 
                     <!-- Állapot 1: Szint választó képernyő -->
                     <div id="screenSelect">
@@ -223,6 +223,8 @@
             document.getElementById('screenSelect').style.display = 'none';
             document.getElementById('screenQuiz').style.display = 'block';
             document.getElementById('screenResult').style.display = 'none';
+            const mainElement = document.querySelector('main');
+            mainElement.style.background = 'rgba(0, 0, 0, 0.01)';
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 

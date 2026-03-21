@@ -1,141 +1,6 @@
 {
   "battles": [
     {
-      "id": "d-day",
-      "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770720956/images_hmrez7.jpg",
-      "name": {
-        "en": "D-Day (Normandy Invasion)",
-        "hu": "D-nap (Normandiai partraszállás)",
-        "ro": "Ziua Z (Invazia Normandiei)"
-      },
-      "description": {
-        "en": "The Normandy Landings, codenamed Operation Neptune (part of Operation Overlord), took place on June 6, 1944, known as D-Day. Allied forces from the US, UK, Canada, and other nations landed on five beaches in Nazi-occupied France: Utah, Omaha, Gold, Juno, and Sword. Led by General Dwight D. Eisenhower, the invasion relied on a massive deception campaign (Operation Fortitude) to trick the Germans about the landing site. Despite heavy casualties—especially at Omaha Beach—and fierce resistance from the German Atlantic Wall, the Allies successfully established a foothold. This victory allowed for the rapid buildup of forces that eventually led to the liberation of Paris and the final defeat of Nazi Germany.",
-        "hu": "A normandiai partraszállás, kódnevén a Neptun hadművelet (az Overlord hadművelet része), 1944. június 6-án vette kezdetét, amelyet D-napként ismerünk. Az amerikai, brit, kanadai és más szövetséges csapatok a náci megszállás alatt álló Franciaország öt tengerparti szakaszán szálltak partra: ezek az Utah, Omaha, Gold, Juno és Sword fedőneveket viselték. A Dwight D. Eisenhower tábornok által vezetett invázió egy hatalmas megtévesztő akcióra (Fortitude hadművelet) épült, hogy elhitessék a németekkel: a partraszállás máshol lesz. A súlyos veszteségek ellenére – különösen az Omaha strandon – és a német Atlanti Fal ellenállása dacára a szövetségeseknek sikerült hídfőállást kiépíteniük. Ez a győzelem lehetővé tette a csapatok gyors utánpótlását, ami végül Párizs felszabadításához és a náci Németország végső bukásához vezetett.",
-        "ro": "Debarcarea din Normandia, cunoscută sub numele de cod Operațiunea Neptun (parte a Operațiunii Overlord), a avut loc pe 6 iunie 1944, zi rămasă în istorie ca Ziua Z. Forțele aliate din SUA, Marea Britanie, Canada și alte națiuni au debarcat pe cinci plaje din Franța ocupată de naziști: Utah, Omaha, Gold, Juno și Sword. Condusă de generalul Dwight D. Eisenhower, invazia s-a bazat pe o campanie masivă de dezinformare (Operațiunea Fortitude) pentru a-i induce în eroare pe germani cu privire la locul debarcării. În ciuda pierderilor grele – în special pe plaja Omaha – și a rezistenței înverșunate a „Zidului Atlantic” german, Aliații au reușit să stabilească un cap de pod. Această victorie a permis acumularea rapidă de forțe care a dus ulterior la eliberarea Parisului și la înfrângerea finală a Germaniei naziste."
-      },
-      "year": 1944
-    },
-    {
-      "id": "stalingrad",
-      "picture": "https://cdn.britannica.com/67/198167-050-9C31E566/German-soldiers-Battle-of-Stalingrad-January-1943.jpg?w=300",
-      "name": {
-        "en": "Battle of Stalingrad",
-        "hu": "Sztálingrádi csata",
-        "ro": "Bătălia de la Stalingrad"
-      },
-      "description": {
-        "en": "The battle began in August 1942 with a devastating Luftwaffe bombing that leveled much of the city. The German 6th Army, led by Friedrich Paulus, initially seized about 90% of Stalingrad through grueling urban warfare known as Rattenkrieg (Rat War). However, the tide turned on November 19, 1942, when the Soviets launched Operation Uranus. This counter-offensive targeted the weaker Romanian and Hungarian forces guarding the German flanks, successfully encircling roughly 250,000–300,000 Axis troops. Despite a German relief attempt (Operation Winter Storm) and a failed Luftwaffe airlift, the trapped 6th Army was starved and frozen into submission. Paulus surrendered on January 31, 1943, shortly after Hitler promoted him to Field Marshal, expecting him to commit suicide rather than be captured",
-        "hu": "A csata 1942 augusztusában kezdődött a Luftwaffe pusztító bombázásával, amely a város nagy részét romba döntötte. A Friedrich Paulus vezette német 6. hadsereg kezdetben a város 90%-át elfoglalta a kimerítő, patkányháborúnak (Rattenkrieg) nevezett utcai harcokban. A fordulat 1942. november 19-én következett be, amikor a szovjetek elindították az Uránusz hadműveletet. Ez az ellentámadás a német szárnyakat biztosító, gyengébb felszereltségű román és magyar egységeket érte, és sikerült bekeríteniük kb. 250-300 ezer tengelyhatalmi katonát. Bár a németek megpróbálták a felmentést (Téli Vihar hadművelet), a Luftwaffe légi hídja pedig kudarcot vallott, a katlanba szorult 6. hadsereg végül felmorzsolódott. Paulus 1943. január 31-én adta meg magát, nem sokkal azután, hogy Hitler vezértábornaggyá léptette elő, abban a reményben, hogy a fogság helyett az öngyilkosságot választja",
-        "ro": "Bătălia a început în august 1942 cu un bombardament devastator al Luftwaffe, care a distrus majoritatea orașului. Armata a 6-a germană, condusă de Friedrich Paulus, a ocupat inițial aproximativ 90% din oraș în urma unor lupte urbane atroce, supranumite „Războiul Șobolanilor”. Situația s-a schimbat radical la 19 noiembrie 1942, când sovieticii au lansat Operațiunea Uranus. Această contraofensivă a vizat flancurile germane apărate de trupele române și maghiare, reușind încercuirea a circa 250.000–300.000 de soldați ai Axei. În ciuda unei tentative de despresurare (Operațiunea Furtună de Iarnă) și a eșecului podului aerian al Luftwaffe, Armata a 6-a a fost înfometată și decimată. Paulus s-a predat la 31 ianuarie 1943, la scurt timp după ce Hitler l-a avansat la gradul de feldmareșal, sperând că acesta va prefera sinuciderea în locul captivității."
-      },
-      "year": 1942
-    },
-    {
-      "id": "britain",
-      "picture": "https://orion-uploads.openroadmedia.com/lg_d3466e1afa6c-battle-of-britain-feature.png",
-      "name": {
-        "en": "Battle of Britain",
-        "hu": "Britanniai csata",
-        "ro": "Bătălia Angliei"
-      },
-      "description": {
-        "en": "The Battle of Britain (Summer–Autumn 1940) was the first major military campaign fought entirely by air forces. Following the fall of France, Nazi Germany aimed to gain air superiority over Southern England as a prerequisite for Operation Sea Lion (the planned invasion of Britain). The German Luftwaffe, led by Hermann Göring, launched massive attacks against British ports, airfields, and later, civilian targets in London (the Blitz). Despite being outnumbered, the British Royal Air Force (RAF) utilized the innovative radar network and superior maneuverability of the Spitfire and Hurricane fighters to repel the attacks. By October 1940, Hitler indefinitely postponed the invasion, marking Germany's first major defeat and ensuring Britain remained a base for the eventual liberation of Europe.",
-        "hu": "Az Angliai csata (1940 nyara és ősze) volt az első olyan jelentős katonai kampány, amelyet teljes egészében légierők vívtak. Franciaország bukása után a náci Németország célja a légifölény megszerzése volt Dél-Anglia felett, ami az Oroszlánfóka hadművelet (Nagy-Britannia tervezett inváziója) feltétele volt. A Hermann Göring vezette német Luftwaffe hatalmas támadásokat indított a brit kikötők, repülőterek, majd később London civil célpontjai ellen (ez volt a Blitz). A létszámhátrány ellenére a brit Királyi Légierő (RAF) az innovatív radarhálózat, valamint a Spitfire és Hurricane vadászgépek kiváló manőverezőképessége révén visszaverte a támadásokat. 1940 októberére Hitler határozatlan időre elhalasztotta az inváziót, ami Németország első jelentős kudarcát jelentette, és biztosította, hogy Britannia bázisként szolgálhasson Európa későbbi felszabadításához.",
-        "ro": "Bătălia Angliei (vara–toamna anului 1940) a fost prima campanie militară majoră purtată exclusiv de forțele aeriene. După căderea Franței, Germania nazistă a urmărit să obțină superioritatea aeriană asupra sudului Angliei ca o condiție prealabilă pentru Operațiunea Leul de Mare (invazia planificată a Marii Britanii). Luftwaffe germană, condusă de Hermann Göring, a lansat atacuri masive împotriva porturilor britanice, aerodromurilor și, ulterior, asupra țintelor civile din Londra („Blitz-ul”). În ciuda inferiorității numerice, forțele britanice Royal Air Force (RAF) au utilizat rețeaua inovatoare de radare și manevrabilitatea superioară a avioanelor de vânătoare Spitfire și Hurricane pentru a respinge atacurile. Până în octombrie 1940, Hitler a amânat pe termen nelimitat invazia, marcând prima înfrângere majoră a Germaniei și asigurând că Marea Britanie rămâne o bază pentru viitoarea eliberare a Europei."
-      },
-      "year": 1940
-    },
-    {
-      "id": "pearl-harbor",
-      "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770671138/Attack_on_Pearl_Harbor_Japanese_planes_view_p17s95.jpg",
-      "name": {
-        "en": "Pearl Harbor",
-        "hu": "Pearl Harbor",
-        "ro": "Pearl Harbor"
-      },
-      "description": {
-        "en": "On December 7, 1941, Imperial Japan launched a surprise air attack on the U.S. naval base at Pearl Harbor, Hawaii, destroying or damaging 21 ships—including eight battleships—and over 300 aircraft",
-        "hu": "1941. december 7-én a Japán Birodalom meglepetésszerű légitámadást indított az Egyesült Államok haditengerészeti bázisa ellen Pearl Harborban, Hawaiin, amelynek során 21 hajót – köztük nyolc csatahajót – és több mint 300 repülőgépet megsemmisített vagy megrongált.",
-        "ro": "Pe 7 decembrie 1941, Imperiul Japonez a lansat un atac aerian surpriză asupra bazei navale americane de la Pearl Harbor, Hawaii, distrugând sau avariind 21 de nave, inclusiv opt cuirasate, și peste 300 de avioane."
-      },
-      "year": 1941
-    },
-    {
-      "id": "kursk",
-      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/Kursk-1943-Plan-GE.svg",
-      "name": {
-        "en": "Battle of Kursk",
-        "hu": "Kurszki csata",
-        "ro": "Bătălia de la Kursk"
-      },
-      "description": {
-        "en": "The Battle of Kursk, also called the Battle of the Kursk Salient, was a major World War II Eastern Front battle between Nazi Germany and the Soviet Union near Kursk in southwestern Russia during the summer of 1943, resulting in a Soviet victory. The Battle of Kursk is the single largest battle in the history of warfare. It was one of the costliest battles of the Second World War, the single deadliest armoured battle in history, the largest tank battle in history, and the opening day of the battle, 5 July, was the single costliest day in the history of aerial warfare in terms of aircraft shot down. The battle was further marked by fierce house-to-house fighting and hand-to-hand combat.",
-        "hu": "A kurszki csata, más néven a kurszki kiugrási csata, a második világháború keleti frontján 1943 nyarán a náci Németország és a Szovjetunió között, Oroszország délnyugati részén, Kurszk közelében vívott nagy csata volt, amely szovjet győzelemmel zárult. A kurszki csata a hadtörténelem legnagyobb csatája. A második világháború egyik legdrágább csatája, a történelem leghalálosabb páncélos csatája, a történelem legnagyobb tankcsatája volt, és a csata első napja, július 5., a légi hadviselés történelmének legdrágább napja volt a lelőtt repülőgépek számát tekintve. A csatát továbbá heves házról házra vívott harcok és közelharcok jellemezték.",
-        "ro": "Bătălia de la Kursk, numită și Bătălia de la Kursk Salient, a fost o bătălie importantă din cel de-al Doilea Război Mondial, care a avut loc pe Frontul de Est între Germania nazistă și Uniunea Sovietică, în apropiere de Kursk, în sud-vestul Rusiei, în vara anului 1943, și care s-a soldat cu victoria sovietică. Bătălia de la Kursk este cea mai mare bătălie din istoria războiului. A fost una dintre cele mai costisitoare bătălii din cel de-al Doilea Război Mondial, cea mai mortală bătălie blindată din istorie, cea mai mare bătălie cu tancuri din istorie, iar ziua de deschidere a bătăliei, 5 iulie, a fost cea mai costisitoare zi din istoria războiului aerian în ceea ce privește avioanele doborâte. Bătălia a fost marcată în continuare de lupte aprige din casă în casă și de lupte corp la corp"
-      },
-      "year": 1943
-    },
-    {
-      "id": "Leningrad",
-      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/90/Leningrad_Siege_May_1942_-_January_1943.png",
-      "name": {
-        "en": "Siege of Leningrad",
-        "hu": "Leningrád ostroma",
-        "ro": "Asediul Leningradului"
-      },
-      "description": {
-        "en": "The siege of Leningrad was a military blockade undertaken by the Axis powers against the city of Leningrad in the Soviet Union on the Eastern Front of World War II from 1941 to 1944. Leningrad, the country's second largest city, was besieged by Germany and Finland for 872 days, but never captured. The siege was the most destructive in history and possibly the most deadly, causing an estimated 1.5 million deaths, from a prewar population of 3.2 million. It was not classified as a war crime at the time, but since then, some historians have classified it as a genocide due to the intentional destruction of the city and the systematic starvation of its civilian population.",
-        "hu": "A leningrádi ostrom a tengelyhatalmak által a második világháború keleti frontján, 1941 és 1944 között a Szovjetunióban fekvő Leningrád városa ellen végrehajtott katonai blokád volt. Leningrádot, az ország második legnagyobb városát, Németország és Finnország 872 napig ostromolta, de soha nem sikerült elfoglalnia. A ostrom volt a történelem legpusztítóbb és valószínűleg a leghalálosabb is, becslések szerint 1,5 millió halálesetet okozott a háború előtti 3,2 milliós lakosságból. Akkoriban nem minősítették háborús bűncselekménynek, de azóta egyes történészek a város szándékos megsemmisítése és a polgári lakosság szisztematikus éheztetése miatt népirtásnak minősítették.",
-        "ro": "Asediul Leningradului a fost o blocadă militară întreprinsă de puterile Axei împotriva orașului Leningrad din Uniunea Sovietică, pe frontul de est al celui de-al Doilea Război Mondial, între 1941 și 1944. Leningrad, al doilea oraș ca mărime al țării, a fost asediat de Germania și Finlanda timp de 872 de zile, dar nu a fost niciodată capturat. Asediul a fost cel mai distrugător din istorie și, probabil, cel mai mortal, provocând aproximativ 1,5 milioane de morți, dintr-o populație de 3,2 milioane înainte de război. La momentul respectiv, acesta nu a fost clasificat ca crimă de război, dar, de atunci, unii istorici l-au clasificat ca genocid, din cauza distrugerii intenționate a orașului și a înfometării sistematice a populației civile."
-      },
-      "year": 1941
-    },
-    {
-      "id": "Midway",
-      "picture": "https://substackcdn.com/image/fetch/$s_!0dBg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a5f9535-27d1-4b94-a2c7-6c1c7e569e3e_1000x563.jpeg",
-      "name": {
-        "en": "Battle of Midway",
-        "hu": "Midwayi csata",
-        "ro": "Bătălia de la Midway"
-      },
-      "description": {
-        "en": "The Battle of Midway was a major naval battle in the Pacific Theater of World War II that took place on 4–7 June 1942, six months after Japan's attack on Pearl Harbor and one month after the Battle of the Coral Sea. The Japanese Combined Fleet under the command of Isoroku Yamamoto suffered a decisive defeat by two carrier strike groups of the U.S. Pacific Fleet near Midway Atoll, about 2,100km northwest of Oahu. Yamamoto had intended to capture Midway and lure out and destroy the U.S. Pacific Fleet, especially the aircraft carriers which had escaped damage at Pearl Harbor.",
-        "hu": "A midwayi csata a második világháború csendes-óceáni hadszínterén zajló jelentős tengeri csata volt, amelyre 1942. június 4–7. között került sor, hat hónappal Japán Pearl Harbor elleni támadása és egy hónappal a Korall-tengeri csata után. A Yamamoto Isoroku parancsnoksága alatt álló japán egyesített flotta döntő vereséget szenvedett az amerikai csendes-óceáni flotta két repülőgép-hordozó csoportjától a Midway-atoll közelében, Oahu-tól északnyugatra körülbelül 2100 km-re. Yamamoto célja az volt, hogy elfoglalja Midway-t, és kicsalogassa és megsemmisítse az amerikai csendes-óceáni flottát, különösen azokat a repülőgép-hordozókat, amelyek megúszták a Pearl Harbor-i károkat.",
-        "ro": "Bătălia de la Midway a fost o bătălie navală importantă din teatrul de operațiuni din Pacific al celui de-al Doilea Război Mondial, care a avut loc în perioada 4-7 iunie 1942, la șase luni după atacul Japoniei asupra Pearl Harbor și la o lună după bătălia din Marea Coralilor. Flota combinată japoneză sub comanda lui Isoroku Yamamoto a suferit o înfrângere decisivă în fața a două grupuri de atac ale flotei americane din Pacific, în apropierea atolului Midway, la aproximativ 2.100 km nord-vest de Oahu. Yamamoto intenționa să captureze Midway și să atragă și să distrugă flota americană din Pacific, în special portavioanele care scăpaseră de distrugerea de la Pearl Harbor."
-      },
-      "year": 1942
-    },
-    {
-      "id": "defence of moscow",
-      "picture": "https://warfarehistorynetwork.com/wp-content/uploads/2021/04/W-Tula-LEAD-4C-LF12-2000x1125.jpg",
-      "name": {
-        "en": "Battle of Moscow",
-        "hu": "Moszkvai csata",
-        "ro": "Bătălia de la Moscova"
-      },
-      "description": {
-        "en": "The Battle of Moscow was a military campaign that consisted of two periods of strategically significant fighting on a 600 km sector of the Eastern Front during World War II, between October 1941 and January 1942. The Soviet defensive effort thwarted Germany's attack on Moscow, the capital and largest city of the Soviet Union. Moscow was one of the primary military and political objectives for Axis forces in their invasion of the Soviet Union.",
-        "hu": "A moszkvai csata egy katonai hadjárat volt, amely két stratégiailag jelentős harci időszakból állt a keleti front 600 km-es szakaszán a második világháború alatt, 1941 októberétől 1942 januárjáig. A szovjet védekezés megakadályozta Németország támadását Moszkva, a Szovjetunió fővárosa és legnagyobb városa ellen. Moszkva az egyik legfontosabb katonai és politikai célpont volt a tengelyhatalmak számára a Szovjetunió elleni invázió során.",
-        "ro": "Bătălia de la Moscova a fost o campanie militară care a constat în două perioade de lupte strategice importante pe un sector de 600 km al Frontului de Est în timpul celui de-al Doilea Război Mondial, între octombrie 1941 și ianuarie 1942. Efortul defensiv sovietic a zădărnicit atacul Germaniei asupra Moscovei, capitala și cel mai mare oraș al Uniunii Sovietice. Moscova era unul dintre principalele obiective militare și politice ale forțelor Axei în invazia lor asupra Uniunii Sovietice."
-      },
-      "year": 1941
-    },
-    {
-      "id": "el alamein",
-      "picture": "https://i0.wp.com/the-past.com/wp-content/uploads/2022/09/post-1_image3-11.jpg?fit=1490%2C822&ssl=1",
-      "name": {
-        "en": "Second Battle of El Alamein",
-        "hu": "Második el-alameini csata",
-        "ro": "A doua bătălie de la El Alamein"
-      },
-      "description": {
-        "en": "The Second Battle of El Alamein between 23 October – 11 November 1942 was a battle of the Second World War that took place near the Egyptian railway halt of El Alamein. The First Battle of El Alamein and the Battle of Alam el Halfa had prevented the Axis from advancing further into Egypt. In October 1942 Lieutenant-General Bernard Montgomery, commander of Eighth Army, opened his offensive against the Axis forces. In a 13-day battle the Axis Panzerarmee Afrika was crushed and forced to retreat from Egypt and Libya to the borders of Tunisia. The Allied victory at El Alamein was the beginning of the end of the Western Desert Campaign.",
-        "hu": "Az 1942. október 23. és november 11. között zajló második el-alameini csata a második világháború egyik csatája volt, amely az egyiptomi El Alamein vasútállomás közelében zajlott. Az első el-alameini csata és az Alam el Halfa-i csata megakadályozta a tengelyhatalmak további előrenyomulását Egyiptomban. 1942 októberében Bernard Montgomery altábornagy, a 8. hadsereg parancsnoka támadást indított a tengelyhatalmak erői ellen. A 13 napos csata során a tengelyhatalmak Panzerarmee Afrika hadseregét megsemmisítették, és visszavonulásra kényszerítették Egyiptomból és Líbiából Tunézia határáig. A szövetségesek el-alameini győzelme a nyugati sivatagi hadjárat végének kezdetét jelentette.",
-        "ro": "A doua bătălie de la El Alamein, care a avut loc între 23 octombrie și 11 noiembrie 1942, a fost o bătălie din cel de-al Doilea Război Mondial care s-a desfășurat în apropierea stației feroviare egiptene El Alamein. Prima bătălie de la El Alamein și bătălia de la Alam el Halfa au împiedicat Axa să avanseze mai departe în Egipt. În octombrie 1942, generalul-locotenent Bernard Montgomery, comandantul Armatei a Opta, a lansat ofensiva împotriva forțelor Axei. În urma unei bătălii care a durat 13 zile, Panzerarmee Afrika a fost înfrântă și forțată să se retragă din Egipt și Libia până la granițele Tunisiei. Victoria Aliaților la El Alamein a marcat începutul sfârșitului campaniei din deșertul occidental."
-      },
-      "year": 1942
-    },
-    {
       "id": "dunkerque",
       "picture": "https://i.guim.co.uk/img/media/7163f00b42a77e4e963ed45fcb7520d08893c3d2/0_595_4960_2976/master/4960.jpg?width=1900&dpr=1&s=none&crop=none",
       "name": {
@@ -160,16 +25,151 @@
       },
       "description": {
         "en": "The Battle of France between 10 May – 25 June 1940, also known as the Fall of France, during the Second World War was the German invasion of the Low Countries: Belgium, Luxembourg and the Netherlands and France. The plan for the invasion of the Low Countries and France was called Fall Gelb. The Low Countries and France were defeated and occupied by Axis troops down to the Demarcation line. In Fall Gelb, German armoured units advanced through the Ardennes, crossed the Meuse and raced down the Somme valley, cutting off and surrounding the Allied units that had advanced into Belgium to meet the German armies there.  Fall Rot  was planned to finish off the French and British after the evacuation at Dunkirk.",
-        "hu": "A második világháború alatt, 1940. május 10. és június 25. között zajló franciaországi csata, más néven Franciaország bukása, a német hadsereg invázióját jelentette az alacsonyan fekvő országokba: Belgiumba, Luxemburgba, Hollandiába és Franciaországba. Az alacsonyan fekvő országok és Franciaország inváziójának terve Fall Gelb néven volt ismert. Az alacsonyan fekvő országokat és Franciaországot a tengelyhatalmak csapatait legyőzték és elfoglalták a demarkációs vonalig. A Fall Gelb hadművelet során a német páncélos egységek előrenyomultak az Ardennekben, átkeltek a Maas folyón, és végigrohantak a Somme-völgyön, elvágva és bekerítve a szövetséges egységeket, amelyek Belgiumba nyomultak előre, hogy ott találkozzanak a német hadsereggel. A Fall Rot hadműveletet a dunkerque-i evakuálás után a franciák és a britek megsemmisítésére tervezték.",
-        "ro": "Bătălia Franței, care a avut loc între 10 mai și 25 iunie 1940, cunoscută și sub numele de Căderea Franței, în timpul celui de-al Doilea Război Mondial, a reprezentat invazia germană a Țărilor de Jos: Belgia, Luxemburg, Olanda și Franța. Planul de invazie a Țărilor de Jos și a Franței a fost denumit Fall Gelb. Țările de Jos și Franța au fost învinse și ocupate de trupele Axei până la linia de demarcație. În cadrul Fall Gelb, unitățile blindate germane au avansat prin Ardeni, au traversat Meuse și au coborât în valea Somme, izolând și încercuind unitățile aliate care avansaseră în Belgia pentru a se întâlni cu armatele germane acolo. Fall Rot a fost planificat pentru a-i elimina pe francezi și britanici după evacuarea de la Dunkerque."
+        "ro": "Bătălia Franței, care a avut loc între 10 mai și 25 iunie 1940, cunoscută și sub numele de Căderea Franței, în timpul celui de-al Doilea Război Mondial, a reprezentat invazia germană a Țărilor de Jos: Belgia, Luxemburg, Olanda și Franța. Planul de invazie a Țărilor de Jos și a Franței a fost denumit Fall Gelb. Țările de Jos și Franța au fost învinse și ocupate de trupele Axei până la linia de demarcație. În cadrul Fall Gelb, unitățile blindate germane au avansat prin Ardeni, au traversat Meuse și au coborât în valea Somme, izolând și încercuind unitățile aliate care avansaseră în Belgia pentru a se întâlni cu armatele germane acolo. Fall Rot a fost planificat pentru a-i elimina pe francezi și britanici după evacuarea de la Dunkerque.",
+        "hu": "A második világháború alatt, 1940. május 10. és június 25. között zajló franciaországi csata, más néven Franciaország bukása, a német hadsereg invázióját jelentette az alacsonyan fekvő országokba: Belgiumba, Luxemburgba, Hollandiába és Franciaországba. Az alacsonyan fekvő országok és Franciaország inváziójának terve Fall Gelb néven volt ismert. Az alacsonyan fekvő országokat és Franciaországot a tengelyhatalmak csapatait legyőzték és elfoglalták a demarkációs vonalig. A Fall Gelb hadművelet során a német páncélos egységek előrenyomultak az Ardennekben, átkeltek a Maas folyón, és végigrohantak a Somme-völgyön, elvágva és bekerítve a szövetséges egységeket, amelyek Belgiumba nyomultak előre, hogy ott találkozzanak a német hadsereggel. A Fall Rot hadműveletet a dunkerque-i evakuálás után a franciák és a britek megsemmisítésére tervezték."
       },
       "year": 1940
+    },
+    {
+      "id": "britain",
+      "picture": "battle-of-britain.jpg",
+      "name": {
+        "en": "Battle of Britain",
+        "hu": "Britanniai csata",
+        "ro": "Bătălia Angliei"
+      },
+      "description": {
+        "en": "The Battle of Britain (Summer–Autumn 1940) was the first major military campaign fought entirely by air forces. Following the fall of France, Nazi Germany aimed to gain air superiority over Southern England as a prerequisite for Operation Sea Lion (the planned invasion of Britain). The German Luftwaffe, led by Hermann Göring, launched massive attacks against British ports, airfields, and later, civilian targets in London (the Blitz). Despite being outnumbered, the British Royal Air Force (RAF) utilized the innovative radar network and superior maneuverability of the Spitfire and Hurricane fighters to repel the attacks. By October 1940, Hitler indefinitely postponed the invasion, marking Germany's first major defeat and ensuring Britain remained a base for the eventual liberation of Europe.",
+        "hu": "Az Angliai csata (1940 nyara és ősze) volt az első olyan jelentős katonai kampány, amelyet teljes egészében légierők vívtak. Franciaország bukása után a náci Németország célja a légifölény megszerzése volt Dél-Anglia felett, ami az Oroszlánfóka hadművelet (Nagy-Britannia tervezett inváziója) feltétele volt. A Hermann Göring vezette német Luftwaffe hatalmas támadásokat indított a brit kikötők, repülőterek, majd később London civil célpontjai ellen (ez volt a Blitz). A létszámhátrány ellenére a brit Királyi Légierő (RAF) az innovatív radarhálózat, valamint a Spitfire és Hurricane vadászgépek kiváló manőverezőképessége révén visszaverte a támadásokat. 1940 októberére Hitler határozatlan időre elhalasztotta az inváziót, ami Németország első jelentős kudarcát jelentette, és biztosította, hogy Britannia bázisként szolgálhasson Európa későbbi felszabadításához.",
+        "ro": "Bătălia Angliei (vara–toamna anului 1940) a fost prima campanie militară majoră purtată exclusiv de forțele aeriene. După căderea Franței, Germania nazistă a urmărit să obțină superioritatea aeriană asupra sudului Angliei ca o condiție prealabilă pentru Operațiunea Leul de Mare (invazia planificată a Marii Britanii). Luftwaffe germană, condusă de Hermann Göring, a lansat atacuri masive împotriva porturilor britanice, aerodromurilor și, ulterior, asupra țintelor civile din Londra („Blitz-ul”). În ciuda inferiorității numerice, forțele britanice Royal Air Force (RAF) au utilizat rețeaua inovatoare de radare și manevrabilitatea superioară a avioanelor de vânătoare Spitfire și Hurricane pentru a respinge atacurile. Până în octombrie 1940, Hitler a amânat pe termen nelimitat invazia, marcând prima înfrângere majoră a Germaniei și asigurând că Marea Britanie rămâne o bază pentru viitoarea eliberare a Europei."
+      },
+      "year": 1940
+    },
+    {
+      "id": "Leningrad",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/90/Leningrad_Siege_May_1942_-_January_1943.png",
+      "name": {
+        "en": "Siege of Leningrad",
+        "hu": "Leningrád ostroma",
+        "ro": "Asediul Leningradului"
+      },
+      "description": {
+        "en": "The siege of Leningrad was a military blockade undertaken by the Axis powers against the city of Leningrad in the Soviet Union on the Eastern Front of World War II from 1941 to 1944. Leningrad, the country's second largest city, was besieged by Germany and Finland for 872 days, but never captured. The siege was the most destructive in history and possibly the most deadly, causing an estimated 1.5 million deaths, from a prewar population of 3.2 million. It was not classified as a war crime at the time, but since then, some historians have classified it as a genocide due to the intentional destruction of the city and the systematic starvation of its civilian population.",
+        "hu": "A leningrádi ostrom a tengelyhatalmak által a második világháború keleti frontján, 1941 és 1944 között a Szovjetunióban fekvő Leningrád városa ellen végrehajtott katonai blokád volt. Leningrádot, az ország második legnagyobb városát, Németország és Finnország 872 napig ostromolta, de soha nem sikerült elfoglalnia. A ostrom volt a történelem legpusztítóbb és valószínűleg a leghalálosabb is, becslések szerint 1,5 millió halálesetet okozott a háború előtti 3,2 milliós lakosságból. Akkoriban nem minősítették háborús bűncselekménynek, de azóta egyes történészek a város szándékos megsemmisítése és a polgári lakosság szisztematikus éheztetése miatt népirtásnak minősítették.",
+        "ro": "Asediul Leningradului a fost o blocadă militară întreprinsă de puterile Axei împotriva orașului Leningrad din Uniunea Sovietică, pe frontul de est al celui de-al Doilea Război Mondial, între 1941 și 1944. Leningrad, al doilea oraș ca mărime al țării, a fost asediat de Germania și Finlanda timp de 872 de zile, dar nu a fost niciodată capturat. Asediul a fost cel mai distrugător din istorie și, probabil, cel mai mortal, provocând aproximativ 1,5 milioane de morți, dintr-o populație de 3,2 milioane înainte de război. La momentul respectiv, acesta nu a fost clasificat ca crimă de război, dar, de atunci, unii istorici l-au clasificat ca genocid, din cauza distrugerii intenționate a orașului și a înfometării sistematice a populației civile."
+      },
+      "year": 1941
+    },
+    {
+      "id": "defence of moscow",
+      "picture": "https://warfarehistorynetwork.com/wp-content/uploads/2021/04/W-Tula-LEAD-4C-LF12-2000x1125.jpg",
+      "name": {
+        "en": "Battle of Moscow",
+        "hu": "Moszkvai csata",
+        "ro": "Bătălia de la Moscova"
+      },
+      "description": {
+        "en": "The Battle of Moscow was a military campaign that consisted of two periods of strategically significant fighting on a 600 km sector of the Eastern Front during World War II, between October 1941 and January 1942. The Soviet defensive effort thwarted Germany's attack on Moscow, the capital and largest city of the Soviet Union. Moscow was one of the primary military and political objectives for Axis forces in their invasion of the Soviet Union.",
+        "hu": "A moszkvai csata egy katonai hadjárat volt, amely két stratégiailag jelentős harci időszakból állt a keleti front 600 km-es szakaszán a második világháború alatt, 1941 októberétől 1942 januárjáig. A szovjet védekezés megakadályozta Németország támadását Moszkva, a Szovjetunió fővárosa és legnagyobb városa ellen. Moszkva az egyik legfontosabb katonai és politikai célpont volt a tengelyhatalmak számára a Szovjetunió elleni invázió során.",
+        "ro": "Bătălia de la Moscova a fost o campanie militară care a constat în două perioade de lupte strategice importante pe un sector de 600 km al Frontului de Est în timpul celui de-al Doilea Război Mondial, între octombrie 1941 și ianuarie 1942. Efortul defensiv sovietic a zădărnicit atacul Germaniei asupra Moscovei, capitala și cel mai mare oraș al Uniunii Sovietice. Moscova era unul dintre principalele obiective militare și politice ale forțelor Axei în invazia lor asupra Uniunii Sovietice."
+      },
+      "year": 1941
+    },
+    {
+      "id": "pearl-harbor",
+      "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770671138/Attack_on_Pearl_Harbor_Japanese_planes_view_p17s95.jpg",
+      "name": {
+        "en": "Pearl Harbor",
+        "hu": "Pearl Harbor",
+        "ro": "Pearl Harbor"
+      },
+      "description": {
+        "en": "On December 7, 1941, Imperial Japan launched a surprise air attack on the U.S. naval base at Pearl Harbor, Hawaii, destroying or damaging 21 ships—including eight battleships—and over 300 aircraft",
+        "hu": "1941. december 7-én a Japán Birodalom meglepetésszerű légitámadást indított az Egyesült Államok haditengerészeti bázisa ellen Pearl Harborban, Hawaiin, amelynek során 21 hajót – köztük nyolc csatahajót – és több mint 300 repülőgépet megsemmisített vagy megrongált.",
+        "ro": "Pe 7 decembrie 1941, Imperiul Japonez a lansat un atac aerian surpriză asupra bazei navale americane de la Pearl Harbor, Hawaii, distrugând sau avariind 21 de nave, inclusiv opt cuirasate, și peste 300 de avioane."
+      },
+      "year": 1941
+    },
+    {
+      "id": "Midway",
+      "picture": "https://substackcdn.com/image/fetch/$s_!0dBg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F3a5f9535-27d1-4b94-a2c7-6c1c7e569e3e_1000x563.jpeg",
+      "name": {
+        "en": "Battle of Midway",
+        "hu": "Midwayi csata",
+        "ro": "Bătălia de la Midway"
+      },
+      "description": {
+        "en": "The Battle of Midway was a major naval battle in the Pacific Theater of World War II that took place on 4–7 June 1942, six months after Japan's attack on Pearl Harbor and one month after the Battle of the Coral Sea. The Japanese Combined Fleet under the command of Isoroku Yamamoto suffered a decisive defeat by two carrier strike groups of the U.S. Pacific Fleet near Midway Atoll, about 2,100km northwest of Oahu. Yamamoto had intended to capture Midway and lure out and destroy the U.S. Pacific Fleet, especially the aircraft carriers which had escaped damage at Pearl Harbor.",
+        "hu": "A midwayi csata a második világháború csendes-óceáni hadszínterén zajló jelentős tengeri csata volt, amelyre 1942. június 4–7. között került sor, hat hónappal Japán Pearl Harbor elleni támadása és egy hónappal a Korall-tengeri csata után. A Yamamoto Isoroku parancsnoksága alatt álló japán egyesített flotta döntő vereséget szenvedett az amerikai csendes-óceáni flotta két repülőgép-hordozó csoportjától a Midway-atoll közelében, Oahu-tól északnyugatra körülbelül 2100 km-re. Yamamoto célja az volt, hogy elfoglalja Midway-t, és kicsalogassa és megsemmisítse az amerikai csendes-óceáni flottát, különösen azokat a repülőgép-hordozókat, amelyek megúszták a Pearl Harbor-i károkat.",
+        "ro": "Bătălia de la Midway a fost o bătălie navală importantă din teatrul de operațiuni din Pacific al celui de-al Doilea Război Mondial, care a avut loc în perioada 4-7 iunie 1942, la șase luni după atacul Japoniei asupra Pearl Harbor și la o lună după bătălia din Marea Coralilor. Flota combinată japoneză sub comanda lui Isoroku Yamamoto a suferit o înfrângere decisivă în fața a două grupuri de atac ale flotei americane din Pacific, în apropierea atolului Midway, la aproximativ 2.100 km nord-vest de Oahu. Yamamoto intenționa să captureze Midway și să atragă și să distrugă flota americană din Pacific, în special portavioanele care scăpaseră de distrugerea de la Pearl Harbor."
+      },
+      "year": 1942
+    },
+    {
+      "id": "stalingrad",
+      "picture": "stalingrad.jpg",
+      "name": {
+        "en": "Battle of Stalingrad",
+        "hu": "Sztálingrádi csata",
+        "ro": "Bătălia de la Stalingrad"
+      },
+      "description": {
+        "en": "The battle began in August 1942 with a devastating Luftwaffe bombing that leveled much of the city. The German 6th Army, led by Friedrich Paulus, initially seized about 90% of Stalingrad through grueling urban warfare known as Rattenkrieg (Rat War). However, the tide turned on November 19, 1942, when the Soviets launched Operation Uranus. This counter-offensive targeted the weaker Romanian and Hungarian forces guarding the German flanks, successfully encircling roughly 250,000–300,000 Axis troops. Despite a German relief attempt (Operation Winter Storm) and a failed Luftwaffe airlift, the trapped 6th Army was starved and frozen into submission. Paulus surrendered on January 31, 1943, shortly after Hitler promoted him to Field Marshal, expecting him to commit suicide rather than be captured",
+        "hu": "A csata 1942 augusztusában kezdődött a Luftwaffe pusztító bombázásával, amely a város nagy részét romba döntötte. A Friedrich Paulus vezette német 6. hadsereg kezdetben a város 90%-át elfoglalta a kimerítő, patkányháborúnak (Rattenkrieg) nevezett utcai harcokban. A fordulat 1942. november 19-én következett be, amikor a szovjetek elindították az Uránusz hadműveletet. Ez az ellentámadás a német szárnyakat biztosító, gyengébb felszereltségű román és magyar egységeket érte, és sikerült bekeríteniük kb. 250-300 ezer tengelyhatalmi katonát. Bár a németek megpróbálták a felmentést (Téli Vihar hadművelet), a Luftwaffe légi hídja pedig kudarcot vallott, a katlanba szorult 6. hadsereg végül felmorzsolódott. Paulus 1943. január 31-én adta meg magát, nem sokkal azután, hogy Hitler vezértábornaggyá léptette elő, abban a reményben, hogy a fogság helyett az öngyilkosságot választja",
+        "ro": "Bătălia a început în august 1942 cu un bombardament devastator al Luftwaffe, care a distrus majoritatea orașului. Armata a 6-a germană, condusă de Friedrich Paulus, a ocupat inițial aproximativ 90% din oraș în urma unor lupte urbane atroce, supranumite „Războiul Șobolanilor”. Situația s-a schimbat radical la 19 noiembrie 1942, când sovieticii au lansat Operațiunea Uranus. Această contraofensivă a vizat flancurile germane apărate de trupele române și maghiare, reușind încercuirea a circa 250.000–300.000 de soldați ai Axei. În ciuda unei tentative de despresurare (Operațiunea Furtună de Iarnă) și a eșecului podului aerian al Luftwaffe, Armata a 6-a a fost înfometată și decimată. Paulus s-a predat la 31 ianuarie 1943, la scurt timp după ce Hitler l-a avansat la gradul de feldmareșal, sperând că acesta va prefera sinuciderea în locul captivității."
+      },
+      "year": 1942
+    },
+    {
+      "id": "el alamein",
+      "picture": "https://i0.wp.com/the-past.com/wp-content/uploads/2022/09/post-1_image3-11.jpg?fit=1490%2C822&ssl=1",
+      "name": {
+        "en": "Second Battle of El Alamein",
+        "hu": "Második el-alameini csata",
+        "ro": "A doua bătălie de la El Alamein"
+      },
+      "description": {
+        "en": "The Second Battle of El Alamein between 23 October – 11 November 1942 was a battle of the Second World War that took place near the Egyptian railway halt of El Alamein. The First Battle of El Alamein and the Battle of Alam el Halfa had prevented the Axis from advancing further into Egypt. In October 1942 Lieutenant-General Bernard Montgomery, commander of Eighth Army, opened his offensive against the Axis forces. In a 13-day battle the Axis Panzerarmee Afrika was crushed and forced to retreat from Egypt and Libya to the borders of Tunisia. The Allied victory at El Alamein was the beginning of the end of the Western Desert Campaign.",
+        "hu": "Az 1942. október 23. és november 11. között zajló második el-alameini csata a második világháború egyik csatája volt, amely az egyiptomi El Alamein vasútállomás közelében zajlott. Az első el-alameini csata és az Alam el Halfa-i csata megakadályozta a tengelyhatalmak további előrenyomulását Egyiptomban. 1942 októberében Bernard Montgomery altábornagy, a 8. hadsereg parancsnoka támadást indított a tengelyhatalmak erői ellen. A 13 napos csata során a tengelyhatalmak Panzerarmee Afrika hadseregét megsemmisítették, és visszavonulásra kényszerítették Egyiptomból és Líbiából Tunézia határáig. A szövetségesek el-alameini győzelme a nyugati sivatagi hadjárat végének kezdetét jelentette.",
+        "ro": "A doua bătălie de la El Alamein, care a avut loc între 23 octombrie și 11 noiembrie 1942, a fost o bătălie din cel de-al Doilea Război Mondial care s-a desfășurat în apropierea stației feroviare egiptene El Alamein. Prima bătălie de la El Alamein și bătălia de la Alam el Halfa au împiedicat Axa să avanseze mai departe în Egipt. În octombrie 1942, generalul-locotenent Bernard Montgomery, comandantul Armatei a Opta, a lansat ofensiva împotriva forțelor Axei. În urma unei bătălii care a durat 13 zile, Panzerarmee Afrika a fost înfrântă și forțată să se retragă din Egipt și Libia până la granițele Tunisiei. Victoria Aliaților la El Alamein a marcat începutul sfârșitului campaniei din deșertul occidental."
+      },
+      "year": 1942
+    },
+    {
+      "id": "kursk",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/51/Kursk-1943-Plan-GE.svg",
+      "name": {
+        "en": "Battle of Kursk",
+        "hu": "Kurszki csata",
+        "ro": "Bătălia de la Kursk"
+      },
+      "description": {
+        "en": "The Battle of Kursk, also called the Battle of the Kursk Salient, was a major World War II Eastern Front battle between Nazi Germany and the Soviet Union near Kursk in southwestern Russia during the summer of 1943, resulting in a Soviet victory. The Battle of Kursk is the single largest battle in the history of warfare. It was one of the costliest battles of the Second World War, the single deadliest armoured battle in history, the largest tank battle in history, and the opening day of the battle, 5 July, was the single costliest day in the history of aerial warfare in terms of aircraft shot down. The battle was further marked by fierce house-to-house fighting and hand-to-hand combat.",
+        "hu": "A kurszki csata, más néven a kurszki kiugrási csata, a második világháború keleti frontján 1943 nyarán a náci Németország és a Szovjetunió között, Oroszország délnyugati részén, Kurszk közelében vívott nagy csata volt, amely szovjet győzelemmel zárult. A kurszki csata a hadtörténelem legnagyobb csatája. A második világháború egyik legdrágább csatája, a történelem leghalálosabb páncélos csatája, a történelem legnagyobb tankcsatája volt, és a csata első napja, július 5., a légi hadviselés történelmének legdrágább napja volt a lelőtt repülőgépek számát tekintve. A csatát továbbá heves házról házra vívott harcok és közelharcok jellemezték.",
+        "ro": "Bătălia de la Kursk, numită și Bătălia de la Kursk Salient, a fost o bătălie importantă din cel de-al Doilea Război Mondial, care a avut loc pe Frontul de Est între Germania nazistă și Uniunea Sovietică, în apropiere de Kursk, în sud-vestul Rusiei, în vara anului 1943, și care s-a soldat cu victoria sovietică. Bătălia de la Kursk este cea mai mare bătălie din istoria războiului. A fost una dintre cele mai costisitoare bătălii din cel de-al Doilea Război Mondial, cea mai mortală bătălie blindată din istorie, cea mai mare bătălie cu tancuri din istorie, iar ziua de deschidere a bătăliei, 5 iulie, a fost cea mai costisitoare zi din istoria războiului aerian în ceea ce privește avioanele doborâte. Bătălia a fost marcată în continuare de lupte aprige din casă în casă și de lupte corp la corp"
+      },
+      "year": 1943
+    },
+    {
+      "id": "d-day",
+      "picture": "https://res.cloudinary.com/dpejffkwj/image/upload/v1770720956/images_hmrez7.jpg",
+      "name": {
+        "en": "D-Day (Normandy Invasion)",
+        "hu": "D-nap (Normandiai partraszállás)",
+        "ro": "Ziua Z (Invazia Normandiei)"
+      },
+      "description": {
+        "en": "The Normandy Landings, codenamed Operation Neptune (part of Operation Overlord), took place on June 6, 1944, known as D-Day. Allied forces from the US, UK, Canada, and other nations landed on five beaches in Nazi-occupied France: Utah, Omaha, Gold, Juno, and Sword. Led by General Dwight D. Eisenhower, the invasion relied on a massive deception campaign (Operation Fortitude) to trick the Germans about the landing site. Despite heavy casualties—especially at Omaha Beach—and fierce resistance from the German Atlantic Wall, the Allies successfully established a foothold. This victory allowed for the rapid buildup of forces that eventually led to the liberation of Paris and the final defeat of Nazi Germany.",
+        "hu": "A normandiai partraszállás, kódnevén a Neptun hadművelet (az Overlord hadművelet része), 1944. június 6-án vette kezdetét, amelyet D-napként ismerünk. Az amerikai, brit, kanadai és más szövetséges csapatok a náci megszállás alatt álló Franciaország öt tengerparti szakaszán szálltak partra: ezek az Utah, Omaha, Gold, Juno és Sword fedőneveket viselték. A Dwight D. Eisenhower tábornok által vezetett invázió egy hatalmas megtévesztő akcióra (Fortitude hadművelet) épült, hogy elhitessék a németekkel: a partraszállás máshol lesz. A súlyos veszteségek ellenére – különösen az Omaha strandon – és a német Atlanti Fal ellenállása dacára a szövetségeseknek sikerült hídfőállást kiépíteniük. Ez a győzelem lehetővé tette a csapatok gyors utánpótlását, ami végül Párizs felszabadításához és a náci Németország végső bukásához vezetett.",
+        "ro": "Debarcarea din Normandia, cunoscută sub numele de cod Operațiunea Neptun (parte a Operațiunii Overlord), a avut loc pe 6 iunie 1944, zi rămasă în istorie ca Ziua Z. Forțele aliate din SUA, Marea Britanie, Canada și alte națiuni au debarcat pe cinci plaje din Franța ocupată de naziști: Utah, Omaha, Gold, Juno și Sword. Condusă de generalul Dwight D. Eisenhower, invazia s-a bazat pe o campanie masivă de dezinformare (Operațiunea Fortitude) pentru a-i induce în eroare pe germani cu privire la locul debarcării. În ciuda pierderilor grele – în special pe plaja Omaha – și a rezistenței înverșunate a „Zidului Atlantic” german, Aliații au reușit să stabilească un cap de pod. Această victorie a permis acumularea rapidă de forțe care a dus ulterior la eliberarea Parisului și la înfrângerea finală a Germaniei naziste."
+      },
+      "year": 1944
     }
   ],
   "weapons": [
     {
       "id": "sherman",
-      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/53/M4_Sherman_tank_-_Flickr_-_Joost_J._Bakker_IJmuiden.jpg",
+      "picture": "M4_Sherman_tank.jpg",
       "name": {
         "en": "M4 Sherman Tank",
         "hu": "M4 Sherman harckocsi",
@@ -232,7 +232,7 @@
     },
     {
       "id": "yamato",
-      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Japanese_battleship_Yamato_running_trials_in_Sukumo_Bay%2C_30_October_1941_%2880-G-704702%29.jpg",
+      "picture": "yamato.jpg",
       "name": {
         "en": "Yamato Battleship",
         "hu": "Jamato csatahajó",
@@ -387,8 +387,8 @@
       },
       "description": {
         "en": "The Tiger I was a German heavy tank of World War II that began operational duty in 1942 in Africa and in the Soviet Union, usually in independent heavy tank battalions. It gave the German Army its first armoured fighting vehicle that mounted the 8.8 cm KwK 36 gun derived from the 8.8 cm Flak 36, the famous eighty-eight feared by Allied troops. 1,347 were built between August 1942 and August 1944. After August 1944, production of the Tiger I was phased out in favour of the Tiger II. While the Tiger I has been called an outstanding design for its time, it has also been criticized for being overengineered, and for using expensive materials and labour-intensive production methods. In the early period, the Tiger was prone to certain types of track failures and breakdowns. It was expensive to maintain, but generally mechanically reliable.",
-        "hu": "A Tiger I egy német nehéz harckocsi volt a második világháborúban, amely 1942-ben kezdte meg szolgálatát Afrikában és a Szovjetunióban, általában önálló nehéz harckocsi zászlóaljakban. Ez volt a német hadsereg első páncélos harci járműve, amelyre a 8,8 cm-es Flak 36-ból származó 8,8 cm-es KwK 36 ágyút szerelték, a szövetséges csapatok által rettegett híres „nyolcvannyolcat”. 1942 augusztusa és 1944 augusztusa között 1347 darabot gyártottak belőle. 1944 augusztusa után a Tiger I gyártását fokozatosan leállították a Tiger II javára. Bár a Tiger I-et korának kiemelkedő tervezésű járművének tartják, kritizálták azért is, mert túltervezett volt, drága anyagokat használtak hozzá, és gyártása munkaigényes volt. A korai időszakban a Tiger hajlamos volt bizonyos típusú lánctalpas meghibásodásokra és megszakításokra. Karbantartása drága volt, de általában mechanikailag megbízható volt.",
-        "ro": "Tiger I a fost un tanc greu german din cel de-al Doilea Război Mondial, care a intrat în serviciul operațional în 1942 în Africa și în Uniunea Sovietică, de obicei în batalioane independente de tancuri grele. Acesta a oferit armatei germane primul său vehicul blindat de luptă echipat cu tunul KwK 36 de 8,8 cm, derivat din Flak 36 de 8,8 cm, faimosul „optzeci și opt” temut de trupele aliate. Între august 1942 și august 1944 au fost construite 1.347 de exemplare. După august 1944, producția modelului Tiger I a fost întreruptă în favoarea modelului Tiger II. Deși Tiger I a fost considerat un model remarcabil pentru vremea sa, a fost criticat pentru că era prea sofisticat și pentru că folosea materiale scumpe și metode de producție care necesitau multă muncă. În perioada inițială, Tiger era predispus la anumite tipuri de defecțiuni și avarii ale șenilelor. Era scump de întreținut, dar, în general, fiabil din punct de vedere mecanic."
+        "hu": "Tiger I a fost un tanc greu german din cel de-al Doilea Război Mondial, care a intrat în serviciul operațional în 1942 în Africa și în Uniunea Sovietică, de obicei în batalioane independente de tancuri grele. Acesta a oferit armatei germane primul său vehicul blindat de luptă echipat cu tunul KwK 36 de 8,8 cm, derivat din Flak 36 de 8,8 cm, faimosul „optzeci și opt” temut de trupele aliate. Între august 1942 și august 1944 au fost construite 1.347 de exemplare. După august 1944, producția modelului Tiger I a fost întreruptă în favoarea modelului Tiger II. Deși Tiger I a fost considerat un model remarcabil pentru vremea sa, a fost criticat pentru că era prea sofisticat și pentru că folosea materiale scumpe și metode de producție care necesitau multă muncă. În perioada inițială, Tiger era predispus la anumite tipuri de defecțiuni și avarii ale șenilelor. Era scump de întreținut, dar, în general, fiabil din punct de vedere mecanic.",
+        "ro": "A Tiger I egy német nehéz harckocsi volt a második világháborúban, amely 1942-ben kezdte meg szolgálatát Afrikában és a Szovjetunióban, általában önálló nehéz harckocsi zászlóaljakban. Ez volt a német hadsereg első páncélos harci járműve, amelyre a 8,8 cm-es Flak 36-ból származó 8,8 cm-es KwK 36 ágyút szerelték, a szövetséges csapatok által rettegett híres „nyolcvannyolcat”. 1942 augusztusa és 1944 augusztusa között 1347 darabot gyártottak belőle. 1944 augusztusa után a Tiger I gyártását fokozatosan leállították a Tiger II javára. Bár a Tiger I-et korának kiemelkedő tervezésű járművének tartják, kritizálták azért is, mert túltervezett volt, drága anyagokat használtak hozzá, és gyártása munkaigényes volt. A korai időszakban a Tiger hajlamos volt bizonyos típusú lánctalpas meghibásodásokra és megszakításokra. Karbantartása drága volt, de általában mechanikailag megbízható volt."
       },
       "type": {
         "en": "Ground",
@@ -526,7 +526,7 @@
     },
     {
       "id": "Kv-2",
-      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/KW-2_1940.jpg",
+      "picture": "KV-2_abandoned.jpg",
       "name": {
         "en": "KV-2",
         "hu": "KV-2",
@@ -555,7 +555,7 @@
       },
       "description": {
         "en": "The Zveroboy, or beast-killer ,as it was popularly known in 1945, the SU-152 was certainly not intended as a tank-hunter. But, at the end of the battle of Stalingrad, it was realized that, unlike the Germans, the Russian infantry lacked some mobile heavy artillery support. The standard tracked 203 mm howitzer was totally unprotected and certainly not suited for the kind of operations necessary in an open battlefield, dealing with direct fire against buildings, concrete fortifications, bunkers and pillboxes. And the mass-produced SU-76 was too light for the purpose. This need became more urgent after Kursk, when the Soviet Army was preparing for a series of massive counter-offensives.",
-        "hu": "Az 1945-ben „Zveroboy” vagy „állatölő” néven ismert SU-152-t biztosan nem tankelhárítóként tervezték. A sztálingrádi csata végén azonban világossá vált, hogy a németekkel ellentétben az orosz gyalogság nem rendelkezett mobil nehéz tüzérségi támogatással. A szabványos 203 mm-es lánctalpas tarack teljesen védtelen volt, és biztosan nem volt alkalmas a nyílt csatatéren szükséges műveletekhez, amelyek épületek, betonerődítmények, bunkerek és kazamaták közvetlen tűzzel történő megsemmisítését jelentették. A tömeggyártott SU-76 pedig túl könnyű volt ehhez a célhoz. Ez az igény még sürgetőbbé vált Kurszk után, amikor a szovjet hadsereg egy sor hatalmas ellentámadásra készült.",
+        "hu": "„Zveroboy” sau „ucigașul de fiare”, cum era cunoscut în 1945, SU-152 nu era cu siguranță conceput ca un vânător de tancuri. Dar, la sfârșitul bătăliei de la Stalingrad, s-a realizat că, spre deosebire de germani, infanteria rusă nu dispunea de sprijinul artileriei grele mobile. Obuzierul standard de 203 mm pe șenile era total neprotejat și cu siguranță nu era potrivit pentru tipul de operațiuni necesare pe un câmp de luptă deschis, care implicau foc direct asupra clădirilor, fortificațiilor din beton, buncărelor și cazematelor. Iar SU-76, produs în serie, era prea ușor pentru acest scop. Această nevoie a devenit mai urgentă după Kursk, când armata sovietică se pregătea pentru o serie de contraofensive masive.",
         "ro": "„Zveroboy” sau „ucigașul de fiare”, cum era cunoscut în 1945, SU-152 nu era cu siguranță conceput ca un vânător de tancuri. Dar, la sfârșitul bătăliei de la Stalingrad, s-a realizat că, spre deosebire de germani, infanteria rusă nu dispunea de sprijinul artileriei grele mobile. Obuzierul standard de 203 mm pe șenile era total neprotejat și cu siguranță nu era potrivit pentru tipul de operațiuni necesare pe un câmp de luptă deschis, care implicau foc direct asupra clădirilor, fortificațiilor din beton, buncărelor și cazematelor. Iar SU-76, produs în serie, era prea ușor pentru acest scop. Această nevoie a devenit mai urgentă după Kursk, când armata sovietică se pregătea pentru o serie de contraofensive masive."
       },
       "type": {
@@ -681,8 +681,8 @@
       },
       "description": {
         "en": "The Messerschmitt Me 262, nicknamed Schwalbe in fighter versions, or Sturmvogel in fighter-bomber versions, is a fighter aircraft and fighter-bomber that was designed and produced by the German aircraft manufacturer Messerschmitt. It was the world's first operational jet-powered fighter aircraft and one of two jet fighter aircraft types to see air-to-air combat in World War II, the other being the Heinkel He 162. The design of what would become the Me 262 started in April 1939, before World War II. It made its maiden flight on 18 April 1941 with a piston engine, and its first jet-powered flight on 18 July 1942. Progress was delayed by problems with engines, metallurgy, and interference from Luftwaffe chief Hermann Göring and Adolf Hitler. The German leader demanded that the Me 262, conceived as a defensive interceptor, be redesigned as ground-attack/bomber aircraft. The aircraft became operational with the Luftwaffe in mid-1944. The Me 262 was faster and more heavily armed than any Allied fighter, including the British jet-powered Gloster Meteor. The Allies countered by attacking the aircraft on the ground and during takeoff and landing",
-        "hu": "A Messerschmitt Me 262, becenevén Schwalbe (fecske) a vadászgép-változatokban, vagy Sturmvogel (viharos madár) a vadászbombázó-változatokban, egy vadászrepülőgép és vadászbombázó, amelyet a német repülőgépgyártó Messerschmitt tervezett és gyártott. Ez volt a világ első üzemképes sugárhajtású vadászrepülőgépe és az egyik a két sugárhajtású vadászrepülőgép-típus közül, amelyek a második világháborúban légi harcokban vettek részt, a másik a Heinkel He 162 volt. A Me 262 elődjének tervezése 1939 áprilisában, a második világháború előtt kezdődött. Első repülését 1941. április 18-án hajtóműves motorral, első sugárhajtású repülését pedig 1942. július 18-án hajtotta végre. A fejlesztést motorproblémák, kohászati nehézségek, valamint a Luftwaffe parancsnoka, Hermann Göring és Adolf Hitler beavatkozása késleltette. A német vezető azt követelte, hogy a védekező elfogóként tervezett Me 262-t földi támadó/bombázó repülőgépként tervezzék át. A repülőgép 1944 közepén került bevetésre a Luftwaffe-nál. A Me 262 gyorsabb és erősebben felfegyverzett volt, mint bármelyik szövetséges vadászgép, beleértve a brit sugárhajtású Gloster Meteor-t is. A szövetségesek azzal válaszoltak, hogy a repülőgépet a földön, valamint felszállás és leszállás közben támadták meg.",
-        "ro": "Messerschmitt Me 262, supranumit Schwalbe în versiunile de vânătoare sau Sturmvogel în versiunile de vânătoare-bombardier, este un avion de vânătoare și vânătoare-bombardier proiectat și produs de constructorul german de avioane Messerschmitt. A fost primul avion de vânătoare cu propulsie jet operațional din lume și unul dintre cele două tipuri de avioane de vânătoare cu propulsie jet care au participat la lupte aeriene în cel de-al Doilea Război Mondial, celălalt fiind Heinkel He 162. Proiectarea celui care avea să devină Me 262 a început în aprilie 1939, înainte de al Doilea Război Mondial. A efectuat primul zbor pe 18 aprilie 1941 cu un motor cu piston, iar primul zbor cu motor cu reacție pe 18 iulie 1942. Progresul a fost întârziat de probleme cu motoarele, metalurgia și interferența șefului Luftwaffe, Hermann Göring, și a lui Adolf Hitler. Liderul german a cerut ca Me 262, conceput ca un interceptor defensiv, să fie reproiectat ca avion de atac la sol/bombardier. Avionul a devenit operațional în cadrul Luftwaffe la mijlocul anului 1944. Me 262 era mai rapid și mai bine înarmat decât orice avion de vânătoare aliat, inclusiv avionul britanic cu propulsie cu reacție Gloster Meteor. Aliații au ripostat atacând avionul la sol și în timpul decolării și aterizării."
+        "hu": "Messerschmitt Me 262, supranumit Schwalbe în versiunile de vânătoare sau Sturmvogel în versiunile de vânătoare-bombardier, este un avion de vânătoare și vânătoare-bombardier proiectat și produs de constructorul german de avioane Messerschmitt. A fost primul avion de vânătoare cu propulsie jet operațional din lume și unul dintre cele două tipuri de avioane de vânătoare cu propulsie jet care au participat la lupte aeriene în cel de-al Doilea Război Mondial, celălalt fiind Heinkel He 162. Proiectarea celui care avea să devină Me 262 a început în aprilie 1939, înainte de al Doilea Război Mondial. A efectuat primul zbor pe 18 aprilie 1941 cu un motor cu piston, iar primul zbor cu motor cu reacție pe 18 iulie 1942. Progresul a fost întârziat de probleme cu motoarele, metalurgia și interferența șefului Luftwaffe, Hermann Göring, și a lui Adolf Hitler. Liderul german a cerut ca Me 262, conceput ca un interceptor defensiv, să fie reproiectat ca avion de atac la sol/bombardier. Avionul a devenit operațional în cadrul Luftwaffe la mijlocul anului 1944. Me 262 era mai rapid și mai bine înarmat decât orice avion de vânătoare aliat, inclusiv avionul britanic cu propulsie cu reacție Gloster Meteor. Aliații au ripostat atacând avionul la sol și în timpul decolării și aterizării.",
+        "ro": "A Messerschmitt Me 262, becenevén Schwalbe (fecske) a vadászgép-változatokban, vagy Sturmvogel (viharos madár) a vadászbombázó-változatokban, egy vadászrepülőgép és vadászbombázó, amelyet a német repülőgépgyártó Messerschmitt tervezett és gyártott. Ez volt a világ első üzemképes sugárhajtású vadászrepülőgépe és az egyik a két sugárhajtású vadászrepülőgép-típus közül, amelyek a második világháborúban légi harcokban vettek részt, a másik a Heinkel He 162 volt. A Me 262 elődjének tervezése 1939 áprilisában, a második világháború előtt kezdődött. Első repülését 1941. április 18-án hajtóműves motorral, első sugárhajtású repülését pedig 1942. július 18-án hajtotta végre. A fejlesztést motorproblémák, kohászati nehézségek, valamint a Luftwaffe parancsnoka, Hermann Göring és Adolf Hitler beavatkozása késleltette. A német vezető azt követelte, hogy a védekező elfogóként tervezett Me 262-t földi támadó/bombázó repülőgépként tervezzék át. A repülőgép 1944 közepén került bevetésre a Luftwaffe-nál. A Me 262 gyorsabb és erősebben felfegyverzett volt, mint bármelyik szövetséges vadászgép, beleértve a brit sugárhajtású Gloster Meteor-t is. A szövetségesek azzal válaszoltak, hogy a repülőgépet a földön, valamint felszállás és leszállás közben támadták meg."
       },
       "type": {
         "en": "Air",
@@ -723,8 +723,8 @@
       },
       "description": {
         "en": "The Junkers Ju 87, popularly known as the Stuka, is a German dive bomber and ground-attack aircraft. Designed by Hermann Pohlmann, it first flew in 1935. The Ju 87 made its combat debut in 1937 with the Luftwaffe's Condor Legion during the Spanish Civil War of 1936–1939 and served the Axis in World War II from beginning to end. The aircraft is easily recognisable by its inverted gull wings and fixed spatted undercarriage. Upon the leading edges of its faired main gear legs were mounted ram-air sirens, officially called Lärmgerät, which became a propaganda symbol of German air power and of the Blitzkrieg victories of 1939–1942, as well as providing Stuka pilots with audible feedback as to speed. The Stuka's design included several innovations, including automatic pull-up dive brakes under both wings to ensure that the aircraft recovered from its attack dive even if the pilot blacked out from the high g-forces, or suffered from target fixation.",
-        "hu": "A Junkers Ju 87, közismert nevén „Stuka”, egy német zuhanóbombázó és földi támadó repülőgép. Hermann Pohlmann tervezte, első repülését 1935-ben hajtotta végre. A Ju 87 1937-ben debütált a Luftwaffe Condor Légiójában a 1936–1939-es spanyol polgárháborúban, és a második világháborúban a tengelyhatalmak oldalán szolgált a háború kezdetétől a végéig. A repülőgép könnyen felismerhető fordított szárnyairól és rögzített futóművéről. A fő futómű karosszériájának élén ram-air szirénák voltak felszerelve, hivatalos nevükön „Lärmgerät”, amelyek a német légierő és a 1939–1942-es villámháborús győzelmek propaganda szimbólumává váltak, valamint hangos visszajelzést adtak a Stuka pilótáknak a sebességről. A Stuka tervezése számos újítást tartalmazott, többek között automatikus felhúzható fékszárnyakat mindkét szárny alatt, amelyek biztosították, hogy a repülőgép visszatérjen a támadó zuhanásból, még akkor is, ha a pilóta elájult a nagy g-erő hatására, vagy a célpontra koncentrált.",
-        "ro": "Junkers Ju 87, cunoscut popular sub numele de „Stuka”, este un bombardier german de picaj și avion de atac la sol. Proiectat de Hermann Pohlmann, a zburat pentru prima dată în 1935. Ju 87 a debutat în luptă în 1937 cu Legiunea Condor a Luftwaffe în timpul Războiului Civil Spaniol din 1936-1939 și a servit Axa în cel de-al Doilea Război Mondial de la început până la sfârșit. Avionul este ușor de recunoscut datorită aripilor sale inversate și trenului de aterizare fix. Pe marginile anterioare ale picioarelor trenului principal au fost montate sirene cu aer dinamic, denumite oficial „Lärmgerät”, care au devenit un simbol propagandistic al puterii aeriene germane și al victoriilor Blitzkrieg din 1939-1942, oferind în același timp piloților Stuka feedback auditiv cu privire la viteză. Proiectul Stuka includea mai multe inovații, printre care frâne automate de urcare sub ambele aripi, pentru a asigura că avionul se redresează din picajul de atac chiar dacă pilotul leșina din cauza forțelor g ridicate sau suferea de fixare asupra țintei."
+        "hu": "Junkers Ju 87, cunoscut popular sub numele de „Stuka”, este un bombardier german de picaj și avion de atac la sol. Proiectat de Hermann Pohlmann, a zburat pentru prima dată în 1935. Ju 87 a debutat în luptă în 1937 cu Legiunea Condor a Luftwaffe în timpul Războiului Civil Spaniol din 1936-1939 și a servit Axa în cel de-al Doilea Război Mondial de la început până la sfârșit. Avionul este ușor de recunoscut datorită aripilor sale inversate și trenului de aterizare fix. Pe marginile anterioare ale picioarelor trenului principal au fost montate sirene cu aer dinamic, denumite oficial „Lärmgerät”, care au devenit un simbol propagandistic al puterii aeriene germane și al victoriilor Blitzkrieg din 1939-1942, oferind în același timp piloților Stuka feedback auditiv cu privire la viteză. Proiectul Stuka includea mai multe inovații, printre care frâne automate de urcare sub ambele aripi, pentru a asigura că avionul se redresează din picajul de atac chiar dacă pilotul leșina din cauza forțelor g ridicate sau suferea de fixare asupra țintei.",
+        "ro": "A Junkers Ju 87, közismert nevén „Stuka”, egy német zuhanóbombázó és földi támadó repülőgép. Hermann Pohlmann tervezte, első repülését 1935-ben hajtotta végre. A Ju 87 1937-ben debütált a Luftwaffe Condor Légiójában a 1936–1939-es spanyol polgárháborúban, és a második világháborúban a tengelyhatalmak oldalán szolgált a háború kezdetétől a végéig. A repülőgép könnyen felismerhető fordított szárnyairól és rögzített futóművéről. A fő futómű karosszériájának élén ram-air szirénák voltak felszerelve, hivatalos nevükön „Lärmgerät”, amelyek a német légierő és a 1939–1942-es villámháborús győzelmek propaganda szimbólumává váltak, valamint hangos visszajelzést adtak a Stuka pilótáknak a sebességről. A Stuka tervezése számos újítást tartalmazott, többek között automatikus felhúzható fékszárnyakat mindkét szárny alatt, amelyek biztosították, hogy a repülőgép visszatérjen a támadó zuhanásból, még akkor is, ha a pilóta elájult a nagy g-erő hatására, vagy a célpontra koncentrált."
       },
       "type": {
         "en": "Air",
